@@ -1,0 +1,16 @@
+{
+  "Orthopoxvirus|YFT67316.1|Orthopoxvirus_monkeypox": "T01",
+  "Orthopoxvirus|YFT66960.1|Orthopoxvirus_monkeypox": "T02",
+  "Orthopoxvirus|WWS34253.1|Orthopoxvirus_variola": "T03",
+  "Orthopoxvirus|V9PXP5|Orthopoxvirus_cowpox": "T04",
+  "Orthopoxvirus|QEQ49703.1|Orthopoxvirus_akhmetapox": "T05",
+  "Orthopoxvirus|QED21266.1|Orthopoxvirus_borealpox": "T06",
+  "Orthopoxvirus|P20535.1|Orthopoxvirus_vaccinia": "T07",
+  "Orthopoxvirus|CAG7621171.1|Orthopoxvirus_ectomelia": "T08",
+  "Orthopoxvirus|AYN64713.1|Orthopoxvirus_abatino": "T09",
+  "Orthopoxvirus|AOP31836.1|Orthopoxvirus_volepox": "T10",
+  "Orthopoxvirus|AKJ93776.1|Orthopoxvirus_raccoonpox": "T11",
+  "Orthopoxvirus|ABD97717.1|Orthopoxvirus_taterapox": "T12",
+  "Orthopoxvirus|AAQ72922.1|Orthopoxvirus_skunkpox": "T13",
+  "Orthopoxvirus|AAL73853.1|Orthopoxvirus_camelpox": "T14"
+}

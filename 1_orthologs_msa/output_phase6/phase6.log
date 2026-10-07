@@ -1,0 +1,32 @@
+
+2026-07-24 17:44:09,262 [INFO] Holding 2 reference sequence(s) out of clustering: ['YFT66960.1', 'YFT67316.1']
+2026-07-24 17:44:09,266 [INFO] Running CD-HIT at 99% identity ...
+2026-07-24 17:44:09,268 [INFO] Running: wsl cd-hit -i output_phase6/clustering_input.fasta -o output_phase6/orthologs_nr99.fasta -c 0.99 -n 5 -d 0 -M 2000
+2026-07-24 17:44:10,198 [INFO] DONE — output_phase6\orthologs_nr99.fasta (63 clustered + 2 held-out references)
+2026-07-24 17:44:10,200 [INFO] Running CD-HIT at 98% identity ...
+2026-07-24 17:44:10,202 [INFO] Running: wsl cd-hit -i output_phase6/clustering_input.fasta -o output_phase6/orthologs_nr98.fasta -c 0.98 -n 5 -d 0 -M 2000
+2026-07-24 17:44:10,654 [INFO] DONE — output_phase6\orthologs_nr98.fasta (58 clustered + 2 held-out references)
+2026-07-24 17:44:10,656 [INFO] Running CD-HIT at 95% identity ...
+2026-07-24 17:44:10,658 [INFO] Running: wsl cd-hit -i output_phase6/clustering_input.fasta -o output_phase6/orthologs_nr95.fasta -c 0.95 -n 5 -d 0 -M 2000
+2026-07-24 17:44:11,374 [INFO] DONE — output_phase6\orthologs_nr95.fasta (43 clustered + 2 held-out references)
+2026-07-24 17:44:11,376 [INFO] Running CD-HIT at 90% identity ...
+2026-07-24 17:44:11,377 [INFO] Running: wsl cd-hit -i output_phase6/clustering_input.fasta -o output_phase6/orthologs_nr90.fasta -c 0.9 -n 5 -d 0 -M 2000
+2026-07-24 17:44:12,105 [INFO] DONE — output_phase6\orthologs_nr90.fasta (36 clustered + 2 held-out references)
+2026-07-24 17:44:12,107 [INFO] Curated input: 74 sequences (72 clustered, 2 held out).
+2026-07-24 17:44:12,213 [INFO] Clustering summary (curated input: 74 sequences):
+2026-07-24 17:44:12,215 [INFO]   threshold  clusters     reduction 
+2026-07-24 17:44:12,217 [INFO]   99%        63           14.9%
+2026-07-24 17:44:12,219 [INFO]   98%        58           21.6%
+2026-07-24 17:44:12,221 [INFO]   95%        43           41.9%
+2026-07-24 17:44:12,223 [INFO]   90%        36           51.4%
+2026-07-24 17:44:12,445 [INFO] Curated set spans 43 species.
+2026-07-24 17:44:12,448 [INFO] 99%: 65 representatives cover 43/43 species.
+2026-07-24 17:44:12,450 [INFO] 99%: every curated species retains at least one representative.
+2026-07-24 17:44:12,452 [INFO] 98%: 60 representatives cover 43/43 species.
+2026-07-24 17:44:12,453 [INFO] 98%: every curated species retains at least one representative.
+2026-07-24 17:44:12,455 [INFO] 95%: 45 representatives cover 34/43 species.
+2026-07-24 17:44:12,456 [WARNING] 95%: 9 species lost (no representative): ['Orthopoxvirus_abatino', 'Orthopoxvirus_akhmetapox', 'Orthopoxvirus_cowpox', 'Orthopoxvirus_ectomelia', 'Orthopoxvirus_taterapox', 'Orthopoxvirus_vaccinia', 'Orthopoxvirus_variola', 'Unclassified_moosepox_virus', 'Unclassified_white-tailed_deer_poxvirus']
+2026-07-24 17:44:12,458 [INFO] 90%: 38 representatives cover 32/43 species.
+2026-07-24 17:44:12,459 [WARNING] 90%: 11 species lost (no representative): ['Capripoxvirus_goatpox', 'Capripoxvirus_lumpyskinpox', 'Orthopoxvirus_abatino', 'Orthopoxvirus_akhmetapox', 'Orthopoxvirus_cowpox', 'Orthopoxvirus_ectomelia', 'Orthopoxvirus_taterapox', 'Orthopoxvirus_vaccinia', 'Orthopoxvirus_variola', 'Unclassified_moosepox_virus', 'Unclassified_white-tailed_deer_poxvirus']
+2026-07-24 17:44:12,461 [INFO] Reference set for Phase 7: output_phase6\orthologs_nr98.fasta (98% identity)
+2026-07-24 17:44:12,463 [INFO] Phase 6 complete. Outputs in output_phase6

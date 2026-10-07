@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"  standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg 
+ viewBox="0 0 1200 800"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+<title>Gnuplot</title>
+<desc>Produced by GNUPLOT 5.0 patchlevel 5 </desc>
+
+<g id="gnuplot_canvas">
+
+<rect x="0" y="0" width="1200" height="800" fill="none"/>
+<defs>
+
+	<circle id='gpDot' r='0.5' stroke-width='0.5'/>
+	<path id='gpPt0' stroke-width='0.222' stroke='currentColor' d='M-1,0 h2 M0,-1 v2'/>
+	<path id='gpPt1' stroke-width='0.222' stroke='currentColor' d='M-1,-1 L1,1 M1,-1 L-1,1'/>
+	<path id='gpPt2' stroke-width='0.222' stroke='currentColor' d='M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1'/>
+	<rect id='gpPt3' stroke-width='0.222' stroke='currentColor' x='-1' y='-1' width='2' height='2'/>
+	<rect id='gpPt4' stroke-width='0.222' stroke='currentColor' fill='currentColor' x='-1' y='-1' width='2' height='2'/>
+	<circle id='gpPt5' stroke-width='0.222' stroke='currentColor' cx='0' cy='0' r='1'/>
+	<use xlink:href='#gpPt5' id='gpPt6' fill='currentColor' stroke='none'/>
+	<path id='gpPt7' stroke-width='0.222' stroke='currentColor' d='M0,-1.33 L-1.33,0.67 L1.33,0.67 z'/>
+	<use xlink:href='#gpPt7' id='gpPt8' fill='currentColor' stroke='none'/>
+	<use xlink:href='#gpPt7' id='gpPt9' stroke='currentColor' transform='rotate(180)'/>
+	<use xlink:href='#gpPt9' id='gpPt10' fill='currentColor' stroke='none'/>
+	<use xlink:href='#gpPt3' id='gpPt11' stroke='currentColor' transform='rotate(45)'/>
+	<use xlink:href='#gpPt11' id='gpPt12' fill='currentColor' stroke='none'/>
+	<path id='gpPt13' stroke-width='0.222' stroke='currentColor' d='M0,1.330 L1.265,0.411 L0.782,-1.067 L-0.782,-1.076 L-1.265,0.411 z'/>
+	<use xlink:href='#gpPt13' id='gpPt14' fill='currentColor' stroke='none'/>
+	<filter id='textbox' filterUnits='objectBoundingBox' x='0' y='0' height='1' width='1'>
+	  <feFlood flood-color='white' flood-opacity='1' result='bgnd'/>
+	  <feComposite in='SourceGraphic' in2='bgnd' operator='atop'/>
+	</filter>
+	<filter id='greybox' filterUnits='objectBoundingBox' x='0' y='0' height='1' width='1'>
+	  <feFlood flood-color='lightgrey' flood-opacity='1' result='grey'/>
+	  <feComposite in='SourceGraphic' in2='grey' operator='atop'/>
+	</filter>
+</defs>
+<g fill="none" color="white" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M62.2,742.4 L71.2,742.4 M1175.0,742.4 L1166.0,742.4  '/>	<g transform="translate(53.9,746.3)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 0</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M62.2,638.7 L71.2,638.7 M1175.0,638.7 L1166.0,638.7  '/>	<g transform="translate(53.9,642.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 0.05</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M62.2,535.1 L71.2,535.1 M1175.0,535.1 L1166.0,535.1  '/>	<g transform="translate(53.9,539.0)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 0.1</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M62.2,431.4 L71.2,431.4 M1175.0,431.4 L1166.0,431.4  '/>	<g transform="translate(53.9,435.3)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 0.15</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M62.2,327.7 L71.2,327.7 M1175.0,327.7 L1166.0,327.7  '/>	<g transform="translate(53.9,331.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 0.2</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M62.2,224.0 L71.2,224.0 M1175.0,224.0 L1166.0,224.0  '/>	<g transform="translate(53.9,227.9)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 0.25</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M62.2,120.4 L71.2,120.4 M1175.0,120.4 L1166.0,120.4  '/>	<g transform="translate(53.9,124.3)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 0.3</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M62.2,16.7 L71.2,16.7 M1175.0,16.7 L1166.0,16.7  '/>	<g transform="translate(53.9,20.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 0.35</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M62.2,742.4 L62.2,733.4 M62.2,16.7 L62.2,25.7  '/>	<g transform="translate(62.2,764.3)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 0</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M264.5,742.4 L264.5,733.4 M264.5,16.7 L264.5,25.7  '/>	<g transform="translate(264.5,764.3)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 20</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M466.9,742.4 L466.9,733.4 M466.9,16.7 L466.9,25.7  '/>	<g transform="translate(466.9,764.3)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 40</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M669.2,742.4 L669.2,733.4 M669.2,16.7 L669.2,25.7  '/>	<g transform="translate(669.2,764.3)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 60</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M871.5,742.4 L871.5,733.4 M871.5,16.7 L871.5,25.7  '/>	<g transform="translate(871.5,764.3)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 80</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M1073.8,742.4 L1073.8,733.4 M1073.8,16.7 L1073.8,25.7  '/>	<g transform="translate(1073.8,764.3)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 100</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M62.2,16.7 L62.2,742.4 L1175.0,742.4 L1175.0,16.7 L62.2,16.7 Z  '/></g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(618.6,791.3)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" >Position in protein sequence</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+	<g id="gnuplot_plot_1" ><title>SAH window score (49)</title>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,38.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >SAH window score (49)</tspan></text>
+	</g>
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(  0,   0, 255)' stroke-dasharray='2,4'  d='M1116.2,34.7 L1158.4,34.7 M72.3,742.4 L82.4,742.4 L92.5,742.4 L102.7,742.4 L112.8,742.4 L122.9,742.4
+		L133.0,742.4 L143.1,742.4 L153.2,742.4 L163.4,742.4 L173.5,742.4 L183.6,742.4 L193.7,742.4 L203.8,742.4
+		L213.9,738.9 L224.1,738.9 L234.2,742.4 L244.3,742.4 L254.4,742.4 L264.5,742.4 L274.6,738.9 L284.8,721.3
+		L294.9,721.3 L305.0,728.3 L315.1,728.3 L325.2,728.3 L335.3,721.3 L345.5,728.3 L355.6,714.2 L365.7,714.2
+		L375.8,714.2 L385.9,714.2 L396.0,693.1 L406.2,679.0 L416.3,689.5 L426.4,693.1 L436.5,682.5 L446.6,682.5
+		L456.7,689.5 L466.9,689.5 L477.0,668.4 L487.1,682.5 L497.2,668.4 L507.3,668.4 L517.4,668.4 L527.6,657.8
+		L537.7,657.8 L547.8,657.8 L557.9,657.8 L568.0,615.5 L578.1,612.0 L588.3,643.7 L598.4,643.7 L608.5,605.6
+		L618.6,623.2 L628.7,630.2 L638.8,633.8 L648.9,633.8 L659.1,672.5 L669.2,676.1 L679.3,672.5 L689.4,658.4
+		L699.5,654.9 L709.6,647.9 L719.8,647.9 L729.9,637.3 L740.0,637.3 L750.1,630.2 L760.2,623.2 L770.3,640.8
+		L780.5,654.9 L790.6,654.9 L800.7,654.9 L810.8,647.9 L820.9,640.8 L831.0,640.8 L841.2,633.8 L851.3,640.8
+		L861.4,647.9 L871.5,640.8 L881.6,640.8 L891.7,654.9 L901.9,640.8 L912.0,633.8 L922.1,633.8 L932.2,633.8
+		L942.3,626.7 L952.4,626.7 L962.6,626.7 L972.7,626.7 L982.8,619.7 L992.9,633.8 L1003.0,633.8 L1013.1,633.8
+		L1023.3,650.8 L1033.4,650.8 L1043.5,650.8 L1053.6,650.8 L1063.7,697.2 L1073.8,710.7 L1084.0,710.7 L1094.1,710.7
+		L1104.2,724.8 L1114.3,717.7 L1124.4,710.7 L1134.5,710.7 L1144.7,710.7 L1154.8,714.2 L1164.9,717.7 L1175.0,717.7
+		 '/></g>
+	</g>
+	<g id="gnuplot_plot_2" ><title>Probable SAH region (49)</title>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,56.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Probable SAH region (49)</tspan></text>
+	</g>
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0, 255)' fill-opacity = '0.100000' points = '1116.2,57.2 1158.4,57.2 1158.4,48.2 1116.2,48.2 '/>
+	</g>
+	<path stroke='rgb(  0,   0, 255)' stroke-dasharray='2,4'  d='M1116.2,57.2 L1158.4,57.2 L1158.4,48.2 L1116.2,48.2 L1116.2,57.2 Z  '/></g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+	</g>
+	<g id="gnuplot_plot_3" ><title>SAH49 threshold</title>
+<g fill="none" color="white" stroke="rgb(  0,   0, 255)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,74.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >SAH49 threshold</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb( 51,  51, 255)'  d='M1116.2,70.7 L1158.4,70.7 M72.3,224.0 L83.5,224.0 L94.6,224.0 L105.7,224.0 L116.9,224.0 L128.0,224.0
+		L139.1,224.0 L150.3,224.0 L161.4,224.0 L172.6,224.0 L183.7,224.0 L194.8,224.0 L206.0,224.0 L217.1,224.0
+		L228.3,224.0 L239.4,224.0 L250.5,224.0 L261.7,224.0 L272.8,224.0 L283.9,224.0 L295.1,224.0 L306.2,224.0
+		L317.4,224.0 L328.5,224.0 L339.6,224.0 L350.8,224.0 L361.9,224.0 L373.0,224.0 L384.2,224.0 L395.3,224.0
+		L406.5,224.0 L417.6,224.0 L428.7,224.0 L439.9,224.0 L451.0,224.0 L462.2,224.0 L473.3,224.0 L484.4,224.0
+		L495.6,224.0 L506.7,224.0 L517.8,224.0 L529.0,224.0 L540.1,224.0 L551.3,224.0 L562.4,224.0 L573.5,224.0
+		L584.7,224.0 L595.8,224.0 L607.0,224.0 L618.1,224.0 L629.2,224.0 L640.4,224.0 L651.5,224.0 L662.6,224.0
+		L673.8,224.0 L684.9,224.0 L696.1,224.0 L707.2,224.0 L718.3,224.0 L729.5,224.0 L740.6,224.0 L751.7,224.0
+		L762.9,224.0 L774.0,224.0 L785.2,224.0 L796.3,224.0 L807.4,224.0 L818.6,224.0 L829.7,224.0 L840.9,224.0
+		L852.0,224.0 L863.1,224.0 L874.3,224.0 L885.4,224.0 L896.5,224.0 L907.7,224.0 L918.8,224.0 L930.0,224.0
+		L941.1,224.0 L952.2,224.0 L963.4,224.0 L974.5,224.0 L985.7,224.0 L996.8,224.0 L1007.9,224.0 L1019.1,224.0
+		L1030.2,224.0 L1041.3,224.0 L1052.5,224.0 L1063.6,224.0 L1074.8,224.0 L1085.9,224.0 L1097.0,224.0 L1108.2,224.0
+		L1119.3,224.0 L1130.4,224.0 L1141.6,224.0 L1152.7,224.0 L1163.9,224.0 L1175.0,224.0  '/></g>
+	</g>
+	<g id="gnuplot_plot_4" ><title>SAH window score (28)</title>
+<g fill="none" color="white" stroke="rgb( 51,  51, 255)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,92.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >SAH window score (28)</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb( 85,  26, 139)'  d='M1116.2,88.7 L1158.4,88.7 M72.3,742.4 L82.4,742.4 L92.5,742.4 L102.7,742.4 L112.8,742.4 L122.9,742.4
+		L133.0,742.4 L143.1,742.4 L153.2,742.4 L163.4,742.4 L173.5,742.4 L183.6,742.4 L193.7,742.4 L203.8,742.4
+		L213.9,742.4 L224.1,742.4 L234.2,742.4 L244.3,742.4 L254.4,742.4 L264.5,742.4 L274.6,736.2 L284.8,723.9
+		L294.9,693.1 L305.0,693.1 L315.1,643.7 L325.2,637.5 L335.3,619.0 L345.5,631.3 L355.6,643.7 L365.7,643.7
+		L375.8,606.6 L385.9,594.4 L396.0,563.5 L406.2,563.5 L416.3,575.7 L426.4,581.9 L436.5,581.9 L446.6,581.9
+		L456.7,594.4 L466.9,606.6 L477.0,619.0 L487.1,686.8 L497.2,686.8 L507.3,649.9 L517.4,668.4 L527.6,680.6
+		L537.7,686.8 L547.8,686.8 L557.9,742.4 L568.0,742.4 L578.1,742.4 L588.3,742.4 L598.4,742.4 L608.5,742.4
+		L618.6,742.4 L628.7,736.2 L638.8,711.5 L648.9,711.5 L659.1,711.5 L669.2,736.2 L679.3,680.6 L689.4,662.2
+		L699.5,649.9 L709.6,649.9 L719.8,620.3 L729.9,632.5 L740.0,632.5 L750.1,632.5 L760.2,632.5 L770.3,614.1
+		L780.5,607.8 L790.6,607.8 L800.7,607.8 L810.8,583.2 L820.9,558.5 L831.0,558.5 L841.2,552.3 L851.3,552.3
+		L861.4,540.0 L871.5,527.6 L881.6,521.6 L891.7,540.0 L901.9,540.0 L912.0,552.3 L922.1,569.7 L932.2,557.2
+		L942.3,557.2 L952.4,557.2 L962.6,651.2 L972.7,686.8 L982.8,686.8 L992.9,686.8 L1003.0,736.2 L1013.1,699.3
+		L1023.3,686.8 L1033.4,686.8 L1043.5,686.8 L1053.6,693.1 L1063.7,699.3 L1073.8,699.3 L1084.0,699.3 L1094.1,711.5
+		L1104.2,736.2 L1114.3,736.2 L1124.4,730.0 L1134.5,730.0 L1144.7,742.4 L1154.8,742.4 L1164.9,742.4 L1175.0,742.4
+		 '/></g>
+	</g>
+	<g id="gnuplot_plot_5" ><title>Probable SAH region (28)</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,110.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Probable SAH region (28)</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 85,  26, 139)' fill-opacity = '0.100000' points = '1116.2,111.2 1158.4,111.2 1158.4,102.2 1116.2,102.2 '/>
+	</g>
+	<path stroke='rgb( 85,  26, 139)'  d='M1116.2,111.2 L1158.4,111.2 L1158.4,102.2 L1116.2,102.2 L1116.2,111.2 Z  '/></g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+	</g>
+	<g id="gnuplot_plot_6" ><title>SAH28 threshold</title>
+<g fill="none" color="white" stroke="rgb( 85,  26, 139)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,128.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >SAH28 threshold</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb( 85,  26, 139)'  d='M1116.2,124.7 L1158.4,124.7 M72.3,120.4 L83.5,120.4 L94.6,120.4 L105.7,120.4 L116.9,120.4 L128.0,120.4
+		L139.1,120.4 L150.3,120.4 L161.4,120.4 L172.6,120.4 L183.7,120.4 L194.8,120.4 L206.0,120.4 L217.1,120.4
+		L228.3,120.4 L239.4,120.4 L250.5,120.4 L261.7,120.4 L272.8,120.4 L283.9,120.4 L295.1,120.4 L306.2,120.4
+		L317.4,120.4 L328.5,120.4 L339.6,120.4 L350.8,120.4 L361.9,120.4 L373.0,120.4 L384.2,120.4 L395.3,120.4
+		L406.5,120.4 L417.6,120.4 L428.7,120.4 L439.9,120.4 L451.0,120.4 L462.2,120.4 L473.3,120.4 L484.4,120.4
+		L495.6,120.4 L506.7,120.4 L517.8,120.4 L529.0,120.4 L540.1,120.4 L551.3,120.4 L562.4,120.4 L573.5,120.4
+		L584.7,120.4 L595.8,120.4 L607.0,120.4 L618.1,120.4 L629.2,120.4 L640.4,120.4 L651.5,120.4 L662.6,120.4
+		L673.8,120.4 L684.9,120.4 L696.1,120.4 L707.2,120.4 L718.3,120.4 L729.5,120.4 L740.6,120.4 L751.7,120.4
+		L762.9,120.4 L774.0,120.4 L785.2,120.4 L796.3,120.4 L807.4,120.4 L818.6,120.4 L829.7,120.4 L840.9,120.4
+		L852.0,120.4 L863.1,120.4 L874.3,120.4 L885.4,120.4 L896.5,120.4 L907.7,120.4 L918.8,120.4 L930.0,120.4
+		L941.1,120.4 L952.2,120.4 L963.4,120.4 L974.5,120.4 L985.7,120.4 L996.8,120.4 L1007.9,120.4 L1019.1,120.4
+		L1030.2,120.4 L1041.3,120.4 L1052.5,120.4 L1063.6,120.4 L1074.8,120.4 L1085.9,120.4 L1097.0,120.4 L1108.2,120.4
+		L1119.3,120.4 L1130.4,120.4 L1141.6,120.4 L1152.7,120.4 L1163.9,120.4 L1175.0,120.4  '/></g>
+	</g>
+	<g id="gnuplot_plot_7" ><title>SAH window score (21)</title>
+<g fill="none" color="white" stroke="rgb( 85,  26, 139)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,146.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >SAH window score (21)</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(255,   0,   0)'  d='M1116.2,142.7 L1158.4,142.7 M72.3,742.4 L82.4,742.4 L92.5,742.4 L102.7,742.4 L112.8,742.4 L122.9,742.4
+		L133.0,742.4 L143.1,742.4 L153.2,742.4 L163.4,742.4 L173.5,742.4 L183.6,742.4 L193.7,742.4 L203.8,742.4
+		L213.9,742.4 L224.1,742.4 L234.2,742.4 L244.3,742.4 L254.4,742.4 L264.5,693.1 L274.6,701.3 L284.8,701.3
+		L294.9,676.7 L305.0,627.1 L315.1,627.1 L325.2,635.4 L335.3,619.0 L345.5,561.4 L355.6,545.0 L365.7,545.0
+		L375.8,577.8 L385.9,586.1 L396.0,586.1 L406.2,586.1 L416.3,553.1 L426.4,528.4 L436.5,545.0 L446.6,635.4
+		L456.7,635.4 L466.9,586.1 L477.0,610.7 L487.1,627.1 L497.2,635.4 L507.3,635.4 L517.4,742.4 L527.6,742.4
+		L537.7,742.4 L547.8,726.0 L557.9,742.4 L568.0,742.4 L578.1,742.4 L588.3,742.4 L598.4,742.4 L608.5,742.4
+		L618.6,742.4 L628.7,742.4 L638.8,742.4 L648.9,742.4 L659.1,742.4 L669.2,742.4 L679.3,742.4 L689.4,742.4
+		L699.5,742.4 L709.6,627.1 L719.8,602.4 L729.9,586.1 L740.0,586.1 L750.1,546.7 L760.2,563.0 L770.3,563.0
+		L780.5,563.0 L790.6,563.0 L800.7,538.4 L810.8,530.1 L820.9,530.1 L831.0,530.1 L841.2,497.1 L851.3,497.1
+		L861.4,497.1 L871.5,505.4 L881.6,545.0 L891.7,528.4 L901.9,512.0 L912.0,520.3 L922.1,620.7 L932.2,651.8
+		L942.3,668.4 L952.4,651.8 L962.6,668.4 L972.7,651.8 L982.8,635.4 L992.9,651.8 L1003.0,668.4 L1013.1,676.7
+		L1023.3,684.8 L1033.4,717.7 L1043.5,684.8 L1053.6,701.3 L1063.7,734.1 L1073.8,734.1 L1084.0,726.0 L1094.1,726.0
+		L1104.2,742.4 L1114.3,742.4 L1124.4,742.4 L1134.5,742.4 L1144.7,742.4 L1154.8,742.4 L1164.9,742.4 L1175.0,742.4
+		 '/></g>
+	</g>
+	<g id="gnuplot_plot_8" ><title>Probable SAH region (21)</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,164.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Probable SAH region (21)</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(255,   0,   0)' fill-opacity = '0.100000' points = '1116.2,165.2 1158.4,165.2 1158.4,156.2 1116.2,156.2 '/>
+	</g>
+	<path stroke='rgb(255,   0,   0)'  d='M1116.2,165.2 L1158.4,165.2 L1158.4,156.2 L1116.2,156.2 L1116.2,165.2 Z  '/></g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+	</g>
+	<g id="gnuplot_plot_9" ><title>SAH21 threshold</title>
+<g fill="none" color="white" stroke="rgb(255,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,182.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >SAH21 threshold</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(204,  51,  51)'  d='M1116.2,178.7 L1158.4,178.7 M72.3,120.4 L83.5,120.4 L94.6,120.4 L105.7,120.4 L116.9,120.4 L128.0,120.4
+		L139.1,120.4 L150.3,120.4 L161.4,120.4 L172.6,120.4 L183.7,120.4 L194.8,120.4 L206.0,120.4 L217.1,120.4
+		L228.3,120.4 L239.4,120.4 L250.5,120.4 L261.7,120.4 L272.8,120.4 L283.9,120.4 L295.1,120.4 L306.2,120.4
+		L317.4,120.4 L328.5,120.4 L339.6,120.4 L350.8,120.4 L361.9,120.4 L373.0,120.4 L384.2,120.4 L395.3,120.4
+		L406.5,120.4 L417.6,120.4 L428.7,120.4 L439.9,120.4 L451.0,120.4 L462.2,120.4 L473.3,120.4 L484.4,120.4
+		L495.6,120.4 L506.7,120.4 L517.8,120.4 L529.0,120.4 L540.1,120.4 L551.3,120.4 L562.4,120.4 L573.5,120.4
+		L584.7,120.4 L595.8,120.4 L607.0,120.4 L618.1,120.4 L629.2,120.4 L640.4,120.4 L651.5,120.4 L662.6,120.4
+		L673.8,120.4 L684.9,120.4 L696.1,120.4 L707.2,120.4 L718.3,120.4 L729.5,120.4 L740.6,120.4 L751.7,120.4
+		L762.9,120.4 L774.0,120.4 L785.2,120.4 L796.3,120.4 L807.4,120.4 L818.6,120.4 L829.7,120.4 L840.9,120.4
+		L852.0,120.4 L863.1,120.4 L874.3,120.4 L885.4,120.4 L896.5,120.4 L907.7,120.4 L918.8,120.4 L930.0,120.4
+		L941.1,120.4 L952.2,120.4 L963.4,120.4 L974.5,120.4 L985.7,120.4 L996.8,120.4 L1007.9,120.4 L1019.1,120.4
+		L1030.2,120.4 L1041.3,120.4 L1052.5,120.4 L1063.6,120.4 L1074.8,120.4 L1085.9,120.4 L1097.0,120.4 L1108.2,120.4
+		L1119.3,120.4 L1130.4,120.4 L1141.6,120.4 L1152.7,120.4 L1163.9,120.4 L1175.0,120.4  '/></g>
+	</g>
+	<g id="gnuplot_plot_10" ><title>SAH window score (14)</title>
+<g fill="none" color="white" stroke="rgb(204,  51,  51)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,200.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >SAH window score (14)</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(255, 165,   0)'  d='M1116.2,196.7 L1158.4,196.7 M72.3,742.4 L82.4,742.4 L92.5,742.4 L102.7,742.4 L112.8,742.4 L122.9,742.4
+		L133.0,742.4 L143.1,742.4 L153.2,742.4 L163.4,742.4 L173.5,742.4 L183.6,742.4 L193.7,742.4 L203.8,742.4
+		L213.9,742.4 L224.1,742.4 L234.2,742.4 L244.3,742.4 L254.4,742.4 L264.5,730.0 L274.6,668.4 L284.8,693.1
+		L294.9,742.4 L305.0,581.9 L315.1,606.6 L325.2,594.4 L335.3,594.4 L345.5,545.0 L355.6,532.6 L365.7,545.0
+		L375.8,594.4 L385.9,483.2 L396.0,483.2 L406.2,507.9 L416.3,668.4 L426.4,668.4 L436.5,594.4 L446.6,631.3
+		L456.7,581.9 L466.9,532.6 L477.0,532.6 L487.1,705.3 L497.2,730.0 L507.3,717.7 L517.4,668.4 L527.6,705.3
+		L537.7,730.0 L547.8,730.0 L557.9,705.3 L568.0,705.3 L578.1,705.3 L588.3,705.3 L598.4,742.4 L608.5,742.4
+		L618.6,742.4 L628.7,742.4 L638.8,742.4 L648.9,742.4 L659.1,742.4 L669.2,742.4 L679.3,742.4 L689.4,742.4
+		L699.5,742.4 L709.6,717.7 L719.8,717.7 L729.9,717.7 L740.0,693.1 L750.1,520.3 L760.2,483.2 L770.3,458.5
+		L780.5,458.5 L790.6,399.2 L800.7,423.9 L810.8,423.9 L820.9,473.3 L831.0,473.3 L841.2,461.0 L851.3,507.9
+		L861.4,507.9 L871.5,507.9 L881.6,483.2 L891.7,596.8 L901.9,643.7 L912.0,655.9 L922.1,655.9 L932.2,680.6
+		L942.3,631.3 L952.4,619.0 L962.6,606.6 L972.7,606.6 L982.8,643.7 L992.9,631.3 L1003.0,606.6 L1013.1,606.6
+		L1023.3,631.3 L1033.4,705.3 L1043.5,730.0 L1053.6,717.7 L1063.7,717.7 L1073.8,742.4 L1084.0,742.4 L1094.1,742.4
+		L1104.2,742.4 L1114.3,742.4 L1124.4,742.4 L1134.5,742.4 L1144.7,742.4 L1154.8,742.4 L1164.9,742.4 L1175.0,742.4
+		 '/></g>
+	</g>
+	<g id="gnuplot_plot_11" ><title>Probable SAH region (14)</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,218.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Probable SAH region (14)</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(255, 165,   0)' fill-opacity = '0.100000' points = '1116.2,219.2 1158.4,219.2 1158.4,210.2 1116.2,210.2 '/>
+	</g>
+	<path stroke='rgb(255, 165,   0)'  d='M1116.2,219.2 L1158.4,219.2 L1158.4,210.2 L1116.2,210.2 L1116.2,219.2 Z  '/></g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+	</g>
+	<g id="gnuplot_plot_12" ><title>SAH14 threshold</title>
+<g fill="none" color="white" stroke="rgb(255, 165,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1107.9,236.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >SAH14 threshold</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(255, 165,   0)'  d='M1116.2,232.7 L1158.4,232.7 M72.3,16.7 L83.5,16.7 L94.6,16.7 L105.7,16.7 L116.9,16.7 L128.0,16.7
+		L139.1,16.7 L150.3,16.7 L161.4,16.7 L172.6,16.7 L183.7,16.7 L194.8,16.7 L206.0,16.7 L217.1,16.7
+		L228.3,16.7 L239.4,16.7 L250.5,16.7 L261.7,16.7 L272.8,16.7 L283.9,16.7 L295.1,16.7 L306.2,16.7
+		L317.4,16.7 L328.5,16.7 L339.6,16.7 L350.8,16.7 L361.9,16.7 L373.0,16.7 L384.2,16.7 L395.3,16.7
+		L406.5,16.7 L417.6,16.7 L428.7,16.7 L439.9,16.7 L451.0,16.7 L462.2,16.7 L473.3,16.7 L484.4,16.7
+		L495.6,16.7 L506.7,16.7 L517.8,16.7 L529.0,16.7 L540.1,16.7 L551.3,16.7 L562.4,16.7 L573.5,16.7
+		L584.7,16.7 L595.8,16.7 L607.0,16.7 L618.1,16.7 L629.2,16.7 L640.4,16.7 L651.5,16.7 L662.6,16.7
+		L673.8,16.7 L684.9,16.7 L696.1,16.7 L707.2,16.7 L718.3,16.7 L729.5,16.7 L740.6,16.7 L751.7,16.7
+		L762.9,16.7 L774.0,16.7 L785.2,16.7 L796.3,16.7 L807.4,16.7 L818.6,16.7 L829.7,16.7 L840.9,16.7
+		L852.0,16.7 L863.1,16.7 L874.3,16.7 L885.4,16.7 L896.5,16.7 L907.7,16.7 L918.8,16.7 L930.0,16.7
+		L941.1,16.7 L952.2,16.7 L963.4,16.7 L974.5,16.7 L985.7,16.7 L996.8,16.7 L1007.9,16.7 L1019.1,16.7
+		L1030.2,16.7 L1041.3,16.7 L1052.5,16.7 L1063.6,16.7 L1074.8,16.7 L1085.9,16.7 L1097.0,16.7 L1108.2,16.7
+		L1119.3,16.7 L1130.4,16.7 L1141.6,16.7 L1152.7,16.7 L1163.9,16.7 L1175.0,16.7  '/></g>
+	</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M62.2,16.7 L62.2,742.4 L1175.0,742.4 L1175.0,16.7 L62.2,16.7 Z  '/></g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+</g>
+</svg>
+

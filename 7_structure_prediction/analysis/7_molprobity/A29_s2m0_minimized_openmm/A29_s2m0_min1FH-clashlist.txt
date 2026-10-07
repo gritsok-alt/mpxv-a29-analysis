@@ -1,0 +1,15 @@
+Using electron cloud x-H distances and vdW radii
+
+Using input model H/D atoms...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 110  GLU  CD   A 110  GLU  H   :0.531
+ B  73  LYS  HE2  C  32  ARG  CD  :0.502
+ B  80  PHE  CD1  C  25  ALA  HB1 :0.481
+ A  72  CYS  HB3  B  71  CYS  SG  :0.444
+ B  32  ARG  NE   C  73  LYS  HE2 :0.433
+ A  48  LYS  HE2  B  42  ASP  HB2 :0.421
+ B  56  LYS  HE3  B  56  LYS  N   :0.409
+ B  73  LYS  HE2  C  32  ARG  HD3 :0.406
+clashscore = 1.51
+clashscore (B factor cutoff = 40) = 1.510004

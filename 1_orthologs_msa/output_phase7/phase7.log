@@ -1,0 +1,10 @@
+2026-07-24 17:46:14,377 [INFO] Running MAFFT L-INS-i (this may take a minute) ...
+2026-07-24 17:46:14,379 [INFO] Running: wsl mafft --localpair --maxiterate 1000 --amino --thread 4 --quiet output_phase6/orthologs_nr98.fasta
+2026-07-24 17:46:17,332 [INFO] DONE — alignment saved to output_phase7\A29L_msa_linsi.fasta
+2026-07-24 17:46:17,461 [INFO] Alignment matrix: 60 sequences x 300 columns
+2026-07-24 17:46:17,624 [INFO] Mean pairwise identity: 0.386 — saved output_phase7\pairwise_identity.csv
+2026-07-24 17:46:29,794 [INFO] DONE — heatmap saved: ['A29L_identity_heatmap.png']
+2026-07-24 17:46:33,889 [INFO] DONE — global conservation profile saved: ['A29L_global_conservation_profile.png']
+2026-07-24 17:46:33,998 [INFO] Reference located: row 59 (YFT67316.1)
+2026-07-24 17:46:37,269 [INFO] DONE — reference-mapped domain profile saved: ['A29L_domain_conservation_profile.png']
+2026-07-24 17:46:37,271 [INFO] Phase 7 complete. Outputs in output_phase7

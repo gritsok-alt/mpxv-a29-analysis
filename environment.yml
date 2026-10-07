@@ -1,0 +1,51 @@
+# Main analysis environment.
+#
+# Covers the ortholog pipeline (Step 1), the phylogeny and saturation test
+# (Step 2), the evolutionary-rate analysis (Step 3), and the structural
+# analysis scripts in Step 7. Energy minimisation needs a separate
+# environment: see environment-openmm.yml.
+#
+#   conda env create -f environment.yml
+#   conda activate a29l
+#
+# Built with miniforge, so conda-forge is the default channel; versions are
+# those used for the published analysis.
+
+name: a29l
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  # Python libraries
+  - numpy=2.5.3
+  - gemmi=0.7.5
+  - biopython=1.88
+  - pandas
+  - matplotlib
+  - openpyxl
+  - fonttools
+  - nbformat
+  - jupyterlab
+  # External tools called by the notebooks and scripts
+  - blast=2.16.0          # psiblast
+  - hmmer=3.4             # jackhmmer, hmmsearch
+  - cd-hit=4.8.1
+  - mafft=7.525
+  - iqtree=3.0.1
+  - dssp=4.5.7            # mkdssp, for Socket
+#
+# Not installable from conda and obtained separately:
+#   Rate4Site 3.0.0   https://github.com/barakav/r4s_for_collab
+#   Socket 3.02       socket2_linux, https://github.com/woolfson-group/Socket2_colab
+#   InterProScan 5.78-109.0
+#   Pfam profiles PF02346, PF06086, PF04508 from InterPro
+#
+# Web services used, with access dates recorded in the supplementary tables:
+#   NCBI, UniProt, NCBI Virus, MPI Bioinformatics Toolkit (HHblits, HHpred,
+#   MARCOIL, DeepCoil2, PCOILS), CoCoNat, SignalP, Phobius, DeepTMHMM,
+#   PSIPRED Workbench, IUPred3, HeliQuest, WaggaWagga, AlphaFold Server,
+#   ColabFold, Chai-1, PDBePISA, MolProbity, YASARA.
+#
+# Boltz-2 v2.2.1 was run on Kaggle Notebooks (NVIDIA T4) in a session-local
+# environment built with uv; see 7_structure_prediction/run_boltz2_kaggle.ipynb.

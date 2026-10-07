@@ -1,0 +1,1557 @@
+<svg id="annotationGrid" width="900" height="410" style="text-rendering: optimizelegibility; font-family: sans-serif;" title="annotationGrid" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="container" width="836" height="346" transform="translate(32,80)"><text transform="translate(5,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 1
+ss: C
+disopred: PB
+memsat: EC
+</title></text><text transform="translate(21.72,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 2
+ss: C
+disopred: PB
+memsat: EC
+</title></text><text transform="translate(38.44,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 3
+ss: C
+disopred: PB
+memsat: EC
+</title></text><text transform="translate(55.16,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 4
+ss: C
+disopred: PB
+memsat: EC
+</title></text><text transform="translate(71.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 5
+ss: C
+memsat: EC
+</title></text><text transform="translate(88.6,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 6
+ss: C
+memsat: EC
+</title></text><text transform="translate(105.32,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 7
+ss: C
+memsat: EC
+</title></text><text transform="translate(122.03999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 8
+ss: C
+memsat: EC
+</title></text><text transform="translate(138.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 9
+ss: C
+memsat: EC
+</title></text><text transform="translate(155.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 10
+ss: C
+memsat: EC
+</title></text><text transform="translate(172.2,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 11
+ss: C
+memsat: EC
+</title></text><text transform="translate(188.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 12
+ss: C
+memsat: EC
+</title></text><text transform="translate(205.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 13
+ss: C
+memsat: EC
+</title></text><text transform="translate(222.35999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 14
+ss: C
+memsat: EC
+</title></text><text transform="translate(239.07999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 15
+ss: C
+memsat: EC
+</title></text><text transform="translate(255.79999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 16
+ss: C
+memsat: EC
+</title></text><text transform="translate(272.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 17
+ss: C
+memsat: EC
+</title></text><text transform="translate(289.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 18
+ss: C
+memsat: EC
+</title></text><text transform="translate(305.96,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 19
+ss: C
+memsat: EC
+</title></text><text transform="translate(322.67999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 20
+ss: C
+memsat: EC
+</title></text><text transform="translate(339.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 21
+ss: C
+memsat: EC
+</title></text><text transform="translate(356.12,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 22
+ss: C
+memsat: EC
+</title></text><text transform="translate(372.84,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 23
+ss: C
+memsat: EC
+</title></text><text transform="translate(389.55999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 24
+ss: C
+memsat: EC
+</title></text><text transform="translate(406.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 25
+ss: C
+memsat: EC
+</title></text><text transform="translate(423,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 26
+ss: C
+memsat: EC
+</title></text><text transform="translate(439.71999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 27
+ss: C
+memsat: EC
+</title></text><text transform="translate(456.43999999999994,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 28
+ss: C
+memsat: EC
+</title></text><text transform="translate(473.15999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 29
+ss: H
+memsat: EC
+</title></text><text transform="translate(489.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 30
+ss: H
+memsat: EC
+</title></text><text transform="translate(506.59999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 31
+ss: H
+memsat: EC
+</title></text><text transform="translate(523.3199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 32
+ss: H
+memsat: EC
+</title></text><text transform="translate(540.04,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 33
+ss: H
+memsat: EC
+</title></text><text transform="translate(556.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 34
+ss: H
+memsat: EC
+</title></text><text transform="translate(573.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 35
+ss: H
+memsat: EC
+</title></text><text transform="translate(590.1999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 36
+ss: H
+memsat: EC
+</title></text><text transform="translate(606.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 37
+ss: H
+memsat: EC
+</title></text><text transform="translate(623.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 38
+ss: H
+memsat: EC
+</title></text><text transform="translate(640.3599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 39
+ss: C
+memsat: EC
+</title></text><text transform="translate(657.0799999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 40
+ss: C
+memsat: EC
+</title></text><text transform="translate(673.8,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 41
+ss: C
+memsat: EC
+</title></text><text transform="translate(690.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 42
+ss: C
+memsat: EC
+</title></text><text transform="translate(707.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 43
+ss: C
+memsat: EC
+</title></text><text transform="translate(723.9599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 44
+ss: H
+memsat: EC
+</title></text><text transform="translate(740.68,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 45
+ss: H
+memsat: EC
+</title></text><text transform="translate(757.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 46
+ss: H
+memsat: EC
+</title></text><text transform="translate(774.1199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 47
+ss: H
+memsat: EC
+</title></text><text transform="translate(790.8399999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 48
+ss: H
+memsat: EC
+</title></text><text transform="translate(807.56,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 49
+ss: H
+memsat: EC
+</title></text><text transform="translate(824.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 50
+ss: H
+memsat: EC
+</title></text><text transform="translate(5,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 51
+ss: H
+memsat: EC
+</title></text><text transform="translate(21.72,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 52
+ss: H
+memsat: EC
+</title></text><text transform="translate(38.44,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 53
+ss: H
+memsat: EC
+</title></text><text transform="translate(55.16,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 54
+ss: H
+memsat: EC
+</title></text><text transform="translate(71.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 55
+ss: H
+memsat: EC
+</title></text><text transform="translate(88.6,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 56
+ss: H
+memsat: EC
+</title></text><text transform="translate(105.32,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 57
+ss: H
+memsat: EC
+</title></text><text transform="translate(122.03999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 58
+ss: H
+memsat: EC
+</title></text><text transform="translate(138.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 59
+ss: H
+memsat: EC
+</title></text><text transform="translate(155.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 60
+ss: H
+memsat: EC
+</title></text><text transform="translate(172.2,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 61
+ss: H
+memsat: EC
+</title></text><text transform="translate(188.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 62
+ss: H
+memsat: EC
+</title></text><text transform="translate(205.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 63
+ss: H
+memsat: EC
+</title></text><text transform="translate(222.35999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 64
+ss: H
+memsat: EC
+</title></text><text transform="translate(239.07999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 65
+ss: H
+memsat: EC
+</title></text><text transform="translate(255.79999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 66
+ss: H
+memsat: EC
+</title></text><text transform="translate(272.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 67
+ss: H
+memsat: EC
+</title></text><text transform="translate(289.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 68
+ss: H
+memsat: EC
+</title></text><text transform="translate(305.96,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 69
+ss: H
+memsat: EC
+</title></text><text transform="translate(322.67999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 70
+ss: H
+memsat: EC
+</title></text><text transform="translate(339.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 71
+ss: H
+memsat: EC
+</title></text><text transform="translate(356.12,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 72
+ss: H
+memsat: EC
+</title></text><text transform="translate(372.84,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 73
+ss: H
+memsat: EC
+</title></text><text transform="translate(389.55999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 74
+ss: H
+memsat: EC
+</title></text><text transform="translate(406.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 75
+ss: H
+memsat: EC
+</title></text><text transform="translate(423,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 76
+ss: H
+memsat: EC
+</title></text><text transform="translate(439.71999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 77
+ss: H
+memsat: EC
+</title></text><text transform="translate(456.43999999999994,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 78
+ss: H
+memsat: EC
+</title></text><text transform="translate(473.15999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 79
+ss: H
+memsat: EC
+</title></text><text transform="translate(489.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 80
+ss: H
+memsat: EC
+</title></text><text transform="translate(506.59999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 81
+ss: H
+memsat: EC
+</title></text><text transform="translate(523.3199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 82
+ss: H
+memsat: EC
+</title></text><text transform="translate(540.04,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 83
+ss: H
+memsat: EC
+</title></text><text transform="translate(556.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 84
+ss: H
+memsat: EC
+</title></text><text transform="translate(573.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 85
+ss: H
+memsat: EC
+</title></text><text transform="translate(590.1999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 86
+ss: H
+memsat: EC
+</title></text><text transform="translate(606.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 87
+ss: H
+memsat: EC
+</title></text><text transform="translate(623.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 88
+ss: H
+memsat: EC
+</title></text><text transform="translate(640.3599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 89
+ss: H
+memsat: EC
+</title></text><text transform="translate(657.0799999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 90
+ss: H
+memsat: EC
+</title></text><text transform="translate(673.8,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 91
+ss: H
+memsat: TM
+</title></text><text transform="translate(690.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 92
+ss: H
+memsat: TM
+</title></text><text transform="translate(707.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 93
+ss: H
+memsat: TM
+</title></text><text transform="translate(723.9599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 94
+ss: H
+memsat: TM
+</title></text><text transform="translate(740.68,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 95
+ss: H
+memsat: TM
+</title></text><text transform="translate(757.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 96
+ss: H
+memsat: TM
+</title></text><text transform="translate(774.1199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 97
+ss: H
+memsat: TM
+</title></text><text transform="translate(790.8399999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 98
+ss: H
+memsat: TM
+</title></text><text transform="translate(807.56,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 99
+ss: H
+memsat: TM
+</title></text><text transform="translate(824.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 100
+ss: H
+memsat: TM
+</title></text><text transform="translate(5,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 101
+ss: C
+memsat: TM
+</title></text><text transform="translate(21.72,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 102
+ss: C
+memsat: TM
+</title></text><text transform="translate(38.44,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 103
+ss: C
+memsat: TM
+</title></text><text transform="translate(55.16,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 104
+ss: C
+memsat: TM
+</title></text><text transform="translate(71.88,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 105
+ss: C
+memsat: TM
+</title></text><text transform="translate(88.6,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 106
+ss: C
+memsat: TM
+</title></text><text transform="translate(105.32,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 107
+ss: C
+memsat: CY
+</title></text><text transform="translate(122.03999999999999,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 108
+ss: C
+memsat: CY
+</title></text><text transform="translate(138.76,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 109
+ss: C
+memsat: CY
+</title></text><text transform="translate(155.48,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 110
+ss: C
+memsat: CY
+</title></text><text transform="translate(5,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 1
+ss: C
+disopred: PB
+</title></text><text transform="translate(21.72,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 2
+ss: C
+disopred: PB
+</title></text><text transform="translate(38.44,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 3
+ss: C
+disopred: PB
+</title></text><text transform="translate(55.16,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 4
+ss: C
+disopred: PB
+</title></text><text transform="translate(71.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 5
+ss: C
+</title></text><text transform="translate(88.6,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 6
+ss: C
+</title></text><text transform="translate(105.32,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 7
+ss: C
+</title></text><text transform="translate(122.03999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 8
+ss: C
+</title></text><text transform="translate(138.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 9
+ss: C
+</title></text><text transform="translate(155.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 10
+ss: C
+</title></text><text transform="translate(172.2,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 11
+ss: C
+</title></text><text transform="translate(188.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 12
+ss: C
+</title></text><text transform="translate(205.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 13
+ss: C
+</title></text><text transform="translate(222.35999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 14
+ss: C
+</title></text><text transform="translate(239.07999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 15
+ss: C
+</title></text><text transform="translate(255.79999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 16
+ss: C
+</title></text><text transform="translate(272.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 17
+ss: C
+</title></text><text transform="translate(289.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 18
+ss: C
+</title></text><text transform="translate(305.96,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 19
+ss: C
+</title></text><text transform="translate(322.67999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 20
+ss: C
+</title></text><text transform="translate(339.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 21
+ss: C
+</title></text><text transform="translate(356.12,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 22
+ss: C
+</title></text><text transform="translate(372.84,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 23
+ss: C
+</title></text><text transform="translate(389.55999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 24
+ss: C
+</title></text><text transform="translate(406.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 25
+ss: C
+</title></text><text transform="translate(423,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 26
+ss: C
+</title></text><text transform="translate(439.71999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 27
+ss: C
+</title></text><text transform="translate(456.43999999999994,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 28
+ss: C
+</title></text><text transform="translate(473.15999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 29
+ss: H
+</title></text><text transform="translate(489.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 30
+ss: H
+</title></text><text transform="translate(506.59999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 31
+ss: H
+</title></text><text transform="translate(523.3199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 32
+ss: H
+</title></text><text transform="translate(540.04,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 33
+ss: H
+</title></text><text transform="translate(556.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 34
+ss: H
+</title></text><text transform="translate(573.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 35
+ss: H
+</title></text><text transform="translate(590.1999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 36
+ss: H
+</title></text><text transform="translate(606.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 37
+ss: H
+</title></text><text transform="translate(623.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 38
+ss: H
+</title></text><text transform="translate(640.3599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 39
+ss: C
+</title></text><text transform="translate(657.0799999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 40
+ss: C
+</title></text><text transform="translate(673.8,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 41
+ss: C
+</title></text><text transform="translate(690.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 42
+ss: C
+</title></text><text transform="translate(707.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 43
+ss: C
+</title></text><text transform="translate(723.9599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 44
+ss: H
+</title></text><text transform="translate(740.68,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 45
+ss: H
+</title></text><text transform="translate(757.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 46
+ss: H
+</title></text><text transform="translate(774.1199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 47
+ss: H
+</title></text><text transform="translate(790.8399999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 48
+ss: H
+</title></text><text transform="translate(807.56,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 49
+ss: H
+</title></text><text transform="translate(824.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 50
+ss: H
+</title></text><text transform="translate(5,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 51
+ss: H
+</title></text><text transform="translate(21.72,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 52
+ss: H
+</title></text><text transform="translate(38.44,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 53
+ss: H
+</title></text><text transform="translate(55.16,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 54
+ss: H
+</title></text><text transform="translate(71.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 55
+ss: H
+</title></text><text transform="translate(88.6,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 56
+ss: H
+</title></text><text transform="translate(105.32,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 57
+ss: H
+</title></text><text transform="translate(122.03999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 58
+ss: H
+</title></text><text transform="translate(138.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 59
+ss: H
+</title></text><text transform="translate(155.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 60
+ss: H
+</title></text><text transform="translate(172.2,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 61
+ss: H
+</title></text><text transform="translate(188.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 62
+ss: H
+</title></text><text transform="translate(205.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 63
+ss: H
+</title></text><text transform="translate(222.35999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 64
+ss: H
+</title></text><text transform="translate(239.07999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 65
+ss: H
+</title></text><text transform="translate(255.79999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 66
+ss: H
+</title></text><text transform="translate(272.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 67
+ss: H
+</title></text><text transform="translate(289.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 68
+ss: H
+</title></text><text transform="translate(305.96,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 69
+ss: H
+</title></text><text transform="translate(322.67999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 70
+ss: H
+</title></text><text transform="translate(339.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 71
+ss: H
+</title></text><text transform="translate(356.12,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 72
+ss: H
+</title></text><text transform="translate(372.84,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 73
+ss: H
+</title></text><text transform="translate(389.55999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 74
+ss: H
+</title></text><text transform="translate(406.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 75
+ss: H
+</title></text><text transform="translate(423,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 76
+ss: H
+</title></text><text transform="translate(439.71999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 77
+ss: H
+</title></text><text transform="translate(456.43999999999994,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 78
+ss: H
+</title></text><text transform="translate(473.15999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 79
+ss: H
+</title></text><text transform="translate(489.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 80
+ss: H
+</title></text><text transform="translate(506.59999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 81
+ss: H
+</title></text><text transform="translate(523.3199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 82
+ss: H
+</title></text><text transform="translate(540.04,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 83
+ss: H
+</title></text><text transform="translate(556.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 84
+ss: H
+</title></text><text transform="translate(573.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 85
+ss: H
+</title></text><text transform="translate(590.1999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 86
+ss: H
+</title></text><text transform="translate(606.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 87
+ss: H
+</title></text><text transform="translate(623.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 88
+ss: H
+</title></text><text transform="translate(640.3599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 89
+ss: H
+</title></text><text transform="translate(657.0799999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 90
+ss: H
+</title></text><text transform="translate(673.8,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 91
+ss: H
+</title></text><text transform="translate(690.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 92
+ss: H
+</title></text><text transform="translate(707.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 93
+ss: H
+</title></text><text transform="translate(723.9599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 94
+ss: H
+</title></text><text transform="translate(740.68,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 95
+ss: H
+</title></text><text transform="translate(757.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 96
+ss: H
+</title></text><text transform="translate(774.1199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 97
+ss: H
+</title></text><text transform="translate(790.8399999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 98
+ss: H
+</title></text><text transform="translate(807.56,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 99
+ss: H
+</title></text><text transform="translate(824.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 100
+ss: H
+</title></text><text transform="translate(5,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 101
+ss: C
+</title></text><text transform="translate(21.72,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 102
+ss: C
+</title></text><text transform="translate(38.44,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 103
+ss: C
+</title></text><text transform="translate(55.16,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 104
+ss: C
+</title></text><text transform="translate(71.88,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 105
+ss: C
+</title></text><text transform="translate(88.6,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 106
+ss: C
+</title></text><text transform="translate(105.32,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 107
+ss: C
+</title></text><text transform="translate(122.03999999999999,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 108
+ss: C
+</title></text><text transform="translate(138.76,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 109
+ss: C
+</title></text><text transform="translate(155.48,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 110
+ss: C
+</title></text><text transform="translate(5,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 1
+memsat: EC
+</title></text><text transform="translate(21.72,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 2
+memsat: EC
+</title></text><text transform="translate(38.44,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 3
+memsat: EC
+</title></text><text transform="translate(55.16,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 4
+memsat: EC
+</title></text><text transform="translate(71.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 5
+memsat: EC
+</title></text><text transform="translate(88.6,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 6
+memsat: EC
+</title></text><text transform="translate(105.32,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 7
+memsat: EC
+</title></text><text transform="translate(122.03999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 8
+memsat: EC
+</title></text><text transform="translate(138.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 9
+memsat: EC
+</title></text><text transform="translate(155.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 10
+memsat: EC
+</title></text><text transform="translate(172.2,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 11
+memsat: EC
+</title></text><text transform="translate(188.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 12
+memsat: EC
+</title></text><text transform="translate(205.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 13
+memsat: EC
+</title></text><text transform="translate(222.35999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 14
+memsat: EC
+</title></text><text transform="translate(239.07999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 15
+memsat: EC
+</title></text><text transform="translate(255.79999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 16
+memsat: EC
+</title></text><text transform="translate(272.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 17
+memsat: EC
+</title></text><text transform="translate(289.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 18
+memsat: EC
+</title></text><text transform="translate(305.96,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 19
+memsat: EC
+</title></text><text transform="translate(322.67999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 20
+memsat: EC
+</title></text><text transform="translate(339.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 21
+memsat: EC
+</title></text><text transform="translate(356.12,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 22
+memsat: EC
+</title></text><text transform="translate(372.84,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 23
+memsat: EC
+</title></text><text transform="translate(389.55999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 24
+memsat: EC
+</title></text><text transform="translate(406.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 25
+memsat: EC
+</title></text><text transform="translate(423,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 26
+memsat: EC
+</title></text><text transform="translate(439.71999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 27
+memsat: EC
+</title></text><text transform="translate(456.43999999999994,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 28
+memsat: EC
+</title></text><text transform="translate(473.15999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 29
+memsat: EC
+</title></text><text transform="translate(489.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 30
+memsat: EC
+</title></text><text transform="translate(506.59999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 31
+memsat: EC
+</title></text><text transform="translate(523.3199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 32
+memsat: EC
+</title></text><text transform="translate(540.04,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 33
+memsat: EC
+</title></text><text transform="translate(556.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 34
+memsat: EC
+</title></text><text transform="translate(573.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 35
+memsat: EC
+</title></text><text transform="translate(590.1999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 36
+memsat: EC
+</title></text><text transform="translate(606.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 37
+memsat: EC
+</title></text><text transform="translate(623.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 38
+memsat: EC
+</title></text><text transform="translate(640.3599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 39
+memsat: EC
+</title></text><text transform="translate(657.0799999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 40
+memsat: EC
+</title></text><text transform="translate(673.8,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 41
+memsat: EC
+</title></text><text transform="translate(690.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 42
+memsat: EC
+</title></text><text transform="translate(707.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 43
+memsat: EC
+</title></text><text transform="translate(723.9599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 44
+memsat: EC
+</title></text><text transform="translate(740.68,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 45
+memsat: EC
+</title></text><text transform="translate(757.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 46
+memsat: EC
+</title></text><text transform="translate(774.1199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 47
+memsat: EC
+</title></text><text transform="translate(790.8399999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 48
+memsat: EC
+</title></text><text transform="translate(807.56,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 49
+memsat: EC
+</title></text><text transform="translate(824.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 50
+memsat: EC
+</title></text><text transform="translate(5,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 51
+memsat: EC
+</title></text><text transform="translate(21.72,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 52
+memsat: EC
+</title></text><text transform="translate(38.44,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 53
+memsat: EC
+</title></text><text transform="translate(55.16,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 54
+memsat: EC
+</title></text><text transform="translate(71.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 55
+memsat: EC
+</title></text><text transform="translate(88.6,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 56
+memsat: EC
+</title></text><text transform="translate(105.32,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 57
+memsat: EC
+</title></text><text transform="translate(122.03999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 58
+memsat: EC
+</title></text><text transform="translate(138.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 59
+memsat: EC
+</title></text><text transform="translate(155.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 60
+memsat: EC
+</title></text><text transform="translate(172.2,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 61
+memsat: EC
+</title></text><text transform="translate(188.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 62
+memsat: EC
+</title></text><text transform="translate(205.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 63
+memsat: EC
+</title></text><text transform="translate(222.35999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 64
+memsat: EC
+</title></text><text transform="translate(239.07999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 65
+memsat: EC
+</title></text><text transform="translate(255.79999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 66
+memsat: EC
+</title></text><text transform="translate(272.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 67
+memsat: EC
+</title></text><text transform="translate(289.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 68
+memsat: EC
+</title></text><text transform="translate(305.96,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 69
+memsat: EC
+</title></text><text transform="translate(322.67999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 70
+memsat: EC
+</title></text><text transform="translate(339.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 71
+memsat: EC
+</title></text><text transform="translate(356.12,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 72
+memsat: EC
+</title></text><text transform="translate(372.84,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 73
+memsat: EC
+</title></text><text transform="translate(389.55999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 74
+memsat: EC
+</title></text><text transform="translate(406.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 75
+memsat: EC
+</title></text><text transform="translate(423,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 76
+memsat: EC
+</title></text><text transform="translate(439.71999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 77
+memsat: EC
+</title></text><text transform="translate(456.43999999999994,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 78
+memsat: EC
+</title></text><text transform="translate(473.15999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 79
+memsat: EC
+</title></text><text transform="translate(489.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 80
+memsat: EC
+</title></text><text transform="translate(506.59999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 81
+memsat: EC
+</title></text><text transform="translate(523.3199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 82
+memsat: EC
+</title></text><text transform="translate(540.04,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 83
+memsat: EC
+</title></text><text transform="translate(556.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 84
+memsat: EC
+</title></text><text transform="translate(573.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 85
+memsat: EC
+</title></text><text transform="translate(590.1999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 86
+memsat: EC
+</title></text><text transform="translate(606.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 87
+memsat: EC
+</title></text><text transform="translate(623.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 88
+memsat: EC
+</title></text><text transform="translate(640.3599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 89
+memsat: EC
+</title></text><text transform="translate(657.0799999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 90
+memsat: EC
+</title></text><text transform="translate(673.8,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 91
+memsat: TM
+</title></text><text transform="translate(690.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 92
+memsat: TM
+</title></text><text transform="translate(707.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 93
+memsat: TM
+</title></text><text transform="translate(723.9599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 94
+memsat: TM
+</title></text><text transform="translate(740.68,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 95
+memsat: TM
+</title></text><text transform="translate(757.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 96
+memsat: TM
+</title></text><text transform="translate(774.1199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 97
+memsat: TM
+</title></text><text transform="translate(790.8399999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 98
+memsat: TM
+</title></text><text transform="translate(807.56,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 99
+memsat: TM
+</title></text><text transform="translate(824.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 100
+memsat: TM
+</title></text><text transform="translate(5,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 101
+memsat: TM
+</title></text><text transform="translate(21.72,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 102
+memsat: TM
+</title></text><text transform="translate(38.44,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 103
+memsat: TM
+</title></text><text transform="translate(55.16,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 104
+memsat: TM
+</title></text><text transform="translate(71.88,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 105
+memsat: TM
+</title></text><text transform="translate(88.6,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 106
+memsat: TM
+</title></text><text transform="translate(105.32,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 107
+memsat: CY
+</title></text><text transform="translate(122.03999999999999,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 108
+memsat: CY
+</title></text><text transform="translate(138.76,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 109
+memsat: CY
+</title></text><text transform="translate(155.48,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 110
+memsat: CY
+</title></text><text transform="translate(5,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 1
+M</title></text><text transform="translate(21.72,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 2
+D</title></text><text transform="translate(38.44,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 3
+G</title></text><text transform="translate(55.16,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 4
+T</title></text><text transform="translate(71.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 5
+L</title></text><text transform="translate(88.6,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 6
+F</title></text><text transform="translate(105.32,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 7
+P</title></text><text transform="translate(122.03999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 8
+G</title></text><text transform="translate(138.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 9
+D</title></text><text transform="translate(155.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 10
+D</title></text><text transform="translate(172.2,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 11
+D</title></text><text transform="translate(188.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 12
+L</title></text><text transform="translate(205.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 13
+A</title></text><text transform="translate(222.35999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 14
+I</title></text><text transform="translate(239.07999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 15
+P</title></text><text transform="translate(255.79999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 16
+A</title></text><text transform="translate(272.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 17
+T</title></text><text transform="translate(289.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 18
+E</title></text><text transform="translate(305.96,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 19
+F</title></text><text transform="translate(322.67999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 20
+F</title></text><text transform="translate(339.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 21
+S</title></text><text transform="translate(356.12,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 22
+T</title></text><text transform="translate(372.84,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 23
+K</title></text><text transform="translate(389.55999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 24
+A</title></text><text transform="translate(406.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 25
+A</title></text><text transform="translate(423,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 26
+K</title></text><text transform="translate(439.71999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 27
+N</title></text><text transform="translate(456.43999999999994,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 28
+P</title></text><text transform="translate(473.15999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 29
+E</title></text><text transform="translate(489.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 30
+T</title></text><text transform="translate(506.59999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 31
+K</title></text><text transform="translate(523.3199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 32
+R</title></text><text transform="translate(540.04,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 33
+E</title></text><text transform="translate(556.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 34
+A</title></text><text transform="translate(573.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 35
+I</title></text><text transform="translate(590.1999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 36
+V</title></text><text transform="translate(606.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 37
+K</title></text><text transform="translate(623.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 38
+A</title></text><text transform="translate(640.3599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 39
+Y</title></text><text transform="translate(657.0799999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 40
+G</title></text><text transform="translate(673.8,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 41
+D</title></text><text transform="translate(690.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 42
+D</title></text><text transform="translate(707.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 43
+N</title></text><text transform="translate(723.9599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 44
+E</title></text><text transform="translate(740.68,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 45
+E</title></text><text transform="translate(757.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 46
+T</title></text><text transform="translate(774.1199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 47
+L</title></text><text transform="translate(790.8399999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 48
+K</title></text><text transform="translate(807.56,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 49
+Q</title></text><text transform="translate(824.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 50
+R</title></text><text transform="translate(5,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 51
+L</title></text><text transform="translate(21.72,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 52
+T</title></text><text transform="translate(38.44,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 53
+N</title></text><text transform="translate(55.16,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 54
+L</title></text><text transform="translate(71.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 55
+E</title></text><text transform="translate(88.6,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 56
+K</title></text><text transform="translate(105.32,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 57
+K</title></text><text transform="translate(122.03999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 58
+I</title></text><text transform="translate(138.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 59
+T</title></text><text transform="translate(155.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 60
+N</title></text><text transform="translate(172.2,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 61
+I</title></text><text transform="translate(188.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 62
+T</title></text><text transform="translate(205.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 63
+T</title></text><text transform="translate(222.35999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 64
+K</title></text><text transform="translate(239.07999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 65
+F</title></text><text transform="translate(255.79999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 66
+E</title></text><text transform="translate(272.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 67
+Q</title></text><text transform="translate(289.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 68
+I</title></text><text transform="translate(305.96,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 69
+E</title></text><text transform="translate(322.67999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 70
+K</title></text><text transform="translate(339.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 71
+C</title></text><text transform="translate(356.12,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 72
+C</title></text><text transform="translate(372.84,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 73
+K</title></text><text transform="translate(389.55999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 74
+H</title></text><text transform="translate(406.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 75
+N</title></text><text transform="translate(423,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 76
+D</title></text><text transform="translate(439.71999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 77
+E</title></text><text transform="translate(456.43999999999994,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 78
+V</title></text><text transform="translate(473.15999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 79
+L</title></text><text transform="translate(489.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 80
+F</title></text><text transform="translate(506.59999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 81
+R</title></text><text transform="translate(523.3199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 82
+L</title></text><text transform="translate(540.04,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 83
+E</title></text><text transform="translate(556.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 84
+N</title></text><text transform="translate(573.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 85
+H</title></text><text transform="translate(590.1999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 86
+A</title></text><text transform="translate(606.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 87
+E</title></text><text transform="translate(623.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 88
+T</title></text><text transform="translate(640.3599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 89
+L</title></text><text transform="translate(657.0799999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 90
+R</title></text><text transform="translate(673.8,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 91
+A</title></text><text transform="translate(690.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 92
+A</title></text><text transform="translate(707.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 93
+M</title></text><text transform="translate(723.9599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 94
+I</title></text><text transform="translate(740.68,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 95
+S</title></text><text transform="translate(757.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 96
+L</title></text><text transform="translate(774.1199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 97
+A</title></text><text transform="translate(790.8399999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 98
+K</title></text><text transform="translate(807.56,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 99
+K</title></text><text transform="translate(824.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 100
+I</title></text><text transform="translate(5,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 101
+D</title></text><text transform="translate(21.72,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 102
+V</title></text><text transform="translate(38.44,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 103
+Q</title></text><text transform="translate(55.16,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 104
+T</title></text><text transform="translate(71.88,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 105
+G</title></text><text transform="translate(88.6,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 106
+R</title></text><text transform="translate(105.32,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 107
+R</title></text><text transform="translate(122.03999999999999,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 108
+P</title></text><text transform="translate(138.76,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 109
+Y</title></text><text transform="translate(155.48,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 110
+E</title></text><text transform="translate(5,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 1
+memsat: EC
+</title></text><text transform="translate(21.72,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 2
+memsat: EC
+</title></text><text transform="translate(38.44,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 3
+memsat: EC
+</title></text><text transform="translate(55.16,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 4
+memsat: EC
+</title></text><text transform="translate(71.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 5
+memsat: EC
+</title></text><text transform="translate(88.6,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 6
+memsat: EC
+</title></text><text transform="translate(105.32,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 7
+memsat: EC
+</title></text><text transform="translate(122.03999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 8
+memsat: EC
+</title></text><text transform="translate(138.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 9
+memsat: EC
+</title></text><text transform="translate(155.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 10
+memsat: EC
+</title></text><text transform="translate(172.2,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 11
+memsat: EC
+</title></text><text transform="translate(188.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 12
+memsat: EC
+</title></text><text transform="translate(205.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 13
+memsat: EC
+</title></text><text transform="translate(222.35999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 14
+memsat: EC
+</title></text><text transform="translate(239.07999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 15
+memsat: EC
+</title></text><text transform="translate(255.79999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 16
+memsat: EC
+</title></text><text transform="translate(272.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 17
+memsat: EC
+</title></text><text transform="translate(289.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 18
+memsat: EC
+</title></text><text transform="translate(305.96,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 19
+memsat: EC
+</title></text><text transform="translate(322.67999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 20
+memsat: EC
+</title></text><text transform="translate(339.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 21
+memsat: EC
+</title></text><text transform="translate(356.12,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 22
+memsat: EC
+</title></text><text transform="translate(372.84,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 23
+memsat: EC
+</title></text><text transform="translate(389.55999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 24
+memsat: EC
+</title></text><text transform="translate(406.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 25
+memsat: EC
+</title></text><text transform="translate(423,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 26
+memsat: EC
+</title></text><text transform="translate(439.71999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 27
+memsat: EC
+</title></text><text transform="translate(456.43999999999994,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 28
+memsat: EC
+</title></text><text transform="translate(473.15999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 29
+memsat: EC
+</title></text><text transform="translate(489.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 30
+memsat: EC
+</title></text><text transform="translate(506.59999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 31
+memsat: EC
+</title></text><text transform="translate(523.3199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 32
+memsat: EC
+</title></text><text transform="translate(540.04,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 33
+memsat: EC
+</title></text><text transform="translate(556.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 34
+memsat: EC
+</title></text><text transform="translate(573.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 35
+memsat: EC
+</title></text><text transform="translate(590.1999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 36
+memsat: EC
+</title></text><text transform="translate(606.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 37
+memsat: EC
+</title></text><text transform="translate(623.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 38
+memsat: EC
+</title></text><text transform="translate(640.3599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 39
+memsat: EC
+</title></text><text transform="translate(657.0799999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 40
+memsat: EC
+</title></text><text transform="translate(673.8,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 41
+memsat: EC
+</title></text><text transform="translate(690.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 42
+memsat: EC
+</title></text><text transform="translate(707.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 43
+memsat: EC
+</title></text><text transform="translate(723.9599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 44
+memsat: EC
+</title></text><text transform="translate(740.68,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 45
+memsat: EC
+</title></text><text transform="translate(757.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 46
+memsat: EC
+</title></text><text transform="translate(774.1199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 47
+memsat: EC
+</title></text><text transform="translate(790.8399999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 48
+memsat: EC
+</title></text><text transform="translate(807.56,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 49
+memsat: EC
+</title></text><text transform="translate(824.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 50
+memsat: EC
+</title></text><text transform="translate(5,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 51
+memsat: EC
+</title></text><text transform="translate(21.72,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 52
+memsat: EC
+</title></text><text transform="translate(38.44,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 53
+memsat: EC
+</title></text><text transform="translate(55.16,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 54
+memsat: EC
+</title></text><text transform="translate(71.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 55
+memsat: EC
+</title></text><text transform="translate(88.6,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 56
+memsat: EC
+</title></text><text transform="translate(105.32,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 57
+memsat: EC
+</title></text><text transform="translate(122.03999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 58
+memsat: EC
+</title></text><text transform="translate(138.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 59
+memsat: EC
+</title></text><text transform="translate(155.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 60
+memsat: EC
+</title></text><text transform="translate(172.2,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 61
+memsat: EC
+</title></text><text transform="translate(188.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 62
+memsat: EC
+</title></text><text transform="translate(205.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 63
+memsat: EC
+</title></text><text transform="translate(222.35999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 64
+memsat: EC
+</title></text><text transform="translate(239.07999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 65
+memsat: EC
+</title></text><text transform="translate(255.79999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 66
+memsat: EC
+</title></text><text transform="translate(272.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 67
+memsat: EC
+</title></text><text transform="translate(289.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 68
+memsat: EC
+</title></text><text transform="translate(305.96,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 69
+memsat: EC
+</title></text><text transform="translate(322.67999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 70
+memsat: EC
+</title></text><text transform="translate(339.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 71
+memsat: EC
+</title></text><text transform="translate(356.12,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 72
+memsat: EC
+</title></text><text transform="translate(372.84,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 73
+memsat: EC
+</title></text><text transform="translate(389.55999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 74
+memsat: EC
+</title></text><text transform="translate(406.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 75
+memsat: EC
+</title></text><text transform="translate(423,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 76
+memsat: EC
+</title></text><text transform="translate(439.71999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 77
+memsat: EC
+</title></text><text transform="translate(456.43999999999994,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 78
+memsat: EC
+</title></text><text transform="translate(473.15999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 79
+memsat: EC
+</title></text><text transform="translate(489.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 80
+memsat: EC
+</title></text><text transform="translate(506.59999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 81
+memsat: EC
+</title></text><text transform="translate(523.3199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 82
+memsat: EC
+</title></text><text transform="translate(540.04,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 83
+memsat: EC
+</title></text><text transform="translate(556.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 84
+memsat: EC
+</title></text><text transform="translate(573.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 85
+memsat: EC
+</title></text><text transform="translate(590.1999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 86
+memsat: EC
+</title></text><text transform="translate(606.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 87
+memsat: EC
+</title></text><text transform="translate(623.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 88
+memsat: EC
+</title></text><text transform="translate(640.3599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 89
+memsat: EC
+</title></text><text transform="translate(657.0799999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 90
+memsat: EC
+</title></text><text transform="translate(673.8,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 91
+memsat: TM
+</title></text><text transform="translate(690.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 92
+memsat: TM
+</title></text><text transform="translate(707.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 93
+memsat: TM
+</title></text><text transform="translate(723.9599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 94
+memsat: TM
+</title></text><text transform="translate(740.68,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 95
+memsat: TM
+</title></text><text transform="translate(757.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 96
+memsat: TM
+</title></text><text transform="translate(774.1199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 97
+memsat: TM
+</title></text><text transform="translate(790.8399999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 98
+memsat: TM
+</title></text><text transform="translate(807.56,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 99
+memsat: TM
+</title></text><text transform="translate(824.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 100
+memsat: TM
+</title></text><text transform="translate(5,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 101
+memsat: TM
+</title></text><text transform="translate(21.72,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 102
+memsat: TM
+</title></text><text transform="translate(38.44,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 103
+memsat: TM
+</title></text><text transform="translate(55.16,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 104
+memsat: TM
+</title></text><text transform="translate(71.88,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 105
+memsat: TM
+</title></text><text transform="translate(88.6,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 106
+memsat: TM
+</title></text><text transform="translate(105.32,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 107
+memsat: CY
+</title></text><text transform="translate(122.03999999999999,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 108
+memsat: CY
+</title></text><text transform="translate(138.76,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 109
+memsat: CY
+</title></text><text transform="translate(155.48,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 110
+memsat: CY
+</title></text><rect class="rect" width="17.6" height="17.6" transform="translate(0,0)" fill="LightGrey" stroke="green"><title>Pos: 1
+ss: C
+disopred: PB
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(16.72,0)" fill="LightGrey" stroke="green"><title>Pos: 2
+ss: C
+disopred: PB
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(33.44,0)" fill="LightGrey" stroke="green"><title>Pos: 3
+ss: C
+disopred: PB
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(50.16,0)" fill="LightGrey" stroke="green"><title>Pos: 4
+ss: C
+disopred: PB
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(66.88,0)" fill="LightGrey" stroke="white"><title>Pos: 5
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(83.6,0)" fill="LightGrey" stroke="white"><title>Pos: 6
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(100.32,0)" fill="LightGrey" stroke="white"><title>Pos: 7
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(117.03999999999999,0)" fill="LightGrey" stroke="white"><title>Pos: 8
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(133.76,0)" fill="LightGrey" stroke="white"><title>Pos: 9
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(150.48,0)" fill="LightGrey" stroke="white"><title>Pos: 10
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(167.2,0)" fill="LightGrey" stroke="white"><title>Pos: 11
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(183.92,0)" fill="LightGrey" stroke="white"><title>Pos: 12
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(200.64,0)" fill="LightGrey" stroke="white"><title>Pos: 13
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(217.35999999999999,0)" fill="LightGrey" stroke="white"><title>Pos: 14
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(234.07999999999998,0)" fill="LightGrey" stroke="white"><title>Pos: 15
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(250.79999999999998,0)" fill="LightGrey" stroke="white"><title>Pos: 16
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(267.52,0)" fill="LightGrey" stroke="white"><title>Pos: 17
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(284.24,0)" fill="LightGrey" stroke="white"><title>Pos: 18
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(300.96,0)" fill="LightGrey" stroke="white"><title>Pos: 19
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(317.67999999999995,0)" fill="LightGrey" stroke="white"><title>Pos: 20
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(334.4,0)" fill="LightGrey" stroke="white"><title>Pos: 21
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(351.12,0)" fill="LightGrey" stroke="white"><title>Pos: 22
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(367.84,0)" fill="LightGrey" stroke="white"><title>Pos: 23
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(384.55999999999995,0)" fill="LightGrey" stroke="white"><title>Pos: 24
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(401.28,0)" fill="LightGrey" stroke="white"><title>Pos: 25
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(418,0)" fill="LightGrey" stroke="white"><title>Pos: 26
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(434.71999999999997,0)" fill="LightGrey" stroke="white"><title>Pos: 27
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(451.43999999999994,0)" fill="LightGrey" stroke="white"><title>Pos: 28
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(468.15999999999997,0)" fill="HotPink" stroke="white"><title>Pos: 29
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(484.88,0)" fill="HotPink" stroke="white"><title>Pos: 30
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(501.59999999999997,0)" fill="HotPink" stroke="white"><title>Pos: 31
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(518.3199999999999,0)" fill="HotPink" stroke="white"><title>Pos: 32
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(535.04,0)" fill="HotPink" stroke="white"><title>Pos: 33
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(551.76,0)" fill="HotPink" stroke="white"><title>Pos: 34
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(568.48,0)" fill="HotPink" stroke="white"><title>Pos: 35
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(585.1999999999999,0)" fill="HotPink" stroke="white"><title>Pos: 36
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(601.92,0)" fill="HotPink" stroke="white"><title>Pos: 37
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(618.64,0)" fill="HotPink" stroke="white"><title>Pos: 38
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(635.3599999999999,0)" fill="LightGrey" stroke="white"><title>Pos: 39
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(652.0799999999999,0)" fill="LightGrey" stroke="white"><title>Pos: 40
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(668.8,0)" fill="LightGrey" stroke="white"><title>Pos: 41
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(685.52,0)" fill="LightGrey" stroke="white"><title>Pos: 42
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(702.24,0)" fill="LightGrey" stroke="white"><title>Pos: 43
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(718.9599999999999,0)" fill="HotPink" stroke="white"><title>Pos: 44
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(735.68,0)" fill="HotPink" stroke="white"><title>Pos: 45
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(752.4,0)" fill="HotPink" stroke="white"><title>Pos: 46
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(769.1199999999999,0)" fill="HotPink" stroke="white"><title>Pos: 47
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(785.8399999999999,0)" fill="HotPink" stroke="white"><title>Pos: 48
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(802.56,0)" fill="HotPink" stroke="white"><title>Pos: 49
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(819.28,0)" fill="HotPink" stroke="white"><title>Pos: 50
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(0,19.2)" fill="HotPink" stroke="white"><title>Pos: 51
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(16.72,19.2)" fill="HotPink" stroke="white"><title>Pos: 52
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(33.44,19.2)" fill="HotPink" stroke="white"><title>Pos: 53
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(50.16,19.2)" fill="HotPink" stroke="white"><title>Pos: 54
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(66.88,19.2)" fill="HotPink" stroke="white"><title>Pos: 55
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(83.6,19.2)" fill="HotPink" stroke="white"><title>Pos: 56
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(100.32,19.2)" fill="HotPink" stroke="white"><title>Pos: 57
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(117.03999999999999,19.2)" fill="HotPink" stroke="white"><title>Pos: 58
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(133.76,19.2)" fill="HotPink" stroke="white"><title>Pos: 59
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(150.48,19.2)" fill="HotPink" stroke="white"><title>Pos: 60
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(167.2,19.2)" fill="HotPink" stroke="white"><title>Pos: 61
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(183.92,19.2)" fill="HotPink" stroke="white"><title>Pos: 62
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(200.64,19.2)" fill="HotPink" stroke="white"><title>Pos: 63
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(217.35999999999999,19.2)" fill="HotPink" stroke="white"><title>Pos: 64
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(234.07999999999998,19.2)" fill="HotPink" stroke="white"><title>Pos: 65
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(250.79999999999998,19.2)" fill="HotPink" stroke="white"><title>Pos: 66
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(267.52,19.2)" fill="HotPink" stroke="white"><title>Pos: 67
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(284.24,19.2)" fill="HotPink" stroke="white"><title>Pos: 68
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(300.96,19.2)" fill="HotPink" stroke="white"><title>Pos: 69
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(317.67999999999995,19.2)" fill="HotPink" stroke="white"><title>Pos: 70
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(334.4,19.2)" fill="HotPink" stroke="white"><title>Pos: 71
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(351.12,19.2)" fill="HotPink" stroke="white"><title>Pos: 72
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(367.84,19.2)" fill="HotPink" stroke="white"><title>Pos: 73
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(384.55999999999995,19.2)" fill="HotPink" stroke="white"><title>Pos: 74
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(401.28,19.2)" fill="HotPink" stroke="white"><title>Pos: 75
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(418,19.2)" fill="HotPink" stroke="white"><title>Pos: 76
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(434.71999999999997,19.2)" fill="HotPink" stroke="white"><title>Pos: 77
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(451.43999999999994,19.2)" fill="HotPink" stroke="white"><title>Pos: 78
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(468.15999999999997,19.2)" fill="HotPink" stroke="white"><title>Pos: 79
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(484.88,19.2)" fill="HotPink" stroke="white"><title>Pos: 80
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(501.59999999999997,19.2)" fill="HotPink" stroke="white"><title>Pos: 81
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(518.3199999999999,19.2)" fill="HotPink" stroke="white"><title>Pos: 82
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(535.04,19.2)" fill="HotPink" stroke="white"><title>Pos: 83
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(551.76,19.2)" fill="HotPink" stroke="white"><title>Pos: 84
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(568.48,19.2)" fill="HotPink" stroke="white"><title>Pos: 85
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(585.1999999999999,19.2)" fill="HotPink" stroke="white"><title>Pos: 86
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(601.92,19.2)" fill="HotPink" stroke="white"><title>Pos: 87
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(618.64,19.2)" fill="HotPink" stroke="white"><title>Pos: 88
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(635.3599999999999,19.2)" fill="HotPink" stroke="white"><title>Pos: 89
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(652.0799999999999,19.2)" fill="HotPink" stroke="white"><title>Pos: 90
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(668.8,19.2)" fill="HotPink" stroke="white"><title>Pos: 91
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(685.52,19.2)" fill="HotPink" stroke="white"><title>Pos: 92
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(702.24,19.2)" fill="HotPink" stroke="white"><title>Pos: 93
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(718.9599999999999,19.2)" fill="HotPink" stroke="white"><title>Pos: 94
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(735.68,19.2)" fill="HotPink" stroke="white"><title>Pos: 95
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(752.4,19.2)" fill="HotPink" stroke="white"><title>Pos: 96
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(769.1199999999999,19.2)" fill="HotPink" stroke="white"><title>Pos: 97
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(785.8399999999999,19.2)" fill="HotPink" stroke="white"><title>Pos: 98
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(802.56,19.2)" fill="HotPink" stroke="white"><title>Pos: 99
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(819.28,19.2)" fill="HotPink" stroke="white"><title>Pos: 100
+ss: H
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(0,38.4)" fill="LightGrey" stroke="white"><title>Pos: 101
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(16.72,38.4)" fill="LightGrey" stroke="white"><title>Pos: 102
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(33.44,38.4)" fill="LightGrey" stroke="white"><title>Pos: 103
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(50.16,38.4)" fill="LightGrey" stroke="white"><title>Pos: 104
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(66.88,38.4)" fill="LightGrey" stroke="white"><title>Pos: 105
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(83.6,38.4)" fill="LightGrey" stroke="white"><title>Pos: 106
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(100.32,38.4)" fill="LightGrey" stroke="white"><title>Pos: 107
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(117.03999999999999,38.4)" fill="LightGrey" stroke="white"><title>Pos: 108
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(133.76,38.4)" fill="LightGrey" stroke="white"><title>Pos: 109
+ss: C
+</title></rect><rect class="rect" width="17.6" height="17.6" transform="translate(150.48,38.4)" fill="LightGrey" stroke="white"><title>Pos: 110
+ss: C
+</title></rect><text transform="translate(5,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 1
+ss: C
+disopred: PB
+</title></text><text transform="translate(21.72,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 2
+ss: C
+disopred: PB
+</title></text><text transform="translate(38.44,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 3
+ss: C
+disopred: PB
+</title></text><text transform="translate(55.16,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 4
+ss: C
+disopred: PB
+</title></text><text transform="translate(71.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 5
+ss: C
+</title></text><text transform="translate(88.6,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 6
+ss: C
+</title></text><text transform="translate(105.32,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 7
+ss: C
+</title></text><text transform="translate(122.03999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 8
+ss: C
+</title></text><text transform="translate(138.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 9
+ss: C
+</title></text><text transform="translate(155.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 10
+ss: C
+</title></text><text transform="translate(172.2,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 11
+ss: C
+</title></text><text transform="translate(188.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 12
+ss: C
+</title></text><text transform="translate(205.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 13
+ss: C
+</title></text><text transform="translate(222.35999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 14
+ss: C
+</title></text><text transform="translate(239.07999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 15
+ss: C
+</title></text><text transform="translate(255.79999999999998,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 16
+ss: C
+</title></text><text transform="translate(272.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 17
+ss: C
+</title></text><text transform="translate(289.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 18
+ss: C
+</title></text><text transform="translate(305.96,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 19
+ss: C
+</title></text><text transform="translate(322.67999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 20
+ss: C
+</title></text><text transform="translate(339.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 21
+ss: C
+</title></text><text transform="translate(356.12,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 22
+ss: C
+</title></text><text transform="translate(372.84,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 23
+ss: C
+</title></text><text transform="translate(389.55999999999995,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 24
+ss: C
+</title></text><text transform="translate(406.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 25
+ss: C
+</title></text><text transform="translate(423,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 26
+ss: C
+</title></text><text transform="translate(439.71999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 27
+ss: C
+</title></text><text transform="translate(456.43999999999994,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 28
+ss: C
+</title></text><text transform="translate(473.15999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 29
+ss: H
+</title></text><text transform="translate(489.88,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 30
+ss: H
+</title></text><text transform="translate(506.59999999999997,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 31
+ss: H
+</title></text><text transform="translate(523.3199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 32
+ss: H
+</title></text><text transform="translate(540.04,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 33
+ss: H
+</title></text><text transform="translate(556.76,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 34
+ss: H
+</title></text><text transform="translate(573.48,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 35
+ss: H
+</title></text><text transform="translate(590.1999999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 36
+ss: H
+</title></text><text transform="translate(606.92,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 37
+ss: H
+</title></text><text transform="translate(623.64,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 38
+ss: H
+</title></text><text transform="translate(640.3599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 39
+ss: C
+</title></text><text transform="translate(657.0799999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 40
+ss: C
+</title></text><text transform="translate(673.8,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 41
+ss: C
+</title></text><text transform="translate(690.52,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 42
+ss: C
+</title></text><text transform="translate(707.24,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 43
+ss: C
+</title></text><text transform="translate(723.9599999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 44
+ss: H
+</title></text><text transform="translate(740.68,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 45
+ss: H
+</title></text><text transform="translate(757.4,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 46
+ss: H
+</title></text><text transform="translate(774.1199999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 47
+ss: H
+</title></text><text transform="translate(790.8399999999999,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 48
+ss: H
+</title></text><text transform="translate(807.56,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 49
+ss: H
+</title></text><text transform="translate(824.28,12.8)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 50
+ss: H
+</title></text><text transform="translate(5,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 51
+ss: H
+</title></text><text transform="translate(21.72,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 52
+ss: H
+</title></text><text transform="translate(38.44,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 53
+ss: H
+</title></text><text transform="translate(55.16,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 54
+ss: H
+</title></text><text transform="translate(71.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 55
+ss: H
+</title></text><text transform="translate(88.6,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 56
+ss: H
+</title></text><text transform="translate(105.32,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 57
+ss: H
+</title></text><text transform="translate(122.03999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 58
+ss: H
+</title></text><text transform="translate(138.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 59
+ss: H
+</title></text><text transform="translate(155.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 60
+ss: H
+</title></text><text transform="translate(172.2,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 61
+ss: H
+</title></text><text transform="translate(188.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 62
+ss: H
+</title></text><text transform="translate(205.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 63
+ss: H
+</title></text><text transform="translate(222.35999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 64
+ss: H
+</title></text><text transform="translate(239.07999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 65
+ss: H
+</title></text><text transform="translate(255.79999999999998,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 66
+ss: H
+</title></text><text transform="translate(272.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 67
+ss: H
+</title></text><text transform="translate(289.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 68
+ss: H
+</title></text><text transform="translate(305.96,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 69
+ss: H
+</title></text><text transform="translate(322.67999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 70
+ss: H
+</title></text><text transform="translate(339.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 71
+ss: H
+</title></text><text transform="translate(356.12,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">C<title>Pos: 72
+ss: H
+</title></text><text transform="translate(372.84,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 73
+ss: H
+</title></text><text transform="translate(389.55999999999995,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 74
+ss: H
+</title></text><text transform="translate(406.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 75
+ss: H
+</title></text><text transform="translate(423,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 76
+ss: H
+</title></text><text transform="translate(439.71999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 77
+ss: H
+</title></text><text transform="translate(456.43999999999994,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 78
+ss: H
+</title></text><text transform="translate(473.15999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 79
+ss: H
+</title></text><text transform="translate(489.88,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">F<title>Pos: 80
+ss: H
+</title></text><text transform="translate(506.59999999999997,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 81
+ss: H
+</title></text><text transform="translate(523.3199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 82
+ss: H
+</title></text><text transform="translate(540.04,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 83
+ss: H
+</title></text><text transform="translate(556.76,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">N<title>Pos: 84
+ss: H
+</title></text><text transform="translate(573.48,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">H<title>Pos: 85
+ss: H
+</title></text><text transform="translate(590.1999999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 86
+ss: H
+</title></text><text transform="translate(606.92,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 87
+ss: H
+</title></text><text transform="translate(623.64,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 88
+ss: H
+</title></text><text transform="translate(640.3599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 89
+ss: H
+</title></text><text transform="translate(657.0799999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 90
+ss: H
+</title></text><text transform="translate(673.8,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 91
+ss: H
+</title></text><text transform="translate(690.52,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 92
+ss: H
+</title></text><text transform="translate(707.24,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">M<title>Pos: 93
+ss: H
+</title></text><text transform="translate(723.9599999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 94
+ss: H
+</title></text><text transform="translate(740.68,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">S<title>Pos: 95
+ss: H
+</title></text><text transform="translate(757.4,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">L<title>Pos: 96
+ss: H
+</title></text><text transform="translate(774.1199999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">A<title>Pos: 97
+ss: H
+</title></text><text transform="translate(790.8399999999999,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 98
+ss: H
+</title></text><text transform="translate(807.56,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">K<title>Pos: 99
+ss: H
+</title></text><text transform="translate(824.28,32)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">I<title>Pos: 100
+ss: H
+</title></text><text transform="translate(5,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">D<title>Pos: 101
+ss: C
+</title></text><text transform="translate(21.72,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">V<title>Pos: 102
+ss: C
+</title></text><text transform="translate(38.44,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Q<title>Pos: 103
+ss: C
+</title></text><text transform="translate(55.16,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">T<title>Pos: 104
+ss: C
+</title></text><text transform="translate(71.88,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">G<title>Pos: 105
+ss: C
+</title></text><text transform="translate(88.6,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 106
+ss: C
+</title></text><text transform="translate(105.32,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">R<title>Pos: 107
+ss: C
+</title></text><text transform="translate(122.03999999999999,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">P<title>Pos: 108
+ss: C
+</title></text><text transform="translate(138.76,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">Y<title>Pos: 109
+ss: C
+</title></text><text transform="translate(155.48,51.2)" font-family="sans-serif" font-size="10.56" font-weight="bold" fill="black">E<title>Pos: 110
+ss: C
+</title></text></g><g id="axes" width="836" height="410" transform="translate(0,48)"><g class="axis y" transform="translate(32,32)" fill="none" font-size="10" font-family="sans-serif" text-anchor="end"><g class="tick" opacity="1" transform="translate(0,9.5)"><text fill="currentColor" x="-9" dy="0.32em">1</text></g><g class="tick" opacity="1" transform="translate(0,28.5)"><text fill="currentColor" x="-9" dy="0.32em">51</text></g><g class="tick" opacity="1" transform="translate(0,47.5)"><text fill="currentColor" x="-9" dy="0.32em">101</text></g></g><g class="axis y" transform="translate(868,32)" fill="none" font-size="10" font-family="sans-serif" text-anchor="start"><g class="tick" opacity="1" transform="translate(0,9.5)"><text fill="currentColor" x="9" dy="0.32em">50</text></g><g class="tick" opacity="1" transform="translate(0,28.5)"><text fill="currentColor" x="9" dy="0.32em">100</text></g><g class="tick" opacity="1" transform="translate(0,47.5)"><text fill="currentColor" x="9" dy="0.32em">110</text></g></g><g class="axis x" transform="translate(32,89)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><g class="tick" opacity="1" transform="translate(158.83999999999997,0)"><text fill="currentColor" y="9" dy="0.71em">10</text></g><g class="tick" opacity="1" transform="translate(326.03999999999996,0)"><text fill="currentColor" y="9" dy="0.71em">20</text></g><g class="tick" opacity="1" transform="translate(493.24,0)"><text fill="currentColor" y="9" dy="0.71em">30</text></g><g class="tick" opacity="1" transform="translate(660.4399999999999,0)"><text fill="currentColor" y="9" dy="0.71em">40</text></g><g class="tick" opacity="1" transform="translate(827.64,0)"><text fill="currentColor" y="9" dy="0.71em">50</text></g></g><g class="axis x" transform="translate(32,32)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><g class="tick" opacity="1" transform="translate(158.83999999999997,0)"><text fill="currentColor" y="-9" dy="0em">10</text></g><g class="tick" opacity="1" transform="translate(326.03999999999996,0)"><text fill="currentColor" y="-9" dy="0em">20</text></g><g class="tick" opacity="1" transform="translate(493.24,0)"><text fill="currentColor" y="-9" dy="0em">30</text></g><g class="tick" opacity="1" transform="translate(660.4399999999999,0)"><text fill="currentColor" y="-9" dy="0em">40</text></g><g class="tick" opacity="1" transform="translate(827.64,0)"><text fill="currentColor" y="-9" dy="0em">50</text></g></g></g><g id="key" width="116" height="410" transform="translate(0,328)"><rect class="rect" width="16" height="16" transform="translate(32,0)" stroke="white" fill="Gold"></rect><rect class="rect" width="16" height="16" transform="translate(208,0)" stroke="white" fill="HotPink"></rect><rect class="rect" width="16" height="16" transform="translate(384,0)" stroke="white" fill="LightGrey"></rect><rect class="rect" width="16" height="16" transform="translate(560,0)" stroke="blue" fill="white"></rect><rect class="rect" width="16" height="16" transform="translate(32,22.4)" stroke="green" fill="white"></rect><rect class="rect" width="16" height="16" transform="translate(208,22.4)" stroke="white" fill="#7ebfd3"></rect><rect class="rect" width="16" height="16" transform="translate(384,22.4)" stroke="white" fill="DarkGrey"></rect><rect class="rect" width="16" height="16" transform="translate(560,22.4)" stroke="white" fill="DarkGrey"></rect><rect class="rect" width="16" height="16" transform="translate(32,44.8)" stroke="white" fill="Orange"></rect><rect class="rect" width="16" height="16" transform="translate(208,44.8)" stroke="white" fill="Green"></rect><rect class="rect" width="16" height="16" transform="translate(384,44.8)" stroke="white" fill="White"></rect><rect class="rect" width="16" height="16" transform="translate(560,44.8)" stroke="white" fill="Pink"></rect><rect class="rect" width="16" height="16" transform="translate(32,67.19999999999999)" stroke="white" fill="FireBrick"></rect><text transform="translate(51.2,10.666666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Strand</text><text transform="translate(227.2,10.666666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Helix</text><text transform="translate(403.2,10.666666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Coil</text><text transform="translate(579.2,10.666666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Disordered</text><text transform="translate(51.2,33.06666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Disordered, protein binding</text><text transform="translate(227.2,33.06666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Putative Domain Boundary</text><text transform="translate(403.2,33.06666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Membrane Interaction</text><text transform="translate(579.2,33.06666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Transmembrane Helix</text><text transform="translate(51.2,55.46666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Extracellular</text><text transform="translate(227.2,55.46666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Re-entrant Helix</text><text transform="translate(403.2,55.46666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Cytoplasmic</text><text transform="translate(579.2,55.46666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Signal Peptide</text><text transform="translate(51.2,77.86666666666666)" font-family="sans-serif" font-size="10px" font-weight="bold" fill="black">Metal Binding</text></g><g id="ribbon" width="836" height="32" transform="translate(32,0)"></g></svg>

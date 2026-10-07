@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QDJ95055.1           -          Q77HM6_A29L_MPXV     -            7.4e-45  149.6   1.7   9.7e-45  149.2   1.7   1.0   1   0   0   1   1   1   1 IMV membrane protein [Hypsugopox virus]
+QHR82657.1           -          Q77HM6_A29L_MPXV     -            4.1e-43  144.0  10.8   7.8e-24   81.9   1.0   2.0   1   1   1   2   2   2   2 fusion protein [Brazilian porcupinepox virus 1]
+WGO62741.1           -          Q77HM6_A29L_MPXV     -            9.8e-39  129.9   4.3   1.1e-38  129.8   4.3   1.0   1   0   0   1   1   1   1 IMV surface protein [Wadden Sea poxvirus]
+#
+# Program:         jackhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      output_phase2/query.fasta
+# Target file:     output_phase3/orphan_proteins.fasta
+# Option settings: jackhmmer -N 5 -o output_phase3/orphan_jack.log --tblout output_phase3/orphan_jack.txt -E 1e-3 --incE 1e-3 output_phase2/query.fasta output_phase3/orphan_proteins.fasta 
+# Current dir:     /mnt/c/Users/dmitr/PycharmProjects/A29_v3
+# Date:            Wed Jul 22 11:26:44 2026
+# [ok]

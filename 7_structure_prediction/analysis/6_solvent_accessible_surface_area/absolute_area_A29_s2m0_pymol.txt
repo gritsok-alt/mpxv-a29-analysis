@@ -1,0 +1,107 @@
+PyMOL(TM) 3.1.8 - Incentive Product
+ Copyright (C) Schrodinger, LLC
+ 
+ This Executable Build integrates and extends Open-Source PyMOL.
+ Detected OpenGL version 4.6. Shaders available.
+ Detected GLSL version 4.60.
+ OpenGL graphics engine:
+  GL_VENDOR:   ATI Technologies Inc.
+  GL_RENDERER: AMD Radeon(TM) Graphics
+  GL_VERSION:  4.6.0 Compatibility Profile Context 22.20.44.221025
+ License Expiry date: 2027-01-01
+ 
+ Detected 16 CPU cores.  Enabled multithreaded rendering.
+
+PyMOL>set dot_solvent, 1
+ Setting: dot_solvent set to on.
+PyMOL>get_area chain A and resi 47
+ cmd.get_area: 14.796 Angstroms^2.
+PyMOL>get_area chain A and resi 51
+ cmd.get_area: 4.591 Angstroms^2.
+PyMOL>get_area chain A and resi 54
+ cmd.get_area: 11.921 Angstroms^2.
+PyMOL>get_area chain A and resi 58
+ cmd.get_area: 0.887 Angstroms^2.
+PyMOL>get_area chain A and resi 61
+ cmd.get_area: 2.856 Angstroms^2.
+PyMOL>get_area chain A and resi 65
+ cmd.get_area: 3.020 Angstroms^2.
+PyMOL>get_area chain A and resi 81
+ cmd.get_area: 108.155 Angstroms^2.
+PyMOL>get_area chain A and resi 87
+ cmd.get_area: 78.628 Angstroms^2.
+PyMOL>get_area chain A and resi 88
+ cmd.get_area: 90.554 Angstroms^2.
+PyMOL>get_area chain A and resi 94
+ cmd.get_area: 34.843 Angstroms^2.
+PyMOL>get_area chain A and resi 95
+ cmd.get_area: 72.538 Angstroms^2.
+PyMOL>get_area chain A and resi 98
+ cmd.get_area: 67.256 Angstroms^2.
+PyMOL>get_area chain A and resi 99
+ cmd.get_area: 111.360 Angstroms^2.
+PyMOL>get_area chain B and resi 47
+ cmd.get_area: 10.816 Angstroms^2.
+PyMOL>get_area chain B and resi 51
+ cmd.get_area: 9.355 Angstroms^2.
+PyMOL>get_area chain B and resi 54
+ cmd.get_area: 2.363 Angstroms^2.
+PyMOL>get_area chain B and resi 58
+ cmd.get_area: 10.492 Angstroms^2.
+PyMOL>get_area chain B and resi 61
+ cmd.get_area: 6.206 Angstroms^2.
+PyMOL>get_area chain B and resi 65
+ cmd.get_area: 17.931 Angstroms^2.
+PyMOL>get_area chain B and resi 81
+ cmd.get_area: 72.824 Angstroms^2.
+PyMOL>get_area chain B and resi 87
+ cmd.get_area: 69.688 Angstroms^2.
+PyMOL>get_area chain B and resi 88
+ cmd.get_area: 3.146 Angstroms^2.
+PyMOL>get_area chain B and resi 94
+ cmd.get_area: 80.706 Angstroms^2.
+PyMOL>get_area chain B and resi 95
+ cmd.get_area: 39.183 Angstroms^2.
+PyMOL>get_area chain B and resi 98
+ cmd.get_area: 71.132 Angstroms^2.
+PyMOL>get_area chain B and resi 99
+ cmd.get_area: 5.039 Angstroms^2.
+PyMOL>get_area chain C and resi 47
+ cmd.get_area: 5.543 Angstroms^2.
+PyMOL>get_area chain C and resi 51
+ cmd.get_area: 9.877 Angstroms^2.
+PyMOL>get_area chain C and resi 54
+ cmd.get_area: 13.483 Angstroms^2.
+PyMOL>get_area chain C and resi 58
+ cmd.get_area: 7.655 Angstroms^2.
+PyMOL>get_area chain C and resi 61
+ cmd.get_area: 3.312 Angstroms^2.
+PyMOL>get_area chain C and resi 65
+ cmd.get_area: 22.437 Angstroms^2.
+PyMOL>get_area chain C and resi 81
+ cmd.get_area: 108.157 Angstroms^2.
+PyMOL>get_area chain C and resi 87
+ cmd.get_area: 69.593 Angstroms^2.
+PyMOL>get_area chain C and resi 88
+ cmd.get_area: 4.795 Angstroms^2.
+PyMOL>get_area chain C and resi 94
+ cmd.get_area: 32.258 Angstroms^2.
+PyMOL>get_area chain C and resi 95
+ cmd.get_area: 41.027 Angstroms^2.
+PyMOL>get_area chain C and resi 98
+ cmd.get_area: 63.159 Angstroms^2.
+PyMOL>get_area chain C and resi 99
+ cmd.get_area: 61.388 Angstroms^2.
+
+PyMOL>get_area chain A and resi 71
+ cmd.get_area: 16.616 Angstroms^2.
+PyMOL>get_area chain A and resi 72
+ cmd.get_area: 1.708 Angstroms^2.
+PyMOL>get_area chain B and resi 71
+ cmd.get_area: 20.157 Angstroms^2.
+PyMOL>get_area chain B and resi 72
+ cmd.get_area: 0.952 Angstroms^2.
+PyMOL>get_area chain C and resi 71
+ cmd.get_area: 18.608 Angstroms^2.
+PyMOL>get_area chain C and resi 72
+ cmd.get_area: 6.084 Angstroms^2.

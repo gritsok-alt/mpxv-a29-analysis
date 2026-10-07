@@ -1,0 +1,4 @@
+interface	contacts	a_d_pairs	e_or_g_involved	b_c_f_involved	min_distance	max_distance
+A-B	36	20	16	0	4.57	7.77
+A-C	21	13	8	0	5.12	7.95
+B-C	20	11	9	0	5.21	7.99

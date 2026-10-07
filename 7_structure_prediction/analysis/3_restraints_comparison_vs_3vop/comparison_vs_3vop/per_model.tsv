@@ -1,0 +1,76 @@
+set	model	class	window	note	chain_map	assembly	n_ca	chain_A	chain_B	chain_C	on_A:A	on_A:B	on_A:C	on_A_others	on_B:A	on_B:B	on_B:C	on_B_others	on_C:A	on_C:B	on_C:C	on_C_others
+S1-d0-f_seed1	MPXV_A29_S1-d0-f_model_0.cif	P	-	not antiparallel, not compared																		
+S1-d0-f_seed1	MPXV_A29_S1-d0-f_model_1.cif	P	-	not antiparallel, not compared																		
+S1-d0-f_seed1	MPXV_A29_S1-d0-f_model_2.cif	P	-	not antiparallel, not compared																		
+S1-d0-f_seed1	MPXV_A29_S1-d0-f_model_3.cif	P	-	not antiparallel, not compared																		
+S1-d0-f_seed1	MPXV_A29_S1-d0-f_model_4.cif	P	-	not antiparallel, not compared																		
+S1-d1-f_seed1	MPXV_A29_S1-d1-f_model_0.cif	P	-	not antiparallel, not compared																		
+S1-d1-f_seed1	MPXV_A29_S1-d1-f_model_1.cif	P	-	not antiparallel, not compared																		
+S1-d1-f_seed1	MPXV_A29_S1-d1-f_model_2.cif	P	-	not antiparallel, not compared																		
+S1-d1-f_seed1	MPXV_A29_S1-d1-f_model_3.cif	P	-	not antiparallel, not compared																		
+S1-d1-f_seed1	MPXV_A29_S1-d1-f_model_4.cif	P	-	not antiparallel, not compared																		
+S1-f_seed1	MPXV_A29_fulllength_S1-f-sep_model_0.cif	AP	45-84		A->CB->BC->A	2.44	120	1.51	1.29	1.73	1.51	4.8	8.44	8.44	6.18	1.29	7.14	7.14	4.55	5.41	1.73	5.41
+S1-f_seed1	MPXV_A29_fulllength_S1-f-sep_model_0.cif	AP	47-65		A->CB->BC->A	0.92	57	0.22	0.45	0.24	0.22	0.88	1.88	1.88	1.68	0.45	1.28	1.68	2.22	1.73	0.24	2.22
+S1-f_seed1	MPXV_A29_fulllength_S1-f-sep_model_1.cif	AP	45-84		A->AB->BC->C	2.1	120	1.41	1.36	1.42	1.41	3.34	5.81	5.81	3.9	1.36	4.27	4.27	3.3	4.26	1.42	4.26
+S1-f_seed1	MPXV_A29_fulllength_S1-f-sep_model_1.cif	AP	47-65		A->AB->BC->C	0.81	57	0.15	0.46	0.3	0.15	0.75	1.66	1.66	0.87	0.46	1.38	1.38	2.06	1.42	0.3	2.06
+S1-f_seed1	MPXV_A29_fulllength_S1-f-sep_model_2.cif	AP	45-84		A->BB->AC->C	2.58	120	1.49	1.75	1.34	1.49	2.96	5.15	5.15	3.44	1.75	5.31	5.31	4.84	5.95	1.34	5.95
+S1-f_seed1	MPXV_A29_fulllength_S1-f-sep_model_2.cif	AP	47-65		A->BB->AC->C	1.01	57	0.28	0.38	0.26	0.28	2.05	1.33	2.05	2.16	0.38	3.57	3.57	2.72	2.53	0.26	2.72
+S1-f_seed1	MPXV_A29_fulllength_S1-f-sep_model_3.cif	AP	45-84		A->CB->AC->B	2.54	120	1.74	1.07	1.37	1.74	4.13	6.83	6.83	4.98	1.07	6.93	6.93	6.06	5.42	1.37	6.06
+S1-f_seed1	MPXV_A29_fulllength_S1-f-sep_model_3.cif	AP	47-65		A->CB->AC->B	0.91	57	0.21	0.51	0.23	0.21	1.03	1.79	1.79	1.63	0.51	1.51	1.63	1.91	1.79	0.23	1.91
+S1-f_seed1	MPXV_A29_fulllength_S1-f-sep_model_4.cif	AP	45-84		A->BB->AC->C	2.52	120	1.66	1.09	1.34	1.66	4.82	11.41	11.41	3.76	1.09	4.7	4.7	4.59	5.73	1.34	5.73
+S1-f_seed1	MPXV_A29_fulllength_S1-f-sep_model_4.cif	AP	47-65		A->BB->AC->C	1.25	57	0.34	0.28	0.21	0.34	2.54	2.71	2.71	2.43	0.28	2.53	2.53	2.7	1.75	0.21	2.7
+S2-f_seed1	MPXV_A29_fulllength_S2-f-sep_model_0.cif	AP	45-84		A->AB->BC->C	2.94	120	1.78	1.37	1.7	1.78	5.02	8.58	8.58	5.82	1.37	8.56	8.56	7.14	6.81	1.7	7.14
+S2-f_seed1	MPXV_A29_fulllength_S2-f-sep_model_0.cif	AP	47-65		A->AB->BC->C	1.01	57	0.18	0.59	0.26	0.18	1.02	1.94	1.94	1.36	0.59	1.79	1.79	2.29	2.33	0.26	2.33
+S2-f_seed1	MPXV_A29_fulllength_S2-f-sep_model_1.cif	AP	45-84		A->AB->BC->C	2.75	120	1.55	1.44	1.49	1.55	4.69	7.45	7.45	6.42	1.44	8.93	8.93	5.39	6.1	1.49	6.1
+S2-f_seed1	MPXV_A29_fulllength_S2-f-sep_model_1.cif	AP	47-65		A->AB->BC->C	0.74	57	0.2	0.5	0.19	0.2	1.0	1.39	1.39	1.58	0.5	0.93	1.58	1.64	1.47	0.19	1.64
+S2-f_seed1	MPXV_A29_fulllength_S2-f-sep_model_2.cif	AP	45-84		A->AB->BC->C	2.75	120	1.43	1.49	1.46	1.43	3.1	5.86	5.86	3.85	1.49	5.96	5.96	4.56	6.3	1.46	6.3
+S2-f_seed1	MPXV_A29_fulllength_S2-f-sep_model_2.cif	AP	47-65		A->AB->BC->C	0.88	57	0.22	0.33	0.2	0.22	1.12	1.7	1.7	1.04	0.33	2.23	2.23	2.15	1.65	0.2	2.15
+S2-f_seed1	MPXV_A29_fulllength_S2-f-sep_model_3.cif	AP	45-84		A->BB->AC->C	3.09	120	1.72	1.48	1.6	1.72	3.62	7.01	7.01	4.09	1.48	6.93	6.93	6.46	6.6	1.6	6.6
+S2-f_seed1	MPXV_A29_fulllength_S2-f-sep_model_3.cif	AP	47-65		A->BB->AC->C	1.08	57	0.26	0.44	0.31	0.26	1.25	2.08	2.08	1.31	0.44	2.1	2.1	2.78	2.08	0.31	2.78
+S2-f_seed1	MPXV_A29_fulllength_S2-f-sep_model_4.cif	AP	45-84		A->BB->AC->C	2.64	120	1.45	1.37	1.39	1.45	4.32	7.76	7.76	6.05	1.37	7.67	7.67	4.67	6.41	1.39	6.41
+S2-f_seed1	MPXV_A29_fulllength_S2-f-sep_model_4.cif	AP	47-65		A->BB->AC->C	0.83	57	0.19	0.47	0.2	0.19	0.76	1.63	1.63	1.5	0.47	1.17	1.5	1.87	1.53	0.2	1.87
+S3-f_seed1	MPXV_A29_fulllength_S3-f-sep_model_0.cif	AP	45-84		A->BB->AC->C	2.6	120	1.71	1.07	1.21	1.71	4.29	7.07	7.07	5.15	1.07	7.54	7.54	5.82	5.79	1.21	5.82
+S3-f_seed1	MPXV_A29_fulllength_S3-f-sep_model_0.cif	AP	47-65		A->BB->AC->C	0.96	57	0.16	0.5	0.16	0.16	0.79	1.87	1.87	1.08	0.5	1.84	1.84	2.12	2.17	0.16	2.17
+S3-f_seed1	MPXV_A29_fulllength_S3-f-sep_model_1.cif	AP	45-84		A->BB->AC->C	3.14	120	1.71	1.55	1.71	1.71	3.78	7.51	7.51	4.2	1.55	7.17	7.17	6.11	7.26	1.71	7.26
+S3-f_seed1	MPXV_A29_fulllength_S3-f-sep_model_1.cif	AP	47-65		A->BB->AC->C	1.0	57	0.23	0.36	0.23	0.23	0.84	2.18	2.18	1.16	0.36	2.62	2.62	2.67	2.02	0.23	2.67
+S3-f_seed1	MPXV_A29_fulllength_S3-f-sep_model_2.cif	AP	45-84		A->BB->AC->C	2.44	120	1.55	1.18	1.49	1.55	3.01	5.57	5.57	3.81	1.18	5.15	5.15	4.51	5.31	1.49	5.31
+S3-f_seed1	MPXV_A29_fulllength_S3-f-sep_model_2.cif	AP	47-65		A->BB->AC->C	0.92	57	0.19	0.36	0.16	0.19	1.04	1.8	1.8	1.25	0.36	1.72	1.72	2.41	1.43	0.16	2.41
+S3-f_seed1	MPXV_A29_fulllength_S3-f-sep_model_3.cif	AP	45-84		A->CB->BC->A	2.74	120	1.8	1.2	1.59	1.8	4.37	6.88	6.88	5.01	1.2	7.49	7.49	6.3	5.6	1.59	6.3
+S3-f_seed1	MPXV_A29_fulllength_S3-f-sep_model_3.cif	AP	47-65		A->CB->BC->A	0.84	57	0.25	0.5	0.19	0.25	1.09	1.39	1.39	1.73	0.5	1.24	1.73	1.83	1.53	0.19	1.83
+S3-f_seed1	MPXV_A29_fulllength_S3-f-sep_model_4.cif	AP	45-84		A->CB->BC->A	2.2	120	1.49	1.16	1.29	1.49	3.77	7.21	7.21	4.92	1.16	4.84	4.92	3.57	4.56	1.29	4.56
+S3-f_seed1	MPXV_A29_fulllength_S3-f-sep_model_4.cif	AP	47-65		A->CB->BC->A	1.05	57	0.34	0.29	0.18	0.34	0.68	2.74	2.74	1.28	0.29	1.7	1.7	2.79	1.24	0.18	2.79
+S4-f_seed1	MPXV_A29_fulllength_S4-f-sep_model_0.cif	AP	45-84		A->AB->BC->C	2.65	120	1.58	1.23	1.31	1.58	3.75	6.55	6.55	4.88	1.23	7.2	7.2	5.7	5.91	1.31	5.91
+S4-f_seed1	MPXV_A29_fulllength_S4-f-sep_model_0.cif	AP	47-65		A->AB->BC->C	0.94	57	0.25	0.45	0.18	0.25	1.12	1.65	1.65	1.39	0.45	1.75	1.75	2.06	1.87	0.18	2.06
+S4-f_seed1	MPXV_A29_fulllength_S4-f-sep_model_1.cif	AP	45-84		A->AB->BC->C	2.59	120	1.73	1.05	1.24	1.73	4.1	6.45	6.45	4.81	1.05	7.35	7.35	6.65	5.48	1.24	6.65
+S4-f_seed1	MPXV_A29_fulllength_S4-f-sep_model_1.cif	AP	47-65		A->AB->BC->C	1.02	57	0.22	0.45	0.16	0.22	0.89	1.88	1.88	1.47	0.45	2.03	2.03	2.18	2.4	0.16	2.4
+S4-f_seed1	MPXV_A29_fulllength_S4-f-sep_model_2.cif	AP	45-84		A->BB->AC->C	2.84	120	1.49	1.31	1.74	1.49	2.86	6.83	6.83	3.17	1.31	6.57	6.57	5.8	6.53	1.74	6.53
+S4-f_seed1	MPXV_A29_fulllength_S4-f-sep_model_2.cif	AP	47-65		A->BB->AC->C	0.85	57	0.22	0.31	0.19	0.22	0.89	1.66	1.66	0.58	0.31	2.19	2.19	2.16	1.99	0.19	2.16
+S4-f_seed1	MPXV_A29_fulllength_S4-f-sep_model_3.cif	AP	45-84		A->BB->AC->C	3.1	120	1.7	1.51	1.46	1.7	2.99	6.74	6.74	3.48	1.51	6.32	6.32	6.54	7.2	1.46	7.2
+S4-f_seed1	MPXV_A29_fulllength_S4-f-sep_model_3.cif	AP	47-65		A->BB->AC->C	1.12	57	0.27	0.45	0.21	0.27	1.55	1.94	1.94	1.68	0.45	3.22	3.22	2.88	2.59	0.21	2.88
+S4-f_seed1	MPXV_A29_fulllength_S4-f-sep_model_4.cif	AP	45-84		A->BB->AC->C	2.57	120	1.69	1.39	1.61	1.69	3.53	5.92	5.92	4.09	1.39	6.07	6.07	5.18	5.55	1.61	5.55
+S4-f_seed1	MPXV_A29_fulllength_S4-f-sep_model_4.cif	AP	47-65		A->BB->AC->C	0.75	57	0.21	0.32	0.2	0.21	1.06	1.53	1.53	0.96	0.32	1.18	1.18	2.02	1.64	0.2	2.02
+S5-f_seed1	MPXV_A29_fulllength_S5-f-sep_model_0.cif	P	-	not antiparallel, not compared																		
+S5-f_seed1	MPXV_A29_fulllength_S5-f-sep_model_1.cif	P	-	not antiparallel, not compared																		
+S5-f_seed1	MPXV_A29_fulllength_S5-f-sep_model_2.cif	P	-	not antiparallel, not compared																		
+S5-f_seed1	MPXV_A29_fulllength_S5-f-sep_model_3.cif	P	-	not antiparallel, not compared																		
+S5-f_seed1	MPXV_A29_fulllength_S5-f-sep_model_4.cif	P	-	not antiparallel, not compared																		
+S6-f_seed1	MPXV_A29_fulllength_S6-f-sep_model_0.cif	P	-	not antiparallel, not compared																		
+S6-f_seed1	MPXV_A29_fulllength_S6-f-sep_model_1.cif	P	-	not antiparallel, not compared																		
+S6-f_seed1	MPXV_A29_fulllength_S6-f-sep_model_2.cif	P	-	not antiparallel, not compared																		
+S6-f_seed1	MPXV_A29_fulllength_S6-f-sep_model_3.cif	P	-	not antiparallel, not compared																		
+S6-f_seed1	MPXV_A29_fulllength_S6-f-sep_model_4.cif	P	-	not antiparallel, not compared																		
+S7-f_seed1	MPXV_A29_fulllength_S7-f-sep_model_0.cif	AP	45-84		A->AB->BC->C	2.27	120	1.47	0.81	1.31	1.47	3.2	6.18	6.18	3.98	0.81	5.87	5.87	5.03	5.18	1.31	5.18
+S7-f_seed1	MPXV_A29_fulllength_S7-f-sep_model_0.cif	AP	47-65		A->AB->BC->C	0.89	57	0.2	0.39	0.16	0.2	0.77	1.74	1.74	0.91	0.39	1.8	1.8	1.97	1.93	0.16	1.97
+S7-f_seed1	MPXV_A29_fulllength_S7-f-sep_model_1.cif	AP	45-84		A->BB->AC->C	2.3	120	1.59	1.14	1.36	1.59	3.77	6.41	6.41	3.92	1.14	5.73	5.73	4.67	5.03	1.36	5.03
+S7-f_seed1	MPXV_A29_fulllength_S7-f-sep_model_1.cif	AP	47-65		A->BB->AC->C	0.7	57	0.22	0.39	0.21	0.22	0.95	1.26	1.26	0.8	0.39	1.24	1.24	1.52	1.25	0.21	1.52
+S7-f_seed1	MPXV_A29_fulllength_S7-f-sep_model_2.cif	AP	45-84		A->AB->BC->C	3.31	120	1.66	1.6	1.84	1.66	3.25	7.44	7.44	3.8	1.6	7.73	7.73	5.65	7.42	1.84	7.42
+S7-f_seed1	MPXV_A29_fulllength_S7-f-sep_model_2.cif	AP	47-65		A->AB->BC->C	0.9	57	0.27	0.44	0.31	0.27	1.2	1.58	1.58	1.32	0.44	2.49	2.49	2.32	1.92	0.31	2.32
+S7-f_seed1	MPXV_A29_fulllength_S7-f-sep_model_3.cif	AP	45-84		A->AB->BC->C	2.34	120	1.79	0.98	1.69	1.79	3.91	8.72	8.72	4.42	0.98	4.83	4.83	4.47	5.25	1.69	5.25
+S7-f_seed1	MPXV_A29_fulllength_S7-f-sep_model_3.cif	AP	47-65		A->AB->BC->C	1.08	57	0.3	0.28	0.19	0.3	1.09	2.52	2.52	1.09	0.28	1.93	1.93	2.74	1.37	0.19	2.74
+S7-f_seed1	MPXV_A29_fulllength_S7-f-sep_model_4.cif	AP	45-84		A->AB->BC->C	2.8	120	1.32	1.58	1.82	1.32	3.68	8.05	8.05	4.89	1.58	7.37	7.37	3.88	6.32	1.82	6.32
+S7-f_seed1	MPXV_A29_fulllength_S7-f-sep_model_4.cif	AP	47-65		A->AB->BC->C	0.83	57	0.23	0.34	0.25	0.23	0.71	1.74	1.74	0.41	0.34	1.76	1.76	2.1	1.8	0.25	2.1
+S8-f_seed1	MPXV_A29_fulllength_S8-f-sep_model_0.cif	P	-	not antiparallel, not compared																		
+S8-f_seed1	MPXV_A29_fulllength_S8-f-sep_model_1.cif	P	-	not antiparallel, not compared																		
+S8-f_seed1	MPXV_A29_fulllength_S8-f-sep_model_2.cif	P	-	not antiparallel, not compared																		
+S8-f_seed1	MPXV_A29_fulllength_S8-f-sep_model_3.cif	P	-	not antiparallel, not compared																		
+S8-f_seed1	MPXV_A29_fulllength_S8-f-sep_model_4.cif	P	-	not antiparallel, not compared																		

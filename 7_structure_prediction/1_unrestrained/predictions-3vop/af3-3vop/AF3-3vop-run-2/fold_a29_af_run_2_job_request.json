@@ -1,0 +1,19 @@
+[{
+ "name": "A29-AF-run-2",
+ "modelSeeds": [
+  "1882847860"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "STKAAKKPEAKREAIVKADEDDNEETLKQRLTNLEKKITNVTTKFEQIEKAAKRNDEVLFRLEN",
+    "count": 3,
+    "useStructureTemplate": true,
+    "maxTemplateDate": "2025-02-03"
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 3
+}
+]

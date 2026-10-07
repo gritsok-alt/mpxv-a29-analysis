@@ -1,0 +1,20 @@
+2026-07-22 11:24:26,402 [INFO] Enumerating Poxviridae, Chordopoxvirinae, and Entomopoxvirinae ...
+2026-07-22 11:24:33,786 [INFO] Poxviridae: 353
+2026-07-22 11:24:33,789 [INFO]   minus Chordopoxvirinae: 266
+2026-07-22 11:24:33,790 [INFO]   minus Entomopoxvirinae: 47
+2026-07-22 11:24:33,791 [INFO]   = Orphan taxa: 40
+2026-07-22 11:24:33,795 [INFO] Orphan taxa to search: 40
+2026-07-22 11:24:34,081 [INFO] Fetching orphan protein IDs ...
+2026-07-22 11:24:35,867 [INFO] taxon 0/40 — accumulated IDs: 0
+2026-07-22 11:24:48,335 [INFO] taxid 1653087: capped at 400 IDs (1039 available)
+2026-07-22 11:25:37,281 [INFO] taxon 25/40 — accumulated IDs: 2899
+2026-07-22 11:26:13,467 [INFO] -> 3665 unique orphan protein IDs.
+2026-07-22 11:26:13,545 [INFO] Downloading orphan sequences ...
+2026-07-22 11:26:43,275 [INFO] DONE — output_phase3\orphan_proteins.fasta
+2026-07-22 11:26:43,331 [INFO] Searching orphan pool with jackhmmer ...
+2026-07-22 11:26:43,333 [INFO] Running: wsl jackhmmer -N 5 -E 1e-3 --incE 1e-3 --tblout output_phase3/orphan_jack.txt -o output_phase3/orphan_jack.log output_phase2/query.fasta output_phase3/orphan_proteins.fasta
+2026-07-22 11:26:44,277 [INFO] Orphan hits found: 3
+2026-07-22 11:26:44,279 [INFO]   -> QDJ95055.1
+2026-07-22 11:26:44,281 [INFO]   -> QHR82657.1
+2026-07-22 11:26:44,283 [INFO]   -> WGO62741.1
+2026-07-22 11:26:44,361 [INFO] DONE — orphan hit sequences written to output_phase3\orphan_hits.fasta

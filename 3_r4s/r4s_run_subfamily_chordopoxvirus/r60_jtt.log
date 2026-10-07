@@ -1,0 +1,27 @@
+START OF LOG FILE
+
+ =======================================================
+ the rate for site project:                             
+ Version: 3.0.0.                                        
+ Tal Pupko and his lab:     talp@post.tau.ac.il         
+ Nir Ben-Tal and his lab:   bental@ashtoret.tau.ac.il   
+ Itay Mayrose:  itayMay@post.tau.ac.il                  
+ For program support, please contact Itay Mayrose       
+ =======================================================
+
+
+ ---------------------- THE PARAMETERS ----------------------------
+tree file is: /mnt/c/Users/dmitr/PycharmProjects/Claude_Cowork_A29L/mpxv-a29-analysis/3_r4s/r4s_run_subfamily/tree.nwk
+seq file is: /mnt/c/Users/dmitr/PycharmProjects/Claude_Cowork_A29L/mpxv-a29-analysis/3_r4s/r4s_run_subfamily/aln.fasta
+output file is: /mnt/c/Users/dmitr/PycharmProjects/Claude_Cowork_A29L/mpxv-a29-analysis/3_r4s/r4s_run_subfamily/r60_jtt.res
+reference sequence is: T60
+rate inference method is: empirical Bayesian estimate
+using a Gamma prior distribution with: 16 discrete categories
+probablistic_model is: JTT
+branch lengths optimization is ML using a gamma model
+
+ -----------------------------------------------------------------
+The tree was written to a file name called /mnt/c/Users/dmitr/PycharmProjects/Claude_Cowork_A29L/mpxv-a29-analysis/3_r4s/r4s_run_subfamily/r60_jtt.tree
+
+Optimizing branch lengths and alpha...
+Computing the rates...

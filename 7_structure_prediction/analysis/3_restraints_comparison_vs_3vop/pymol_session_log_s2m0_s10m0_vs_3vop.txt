@@ -1,0 +1,234 @@
+Date: 24/09/2026
+
+PyMOL(TM) 3.1.8 - Incentive Product
+ Copyright (C) Schrodinger, LLC
+ 
+ This Executable Build integrates and extends Open-Source PyMOL.
+ Detected OpenGL version 4.6. Shaders available.
+ Detected GLSL version 4.60.
+ OpenGL graphics engine:
+  GL_VENDOR:   ATI Technologies Inc.
+  GL_RENDERER: AMD Radeon(TM) Graphics
+  GL_VERSION:  4.6.0 Compatibility Profile Context 22.20.44.221025
+ License Expiry date: 2027-01-01
+ 
+ Detected 16 CPU cores.  Enabled multithreaded rendering.
+ 
+PyMOL>reinitialize
+PyMOL>load C:/Users/dmitr/PycharmProjects/Claude_Cowork_A29L/mpxv-a29-analysis/7_structure_prediction/2_restraints_screening/3vop-assembly1.cif, xtal
+TITLE     Structure of Vaccinia virus A27
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "C:/Users/dmitr/PycharmProjects/Claude_Cowork_A29L/mpxv-a29-analysis/7_structure_prediction/2_restraints_screening/3vop-assembly1.cif" loaded as "xtal".
+PyMOL>remove xtal and not polymer
+ Remove: eliminated 193 atoms in model "xtal".
+PyMOL>remove xtal and q < 0.01
+ Remove: eliminated 69 atoms in model "xtal".
+PyMOL>alter xtal, resi = str(int(resi) + 20)
+ Alter: modified 1036 atoms.
+PyMOL>sort xtal
+PyMOL>load C:/Users/dmitr/PycharmProjects/Claude_Cowork_A29L/mpxv-a29-analysis/7_structure_prediction/4_reported_model/results_MPXV_A29_S1-f_seed2/boltz_results_MPXV_A29_S1-f/predictions/MPXV_A29_S1-f/MPXV_A29_S1-f_model_0.cif, A29_s2m0
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "C:/Users/dmitr/PycharmProjects/Claude_Cowork_A29L/mpxv-a29-analysis/7_structure_prediction/4_reported_model/results_MPXV_A29_S1-f_seed2/boltz_results_MPXV_A29_S1-f/predictions/MPXV_A29_S1-f/MPXV_A29_S1-f_model_0.cif" loaded as "A29_s2m0".
+PyMOL>load C:/Users/dmitr/PycharmProjects/Claude_Cowork_A29L/mpxv-a29-analysis/7_structure_prediction/4_reported_model/results_MPXV_A29_S1-f_seed10/boltz_results_MPXV_A29_S1-f/predictions/MPXV_A29_S1-f/MPXV_A29_S1-f_model_0.cif, A29_s10m0
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "C:/Users/dmitr/PycharmProjects/Claude_Cowork_A29L/mpxv-a29-analysis/7_structure_prediction/4_reported_model/results_MPXV_A29_S1-f_seed10/boltz_results_MPXV_A29_S1-f/predictions/MPXV_A29_S1-f/MPXV_A29_S1-f_model_0.cif" loaded as "A29_s10m0".
+ Setting: seq_view set to on.
+PyMOL>python
+PyMOL>from pymol import cmd
+    1:from pymol import cmd
+PyMOL>import numpy as np, itertools
+    2:import numpy as np, itertools
+PyMOL>E, G = {48,55,62}, {50,57,64}
+    3:E, G = {48,55,62}, {50,57,64}
+PyMOL>def axes(obj):
+    4:def axes(obj):
+PyMOL>    out = {}
+    5:    out = {}
+PyMOL>    for ch in cmd.get_chains(obj):
+    6:    for ch in cmd.get_chains(obj):
+PyMOL>        P = np.array(cmd.get_coords(f"{obj} and chain {ch} and resi 47-65 and name CA"))
+    7:        P = np.array(cmd.get_coords(f"{obj} and chain {ch} and resi 47-65 and name CA"))
+PyMOL>        v = np.linalg.svd(P - P.mean(0), full_matrices=False)[2][0]
+    8:        v = np.linalg.svd(P - P.mean(0), full_matrices=False)[2][0]
+PyMOL>        if np.dot(P[-1] - P[0], v) < 0: v = -v
+    9:        if np.dot(P[-1] - P[0], v) < 0: v = -v
+PyMOL>        out[ch] = v / np.linalg.norm(v)
+   10:        out[ch] = v / np.linalg.norm(v)
+PyMOL>    return out
+   11:    return out
+PyMOL>def face(obj, par, anti):
+   12:def face(obj, par, anti):
+PyMOL>    close = set()
+   13:    close = set()
+PyMOL>    for r in sorted(E | G):
+   14:    for r in sorted(E | G):
+PyMOL>        if cmd.select("_t", f"({obj} and chain {par} and resi {r} and name CB) "
+   15:        if cmd.select("_t", f"({obj} and chain {par} and resi {r} and name CB) "
+PyMOL>                            f"within 8 of ({obj} and chain {anti} and resi 47-65 and name CB)"):
+   16:                            f"within 8 of ({obj} and chain {anti} and resi 47-65 and name CB)"):
+PyMOL>            close.add(r)
+   17:            close.add(r)
+PyMOL>    cmd.delete("_t")
+   18:    cmd.delete("_t")
+PyMOL>    e, g = len(close & E), len(close & G)
+   19:    e, g = len(close & E), len(close & G)
+PyMOL>    return "g" if g > e else "e" if e > g else "?"
+   20:    return "g" if g > e else "e" if e > g else "?"
+PyMOL>for obj in ("xtal", "A29_s2m0", "A29_s10m0"):
+   21:for obj in ("xtal", "A29_s2m0", "A29_s10m0"):
+PyMOL>    ax = axes(obj)
+   22:    ax = axes(obj)
+PyMOL>    anti = [n for n in ax if all(np.dot(ax[n], ax[m]) < 0 for m in ax if m != n)]
+   23:    anti = [n for n in ax if all(np.dot(ax[n], ax[m]) < 0 for m in ax if m != n)]
+PyMOL>    if len(anti) != 1:
+   24:    if len(anti) != 1:
+PyMOL>        print(f"{obj}: NOT antiparallel - do not compare"); continue
+   25:        print(f"{obj}: NOT antiparallel - do not compare"); continue
+PyMOL>    anti = anti[0]
+   26:    anti = anti[0]
+PyMOL>    others = [c for c in ax if c != anti]
+   27:    others = [c for c in ax if c != anti]
+PyMOL>    g_ch = next((c for c in others if face(obj, c, anti) == "g"), None)
+   28:    g_ch = next((c for c in others if face(obj, c, anti) == "g"), None)
+PyMOL>    if g_ch is None:
+   29:    if g_ch is None:
+PyMOL>        print(f"{obj}: could not assign heptad faces"); continue
+   30:        print(f"{obj}: could not assign heptad faces"); continue
+PyMOL>    e_ch = [c for c in others if c != g_ch][0]
+   31:    e_ch = [c for c in others if c != g_ch][0]
+PyMOL>    m = {g_ch: "A", e_ch: "B", anti: "C"}
+   32:    m = {g_ch: "A", e_ch: "B", anti: "C"}
+PyMOL>    if m == {"A":"A","B":"B","C":"C"}:
+   33:    if m == {"A":"A","B":"B","C":"C"}:
+PyMOL>        print(f"{obj}: already correct (A=g face, B=e face, C=antiparallel)")
+   34:        print(f"{obj}: already correct (A=g face, B=e face, C=antiparallel)")
+PyMOL>    else:
+   35:    else:
+PyMOL>        for old, new in m.items():
+   36:        for old, new in m.items():
+PyMOL>            cmd.alter(f"{obj} and chain {old}", f'chain="__{new}"')
+   37:            cmd.alter(f"{obj} and chain {old}", f'chain="__{new}"')
+PyMOL>        cmd.alter(obj, 'chain = chain[2:] if chain.startswith("__") else chain')
+   38:        cmd.alter(obj, 'chain = chain[2:] if chain.startswith("__") else chain')
+PyMOL>        cmd.sort(obj)
+   39:        cmd.sort(obj)
+PyMOL>        print(f"{obj}: relabelled {m}")
+   40:        print(f"{obj}: relabelled {m}")
+PyMOL>python end
+PyMOL>python end
+xtal: already correct (A=g face, B=e face, C=antiparallel)
+A29_s2m0: already correct (A=g face, B=e face, C=antiparallel)
+A29_s10m0: relabelled {'B': 'A', 'A': 'B', 'C': 'C'}
+PyMOL>python
+PyMOL>from pymol import cmd
+    1:from pymol import cmd
+PyMOL>import numpy as np
+    2:import numpy as np
+PyMOL>def kabsch(A, B):
+    3:def kabsch(A, B):
+PyMOL>    if A is None or B is None or A.shape != B.shape: return None
+    4:    if A is None or B is None or A.shape != B.shape: return None
+PyMOL>    Ac, Bc = A - A.mean(0), B - B.mean(0)
+    5:    Ac, Bc = A - A.mean(0), B - B.mean(0)
+PyMOL>    U, _, Vt = np.linalg.svd(Ac.T @ Bc)
+    6:    U, _, Vt = np.linalg.svd(Ac.T @ Bc)
+PyMOL>    d = np.sign(np.linalg.det(U @ Vt))
+    7:    d = np.sign(np.linalg.det(U @ Vt))
+PyMOL>    R = U @ np.diag([1, 1, d]) @ Vt
+    8:    R = U @ np.diag([1, 1, d]) @ Vt
+PyMOL>    return float(np.sqrt(((Ac @ R - Bc) ** 2).sum(1).mean()))
+    9:    return float(np.sqrt(((Ac @ R - Bc) ** 2).sum(1).mean()))
+PyMOL>def co(obj, ch, lo, hi):
+   10:def co(obj, ch, lo, hi):
+PyMOL>    return np.array(cmd.get_coords(f"{obj} and chain {ch} and resi {lo}-{hi} and name CA"))
+   11:    return np.array(cmd.get_coords(f"{obj} and chain {ch} and resi {lo}-{hi} and name CA"))
+PyMOL>print("\n1. WHOLE-ASSEMBLY RMSD (all three chains fitted together)")
+   12:print("\n1. WHOLE-ASSEMBLY RMSD (all three chains fitted together)")
+PyMOL>for m in ("A29_s2m0", "A29_s10m0"):
+   13:for m in ("A29_s2m0", "A29_s10m0"):
+PyMOL>    for lo, hi in ((45, 84), (47, 65)):
+   14:    for lo, hi in ((45, 84), (47, 65)):
+PyMOL>        A = np.vstack([co(m, c, lo, hi) for c in "ABC"])
+   15:        A = np.vstack([co(m, c, lo, hi) for c in "ABC"])
+PyMOL>        B = np.vstack([co("xtal", c, lo, hi) for c in "ABC"])
+   16:        B = np.vstack([co("xtal", c, lo, hi) for c in "ABC"])
+PyMOL>        print(f"  {m:12s} {lo}-{hi}:  {kabsch(A, B):5.2f} A  ({len(A)} CA)")
+   17:        print(f"  {m:12s} {lo}-{hi}:  {kabsch(A, B):5.2f} A  ({len(A)} CA)")
+PyMOL>python end
+PyMOL>python end
+ 
+1. WHOLE-ASSEMBLY RMSD (all three chains fitted together)
+  A29_s2m0     45-84:   2.32 A  (120 CA)
+  A29_s2m0     47-65:   0.67 A  (57 CA)
+  A29_s10m0    45-84:   2.67 A  (120 CA)
+  A29_s10m0    47-65:   1.03 A  (57 CA)
+PyMOL>python
+PyMOL>print("\n2. PER-CHAIN RMSD (each chain fitted independently)")
+    1:print("\n2. PER-CHAIN RMSD (each chain fitted independently)")
+PyMOL>for m in ("A29_s2m0", "A29_s10m0"):
+    2:for m in ("A29_s2m0", "A29_s10m0"):
+PyMOL>    for lo, hi in ((45, 84), (47, 65)):
+    3:    for lo, hi in ((45, 84), (47, 65)):
+PyMOL>        v = [f"{c} {kabsch(co(m, c, lo, hi), co('xtal', c, lo, hi)):5.2f}" for c in "ABC"]
+    4:        v = [f"{c} {kabsch(co(m, c, lo, hi), co('xtal', c, lo, hi)):5.2f}" for c in "ABC"]
+PyMOL>        print(f"  {m:12s} {lo}-{hi}:  " + "   ".join(v))
+    5:        print(f"  {m:12s} {lo}-{hi}:  " + "   ".join(v))
+PyMOL>python end
+PyMOL>python end
+ 
+2. PER-CHAIN RMSD (each chain fitted independently)
+  A29_s2m0     45-84:  A  1.45   B  1.23   C  1.30
+  A29_s2m0     47-65:  A  0.16   B  0.46   C  0.16
+  A29_s10m0    45-84:  A  1.77   B  0.94   C  1.33
+  A29_s10m0    47-65:  A  0.21   B  0.43   C  0.15
+PyMOL>python
+PyMOL>print("\n3. ANCHORED DEVIATIONS (one chain fitted, others measured in place)")
+    1:print("\n3. ANCHORED DEVIATIONS (one chain fitted, others measured in place)")
+PyMOL>for m in ("A29_s2m0", "A29_s10m0"):
+    2:for m in ("A29_s2m0", "A29_s10m0"):
+PyMOL>    print(f"\n  {m}")
+    3:    print(f"\n  {m}")
+PyMOL>    for lo, hi in ((45, 84), (47, 65)):
+    4:    for lo, hi in ((45, 84), (47, 65)):
+PyMOL>        print(f"    residues {lo}-{hi}")
+    5:        print(f"    residues {lo}-{hi}")
+PyMOL>        for anchor in "ABC":
+    6:        for anchor in "ABC":
+PyMOL>            sel = f"and resi {lo}-{hi} and name CA"
+    7:            sel = f"and resi {lo}-{hi} and name CA"
+PyMOL>            cmd.align(f"{m} and chain {anchor} {sel}", f"xtal and chain {anchor} {sel}", cycles=0)
+    8:            cmd.align(f"{m} and chain {anchor} {sel}", f"xtal and chain {anchor} {sel}", cycles=0)
+PyMOL>            v = []
+    9:            v = []
+PyMOL>            for c in "ABC":
+   10:            for c in "ABC":
+PyMOL>                P, Q = co(m, c, lo, hi), co("xtal", c, lo, hi)
+   11:                P, Q = co(m, c, lo, hi), co("xtal", c, lo, hi)
+PyMOL>                v.append(f"{c} {np.sqrt(((P - Q) ** 2).sum(1).mean()):5.2f}")
+   12:                v.append(f"{c} {np.sqrt(((P - Q) ** 2).sum(1).mean()):5.2f}")
+PyMOL>            print(f"      on {anchor}:  " + "   ".join(v))
+   13:            print(f"      on {anchor}:  " + "   ".join(v))
+PyMOL>python end
+PyMOL>python end
+ 
+3. ANCHORED DEVIATIONS (one chain fitted, others measured in place)
+ 
+  A29_s2m0
+    residues 45-84
+      on A:  A  1.45   B  4.60   C  7.08
+      on B:  A  5.84   B  1.23   C  7.01
+      on C:  A  4.00   B  4.86   C  1.30
+    residues 47-65
+      on A:  A  0.16   B  0.96   C  1.27
+      on B:  A  1.67   B  0.46   C  0.69
+      on C:  A  1.26   B  1.14   C  0.16
+ 
+  A29_s10m0
+    residues 45-84
+      on A:  A  1.77   B  3.83   C  6.64
+      on B:  A  4.53   B  0.94   C  7.12
+      on C:  A  6.37   B  5.78   C  1.33
+    residues 47-65
+      on A:  A  0.21   B  0.88   C  2.17
+      on B:  A  1.42   B  0.43   C  1.97
+      on C:  A  2.32   B  2.09   C  0.15

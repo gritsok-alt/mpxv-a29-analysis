@@ -1,0 +1,1226 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF02346.hmm
+# target sequence database:        output_phase4/combined_candidates.fasta
+# output directed to file:         output_phase4/PF02346_hmmsearch.log
+# per-dom hits tabular output:     output_phase4/cand_PF02346.domtbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Vac_Fusion  [M=56]
+Accession:   PF02346.23
+Description: Chordopoxvirus multifunctional envelope protein A27
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    1.9e-28   90.6   2.1    2.8e-28   90.1   2.1    1.3  1  C9E790                   
+    2.3e-28   90.4   2.8    3.6e-28   89.8   2.8    1.3  1  YFT67316.1               
+    2.6e-28   90.3   2.1    3.8e-28   89.7   2.1    1.3  1  AYN64713.1               
+    2.7e-28   90.2   2.6    4.3e-28   89.5   2.6    1.3  1  YFT67137.1               
+    2.9e-28   90.1   2.4    5.2e-28   89.3   2.4    1.4  1  QEQ49703.1               
+    2.9e-28   90.1   2.6    4.6e-28   89.4   2.6    1.3  1  YFT66960.1               
+    3.2e-28   89.9   2.4    5.2e-28   89.3   2.4    1.3  1  CAG7621171.1             
+    3.3e-28   89.9   1.8    5.7e-28   89.1   1.8    1.4  1  AOP31836.1               
+    3.4e-28   89.9   2.4    5.2e-28   89.3   2.4    1.3  1  sp|P20535.1|PG154_VACCC  
+    3.4e-28   89.9   2.4    5.2e-28   89.3   2.4    1.3  1  YFN02224.1               
+    3.5e-28   89.8   2.4    5.2e-28   89.3   2.4    1.3  1  YCL31793.1               
+    3.5e-28   89.8   2.4    5.2e-28   89.3   2.4    1.3  1  C9E791                   
+    3.5e-28   89.8   2.4    5.2e-28   89.3   2.4    1.3  1  C9E789                   
+    3.5e-28   89.8   2.4    5.2e-28   89.3   2.4    1.3  1  YCL31322.1               
+    3.6e-28   89.8   1.9    4.8e-28   89.4   1.9    1.2  1  AST09338.1               
+    4.1e-28   89.6   2.4      6e-28   89.1   2.4    1.3  1  AAL73853.1               
+    5.3e-28   89.3   1.2    7.8e-28   88.7   1.2    1.3  1  V9PXP5                   
+    5.4e-28   89.2   2.1    8.1e-28   88.7   2.1    1.3  1  sp|P33816.1|PG154_VAR67  
+    5.5e-28   89.2   2.1    8.1e-28   88.7   2.1    1.3  1  WWS34253.1               
+    5.6e-28   89.2   2.5    7.6e-28   88.7   2.5    1.2  1  AST09540.1               
+    5.6e-28   89.2   2.5    8.9e-28   88.5   2.5    1.3  1  AAQ72922.1               
+    6.1e-28   89.0   2.4    8.6e-28   88.6   2.4    1.2  1  P26312                   
+    1.3e-27   88.0   2.1    1.8e-27   87.5   2.1    1.2  1  ABD97717.1               
+    1.4e-27   87.9   3.1    1.9e-27   87.5   3.1    1.2  1  AEN03720.1               
+    1.7e-27   87.6   2.1    2.6e-27   87.0   2.1    1.3  1  QED21266.1               
+    1.9e-27   87.5   2.3    2.8e-27   86.9   2.3    1.3  1  AKJ93776.1               
+    3.5e-27   86.6   2.3    3.5e-27   86.6   2.3    1.5  1  ASK51325.1               
+    3.5e-27   86.6   2.3    3.5e-27   86.6   2.3    1.5  1  WAH71083.1               
+    5.3e-27   86.0   1.0    6.9e-27   85.7   1.0    1.1  1  QZW33596.1               
+    5.7e-27   85.9   3.1    8.5e-27   85.4   3.1    1.3  1  QDJ95055.1               
+    6.6e-25   79.3   3.6    8.8e-25   78.9   3.6    1.2  1  AWU47162.1               
+    5.5e-24   76.4   0.6    6.8e-24   76.1   0.6    1.1  1  WOC35488.1               
+    1.1e-23   75.4   5.2    1.4e-23   75.1   5.2    1.1  1  ABD51467.1               
+    3.4e-23   73.9   0.6      4e-23   73.6   0.6    1.1  1  ANS71206.1               
+    8.9e-23   72.5   1.1    1.1e-22   72.2   1.1    1.1  1  ASF89976.1               
+    3.5e-22   70.6   1.9    5.6e-22   70.0   1.9    1.3  1  QHG62676.1               
+      3e-21   67.6   0.4    3.8e-21   67.3   0.4    1.1  1  AIZ77355.1               
+    3.6e-21   67.4   1.8    3.6e-21   67.4   1.8    1.6  1  QHR82657.1               
+    6.8e-21   66.5   2.4    1.5e-20   65.3   2.4    1.6  1  NP_570274.1              
+    1.2e-20   65.7   3.8    1.3e-19   62.4   3.8    2.2  1  ADT91144.1               
+    1.4e-20   65.5   1.1    1.8e-20   65.1   1.1    1.1  1  Q6TVL6                   
+    1.6e-20   65.3   1.2    1.6e-20   65.3   1.2    2.2  2  T2DHX9                   
+    1.6e-20   65.3   1.2    1.6e-20   65.3   1.2    2.2  2  T2DJJ6                   
+    1.7e-20   65.2   1.2    1.7e-20   65.2   1.2    2.2  2  XKH15810.1               
+    1.7e-20   65.2   1.2    1.7e-20   65.2   1.2    2.3  2  XPY37795.1               
+      2e-20   65.0   1.5      2e-20   65.0   1.5    2.3  2  A0A4D6DKN1               
+      2e-20   65.0   1.5      2e-20   65.0   1.5    2.0  2  YBU52347.1               
+      2e-20   65.0   1.5      2e-20   65.0   1.5    2.0  2  YCL82046.1               
+      2e-20   65.0   1.5      2e-20   65.0   1.5    2.0  2  YDS16483.1               
+      2e-20   65.0   1.5      2e-20   65.0   1.5    2.0  2  sp|P16717.1|VFUS_SHEVK   
+      3e-20   64.4   6.0      4e-19   60.8   6.0    2.2  1  APG58335.1               
+    5.6e-20   63.5   0.7    5.6e-20   63.5   0.7    2.1  2  ABQ43592.1               
+    6.6e-20   63.3   0.8    6.6e-20   63.3   0.8    1.8  1  AAR07473.1               
+    6.9e-20   63.3   0.7    9.1e-20   62.9   0.7    1.1  1  sp|P26654.1|VFUS_ORFN2   
+    8.7e-20   62.9   0.7    1.1e-19   62.6   0.7    1.1  1  Q6TV84                   
+    1.2e-19   62.5   0.7    1.5e-19   62.2   0.7    1.1  1  YBU52136.1               
+    1.2e-19   62.5   0.5    1.5e-19   62.2   0.5    1.1  1  WZD65968.1               
+    1.2e-19   62.5   0.5    1.5e-19   62.2   0.5    1.1  1  YDE36723.1               
+    1.3e-19   62.3   0.4    1.8e-19   61.9   0.4    1.1  1  XPQ45389.1               
+    2.1e-19   61.7   3.2    2.1e-19   61.7   3.2    1.6  1  AYC44792.1               
+    2.3e-19   61.6   3.5    2.3e-19   61.6   3.5    1.6  1  ABI99281.1               
+    2.3e-19   61.6   3.5    2.3e-19   61.6   3.5    1.6  1  AUI80687.1               
+    2.8e-19   61.3   4.1    7.9e-19   59.9   4.1    1.8  1  YBO75993.1               
+      3e-19   61.2   0.9    3.7e-19   60.9   0.9    1.1  1  WZD65710.1               
+    3.3e-19   61.1   0.7    3.3e-19   61.1   0.7    2.1  2  CAC21355.1               
+    5.4e-19   60.4   0.9    6.6e-19   60.1   0.9    1.1  1  WZD66097.1               
+    5.5e-19   60.4   3.8    7.1e-19   60.0   3.8    1.2  1  WGO62741.1               
+    6.3e-19   60.2   1.0    7.9e-19   59.9   1.0    1.1  1  WZD65840.1               
+    9.3e-19   59.6   1.7    1.3e-18   59.2   1.7    1.1  1  YP_003457410.1           
+      1e-18   59.5   4.6      1e-18   59.5   4.6    1.9  1  Q83655                   
+      1e-18   59.5   4.6      1e-18   59.5   4.6    1.9  1  YAW79107.1               
+    1.3e-18   59.2   2.4    1.8e-18   58.7   2.4    1.1  1  WZD65198.1               
+    1.3e-18   59.2   2.4    1.8e-18   58.7   2.4    1.1  1  WZD65323.1               
+    1.9e-18   58.7   2.4    2.5e-18   58.3   0.4    2.0  2  YCL81897.1               
+    1.9e-18   58.7   3.4    2.6e-18   58.2   3.4    1.1  1  WZD65066.1               
+    3.3e-18   57.9   3.2    3.3e-18   57.9   3.2    1.6  1  ABI99110.1               
+    8.5e-18   56.6   3.8    8.5e-18   56.6   3.8    1.9  1  AAF17998.1               
+    1.4e-14   46.2   1.3      2e-14   45.7   1.3    1.1  1  XSG12557.1               
+    1.6e-13   42.9   0.7    3.6e-13   41.8   0.7    1.6  1  Q8QMS8                   
+    1.6e-13   42.9   0.7    3.6e-13   41.7   0.7    1.6  1  YCL31741.1               
+    1.6e-13   42.9   0.6    3.9e-13   41.6   0.6    1.7  1  Q83970                   
+    8.1e-13   40.6   0.7    2.3e-12   39.2   0.7    1.8  1  Q88963                   
+    1.2e-08   27.3   0.3    3.4e-08   25.8   0.2    1.7  1  QGT49194.1               
+    2.2e-08   26.4   0.3    6.3e-08   25.0   0.2    1.8  1  QGT49408.1               
+    2.7e-08   26.1   0.3    7.1e-08   24.8   0.2    1.7  1  QGT48981.1               
+
+
+Domain annotation for each sequence (and alignments):
+>> C9E790  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.1   2.1   2.8e-28   2.8e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.1 bits;  conditional E-value: 2.8e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+      C9E790  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMVSLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> YFT67316.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.8   2.8   3.6e-28   3.6e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.8 bits;  conditional E-value: 3.6e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  YFT67316.1  50 RLTNLEKKITNITTKFEQIEKCCKHNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> AYN64713.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.7   2.1   3.8e-28   3.8e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.7 bits;  conditional E-value: 3.8e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  AYN64713.1  50 RLTNLEKKINNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> YFT67137.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.5   2.6   4.3e-28   4.3e-28       1      56 []      47     102 ..      47     102 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.5 bits;  conditional E-value: 4.3e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  YFT67137.1  47 RLTNLEKKITNITTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 102
+                 89*****************************************************8 PP
+
+>> QEQ49703.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   5.2e-28   5.2e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 5.2e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  QEQ49703.1  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> YFT66960.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.4   2.6   4.6e-28   4.6e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.4 bits;  conditional E-value: 4.6e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  YFT66960.1  50 RLTNLEKKITNITTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> CAG7621171.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   5.2e-28   5.2e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 5.2e-28
+    Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                   rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  CAG7621171.1  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                   89*****************************************************8 PP
+
+>> AOP31836.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.1   1.8   5.7e-28   5.7e-28       1      56 []      72     127 ..      72     127 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.1 bits;  conditional E-value: 5.7e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+ +++kcck+n+e l RLEnHaeTlR++mlaLakKiDvQTg
+  AOP31836.1  72 RLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLENHAETLRAAMLALAKKIDVQTG 127
+                 89*****************************************************8 PP
+
+>> sp|P20535.1|PG154_VACCC  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   5.2e-28   5.2e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 5.2e-28
+               Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                              rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  sp|P20535.1|PG154_VACCC  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                              89*****************************************************8 PP
+
+>> YFN02224.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   5.2e-28   5.2e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 5.2e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  YFN02224.1  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> YCL31793.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   5.2e-28   5.2e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 5.2e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  YCL31793.1  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> C9E791  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   5.2e-28   5.2e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 5.2e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+      C9E791  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> C9E789  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   5.2e-28   5.2e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 5.2e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+      C9E789  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> YCL31322.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   5.2e-28   5.2e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 5.2e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  YCL31322.1  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> AST09338.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.4   1.9   4.8e-28   4.8e-28       1      56 []      57     112 ..      57     112 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.4 bits;  conditional E-value: 4.8e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rlk++E+++++++ k+++++kcck+n+e+++RLEnHaeTlR +mlaLakKiD+QTg
+  AST09338.1  57 RLKNIETKLNNITAKFSQIEKCCKKNDEIIYRLENHAETLRVAMLALAKKIDIQTG 112
+                 89*****************************************************8 PP
+
+>> AAL73853.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.1   2.4     6e-28     6e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.1 bits;  conditional E-value: 6e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  AAL73853.1  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> V9PXP5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7   1.2   7.8e-28   7.8e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 7.8e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m+ LakKiDvQTg
+      V9PXP5  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMIPLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> sp|P33816.1|PG154_VAR67  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7   2.1   8.1e-28   8.1e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 8.1e-28
+               Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                              rl++lEk+i++++ k+++++kcck+n++ l RLEnHaeTlR++m++LakKiDvQTg
+  sp|P33816.1|PG154_VAR67  50 RLTNLEKKITNVTTKFEQIEKCCKRNDDVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                              89*****************************************************8 PP
+
+>> WWS34253.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7   2.1   8.1e-28   8.1e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 8.1e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n++ l RLEnHaeTlR++m++LakKiDvQTg
+  WWS34253.1  50 RLTNLEKKITNVTTKFEQIEKCCKRNDDVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> AST09540.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7   2.5   7.6e-28   7.6e-28       1      56 []      55     110 ..      55     110 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 7.6e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rlk++E+++++++ k+++++kcck+n+e+++RLEnHaeTlR +mlaLakKiDvQTg
+  AST09540.1  55 RLKNIETKLNNITTKFSQIEKCCKKNDEIIYRLENHAETLRLAMLALAKKIDVQTG 110
+                 89*****************************************************8 PP
+
+>> AAQ72922.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.5   2.5   8.9e-28   8.9e-28       1      56 []      76     131 ..      76     131 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.5 bits;  conditional E-value: 8.9e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+ +++kcck+n+e l RLEnHaeTlR++ml+LakKiDvQTg
+  AAQ72922.1  76 RLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLENHAETLRAAMLTLAKKIDVQTG 131
+                 89*****************************************************8 PP
+
+>> P26312  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.6   2.4   8.6e-28   8.6e-28       1      56 []      76     131 ..      76     131 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.6 bits;  conditional E-value: 8.6e-28
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+      P26312  76 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 131
+                 89*****************************************************8 PP
+
+>> ABD97717.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.5   2.1   1.8e-27   1.8e-27       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.5 bits;  conditional E-value: 1.8e-27
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  ABD97717.1  50 RLTNLEKKITNVTIKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> AEN03720.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.5   3.1   1.9e-27   1.9e-27       1      56 []      39      94 ..      39      94 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.5 bits;  conditional E-value: 1.9e-27
+  Vac_Fusion  1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                rl+++Ek++++++ k+++++kcc++nee ++RLEnHaeTlR tml+LakKiD+QTg
+  AEN03720.1 39 RLTNIEKKLNNITVKFSNIEKCCNKNEEVIYRLENHAETLRLTMLTLAKKIDIQTG 94
+                89*****************************************************8 PP
+
+>> QED21266.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.0   2.1   2.6e-27   2.6e-27       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.0 bits;  conditional E-value: 2.6e-27
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+ +++kcck+n+e l RLEnHaeTlR +m++LakKiDvQTg
+  QED21266.1  50 RLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLENHAETLRVAMISLAKKIDVQTG 105
+                 89*****************************************************8 PP
+
+>> AKJ93776.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.9   2.3   2.8e-27   2.8e-27       1      56 []      59     114 ..      59     114 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 86.9 bits;  conditional E-value: 2.8e-27
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+i++++ k+ +++kcck+n+e l RLEnHaeTlR +ml+LakKiD+QTg
+  AKJ93776.1  59 RLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLENHAETLRVAMLSLAKKIDIQTG 114
+                 89*****************************************************8 PP
+
+>> ASK51325.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.6   2.3   3.5e-27   3.5e-27       1      56 []      52     107 ..      52     107 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 86.6 bits;  conditional E-value: 3.5e-27
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl klEkri+++i+++ el+kcck+n+e l+RLE+HaeTlR+tm+aLa KiD QTg
+  ASK51325.1  52 RLDKLEKRITDVINNFDELEKCCKRNSEVLSRLEEHAETLRKTMVALAIKIDLQTG 107
+                 799****************************************************8 PP
+
+>> WAH71083.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.6   2.3   3.5e-27   3.5e-27       1      56 []      52     107 ..      52     107 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 86.6 bits;  conditional E-value: 3.5e-27
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl klEkri+++i+++ el+kcck+n+e l+RLE+HaeTlR+tm+aLa KiD QTg
+  WAH71083.1  52 RLDKLEKRITDVINNFDELEKCCKRNSEVLSRLEEHAETLRKTMVALAIKIDLQTG 107
+                 799****************************************************8 PP
+
+>> QZW33596.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.7   1.0   6.9e-27   6.9e-27       2      56 .]      31      85 ..      30      85 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 85.7 bits;  conditional E-value: 6.9e-27
+  Vac_Fusion  2 lkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                lk+lE+r+ +++++h e+ak+c+ ++etl+RLE+Ha+TlRq+m++LakKiD+QTg
+  QZW33596.1 31 LKRLERRLARVEQDHVEVAKSCSIVAETLDRLERHADTLRQSMVNLAKKIDYQTG 85
+                89****************************************************8 PP
+
+>> QDJ95055.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.4   3.1   8.5e-27   8.5e-27       1      56 []      54     109 ..      54     109 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 85.4 bits;  conditional E-value: 8.5e-27
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl+klE+r+++li++++e++kcck+n+e l+RLE+HaeTlR++mlaLa KiD QTg
+  QDJ95055.1  54 RLTKLENRVTDLINNFSEMEKCCKHNNEVLTRLEEHAETLRKAMLALAIKIDLQTG 109
+                 89*****************************************************8 PP
+
+>> AWU47162.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.9   3.6   8.8e-25   8.8e-25       1      56 []      48     103 ..      48     103 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 78.9 bits;  conditional E-value: 8.8e-25
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 r+++lEk++++l+++h+el +cc+e+e++++RLE+Ha TlR+++l+L+ KiDvQTg
+  AWU47162.1  48 RISMLEKTVNDLLDTHTELIRCCSEAEDRMRRLETHASTLRSSILNLTTKIDVQTG 103
+                 799****************************************************8 PP
+
+>> WOC35488.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.1   0.6   6.8e-24   6.8e-24       5      56 .]      40      91 ..      38      91 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 76.1 bits;  conditional E-value: 6.8e-24
+  Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                +E+r+  l+++++++a+cc e  e+++RLE+H+eT+Rq++l+La+KiDvQTg
+  WOC35488.1 40 VEDRLAALLDTYQTIANCCRETGERMDRLERHTETMRQALLQLARKIDVQTG 91
+                799************************************************8 PP
+
+>> ABD51467.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.1   5.2   1.4e-23   1.4e-23       5      56 .]      14      66 ..      10      66 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 75.1 bits;  conditional E-value: 1.4e-23
+  Vac_Fusion  5 lEk.rikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                 ++ r+k+l+++++++ +cc++++++l+RLE+Ha+TlR+tml+La+KiDvQTg
+  ABD51467.1 14 RNReRLKRLLEEQERVIECCEHADDRLTRLEKHADTLRETMLKLARKIDVQTG 66
+                555589**********************************************8 PP
+
+>> ANS71206.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.6   0.6     4e-23     4e-23       1      56 []      39      94 ..      39      94 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 73.6 bits;  conditional E-value: 4e-23
+  Vac_Fusion  1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                rl+ lEk++++l++++k+l kc++ +ee+++RLE Ha +lR+++l+L++KiDvQTg
+  ANS71206.1 39 RLSLLEKTVTDLLDTYKDLIKCTGAAEERMRRLEGHAASLRASILHLTHKIDVQTG 94
+                7999***************************************************8 PP
+
+>> ASF89976.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.2   1.1   1.1e-22   1.1e-22       4      56 .]      33      85 ..      31      85 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 72.2 bits;  conditional E-value: 1.1e-22
+  Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                 +E+r+ +l++ ++++a+ccke  e+l+RLEnH+e+lR+++l+La+KiD+QTg
+  ASF89976.1 33 SIEERLVSLLESYRSIAECCKETGERLSRLENHTESLRKALLTLAHKIDIQTG 85
+                6899************************************************8 PP
+
+>> QHG62676.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.0   1.9   5.6e-22   5.6e-22       1      55 [.      34      88 ..      34      89 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 70.0 bits;  conditional E-value: 5.6e-22
+  Vac_Fusion  1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                +l++++k+i+++ +k++ela+ ++ene+tl+RLE+H eTl++t+l+LakKiD+QT
+  QHG62676.1 34 KLSDIDKIIDEIKSKYEELATLIGENEKTLTRLEDHGETLKNTLLQLAKKIDAQT 88
+                589***************************************************9 PP
+
+>> AIZ77355.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.3   0.4   3.8e-21   3.8e-21       4      56 .]      34      86 ..      33      86 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 67.3 bits;  conditional E-value: 3.8e-21
+  Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                 +E+r+  l++ ++++a+cc e  e+l+RLE+H+e+lRq+m++L +KiDvQTg
+  AIZ77355.1 34 SIEERLVGLLDSYTSIATCCRETGERLDRLERHMESLRQAMMSLNRKIDVQTG 86
+                58999999********************************************8 PP
+
+>> QHR82657.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.4   1.8   3.6e-21   3.6e-21       1      56 []      93     141 ..      93     141 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 67.4 bits;  conditional E-value: 3.6e-21
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk++++++ k+ +l+k       t+kR+EnH+eT+R++ml LakKiD+QT+
+  QHR82657.1  93 RLMVLEKLFTSSVYKCISLEK-------TIKRIENHTETIRKNMLLLAKKIDFQTN 141
+                 89*******************.......***************************7 PP
+
+>> NP_570274.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.3   2.4   1.5e-20   1.5e-20       1      56 []      92     140 ..      92     140 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.3 bits;  conditional E-value: 1.5e-20
+   Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                  rl +lEk+++ +i+++k+l++        +kR+EnH+eT+R++m++L+kKiDvQTg
+  NP_570274.1  92 RLLVLEKIFQLSISNYKTLEN-------SMKRVENHLETIRRNMITLTKKIDVQTG 140
+                  7899*****************.......***************************8 PP
+
+>> ADT91144.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.4   3.8   1.3e-19   1.3e-19       1      56 []     165     233 ..     165     233 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 62.4 bits;  conditional E-value: 1.3e-19
+  Vac_Fusion   1 rlkklEkrikklikkhkelak.............cckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk++k +++ +++++k             +++ +++++ RLEnH+eT+R++ml++akKiD+QTg
+  ADT91144.1 165 RLMVLEKVFKMTYESYNNIDKiikrldeidmdikRLEVIDSDILRLENHFETIRRNMLTMAKKIDIQTG 233
+                 89******************************************************************8 PP
+
+>> Q6TVL6  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.1   1.1   1.8e-20   1.8e-20       5      56 .]      35      86 ..      33      86 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 65.1 bits;  conditional E-value: 1.8e-20
+  Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                +E+r+ +l++ +k++ +cc e  ++l+RLE+H+eTlR+++l L +KiDvQTg
+      Q6TVL6 35 VEERLVSLLDSYKTITDCCRETGNRLDRLEKHLETLRRALLDLNRKIDVQTG 86
+                7999***********************************************8 PP
+
+>> T2DHX9  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.2       1.5       1.5       4      21 ..      53      70 ..      49      78 .. 0.79
+   2 !   65.3   1.2   1.6e-20   1.6e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 1.5
+  Vac_Fusion  4 klEkrikklikkhkelak 21
+                +++k+i++ ++++ ++++
+      T2DHX9 53 DINKIINERYSNYISIND 70
+                789999999999999987 PP
+
+  == domain 2  score: 65.3 bits;  conditional E-value: 1.6e-20
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+      T2DHX9  95 RLVVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                 7899*****************.......***************************8 PP
+
+>> T2DJJ6  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.2       1.4       1.4       4      21 ..      53      70 ..      49      79 .. 0.79
+   2 !   65.3   1.2   1.6e-20   1.6e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 1.4
+  Vac_Fusion  4 klEkrikklikkhkelak 21
+                +++k+i++ ++++ ++++
+      T2DJJ6 53 DINKIINERYSNYISIND 70
+                789999999999999987 PP
+
+  == domain 2  score: 65.3 bits;  conditional E-value: 1.6e-20
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+      T2DJJ6  95 RLVVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                 7899*****************.......***************************8 PP
+
+>> XKH15810.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.2       1.4       1.4       4      21 ..      53      70 ..      49      79 .. 0.79
+   2 !   65.2   1.2   1.7e-20   1.7e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 1.4
+  Vac_Fusion  4 klEkrikklikkhkelak 21
+                +++k+i++ ++++ ++++
+  XKH15810.1 53 DINKIINERYSNYISIND 70
+                789999999999999987 PP
+
+  == domain 2  score: 65.2 bits;  conditional E-value: 1.7e-20
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  XKH15810.1  95 RLVVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                 7899*****************.......***************************8 PP
+
+>> XPY37795.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.2       1.4       1.4       4      21 ..      53      70 ..      49      80 .. 0.80
+   2 !   65.2   1.2   1.7e-20   1.7e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 1.4
+  Vac_Fusion  4 klEkrikklikkhkelak 21
+                +++k+i++ ++++ ++++
+  XPY37795.1 53 DINKIINERYSNYISIND 70
+                789999999999999987 PP
+
+  == domain 2  score: 65.2 bits;  conditional E-value: 1.7e-20
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  XPY37795.1  95 RLVVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                 7899*****************.......***************************8 PP
+
+>> A0A4D6DKN1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.1       3.4       3.4       4      21 ..      53      70 ..      49      78 .. 0.76
+   2 !   65.0   1.5     2e-20     2e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 3.4
+  Vac_Fusion  4 klEkrikklikkhkelak 21
+                +++k+i++ ++ + ++++
+  A0A4D6DKN1 53 DINKIINERYSSYISIND 70
+                789999999999888877 PP
+
+  == domain 2  score: 65.0 bits;  conditional E-value: 2e-20
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  A0A4D6DKN1  95 RLLVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                 7899*****************.......***************************8 PP
+
+>> YBU52347.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   0.1       7.2       7.2       4      19 ..      53      68 ..      40      78 .. 0.59
+   2 !   65.0   1.5     2e-20     2e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: -0.8 bits;  conditional E-value: 7.2
+  Vac_Fusion  4 klEkrikklikkhkel 19
+                ++ k+i++ ++ + ++
+  YBU52347.1 53 DIKKIINERYSSYISI 68
+                3444444444444444 PP
+
+  == domain 2  score: 65.0 bits;  conditional E-value: 2e-20
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  YBU52347.1  95 RLLVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                 7899*****************.......***************************8 PP
+
+>> YCL82046.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.1       5.8       5.8       4      21 ..      53      70 ..      44      78 .. 0.70
+   2 !   65.0   1.5     2e-20     2e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 5.8
+  Vac_Fusion  4 klEkrikklikkhkelak 21
+                ++ k+i++ ++++ ++++
+  YCL82046.1 53 DIKKIINERYSNYISIDD 70
+                566777777777777765 PP
+
+  == domain 2  score: 65.0 bits;  conditional E-value: 2e-20
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  YCL82046.1  95 RLLVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                 7899*****************.......***************************8 PP
+
+>> YDS16483.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.1       5.8       5.8       4      21 ..      53      70 ..      44      78 .. 0.70
+   2 !   65.0   1.5     2e-20     2e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 5.8
+  Vac_Fusion  4 klEkrikklikkhkelak 21
+                ++ k+i++ ++++ ++++
+  YDS16483.1 53 DIKKIINERYSNYISIDD 70
+                566777777777777765 PP
+
+  == domain 2  score: 65.0 bits;  conditional E-value: 2e-20
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  YDS16483.1  95 RLLVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                 7899*****************.......***************************8 PP
+
+>> sp|P16717.1|VFUS_SHEVK  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.1       5.8       5.8       4      21 ..      53      70 ..      44      78 .. 0.70
+   2 !   65.0   1.5     2e-20     2e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 5.8
+              Vac_Fusion  4 klEkrikklikkhkelak 21
+                            ++ k+i++ ++++ ++++
+  sp|P16717.1|VFUS_SHEVK 53 DIKKIINERYSNYISIDD 70
+                            566777777777777765 PP
+
+  == domain 2  score: 65.0 bits;  conditional E-value: 2e-20
+              Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                             rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  sp|P16717.1|VFUS_SHEVK  95 RLLVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                             7899*****************.......***************************8 PP
+
+>> APG58335.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.8   6.0     4e-19     4e-19       1      56 []     164     232 ..     164     232 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 60.8 bits;  conditional E-value: 4e-19
+  Vac_Fusion   1 rlkklEkrikklikkhkelak.............cckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk++kk++++++++++             +++ +++++ RLEnH+eT+R++ml++akKiDvQTg
+  APG58335.1 164 RLMILEKVFKKTYERNTNIDEvikrlneidmdikRLEVIDSDILRLENHFETIRRNMLTMAKKIDVQTG 232
+                 89******************************************************************8 PP
+
+>> ABQ43592.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.6   0.6       5.9       5.9      13      31 ..      30      48 ..      25      51 .. 0.77
+   2 !   63.5   0.7   5.6e-20   5.6e-20       1      56 []      91     139 ..      91     139 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: -0.6 bits;  conditional E-value: 5.9
+  Vac_Fusion 13 ikkhkelakcckeneetlk 31
+                +k++k++++ +k n+e++k
+  ABQ43592.1 30 EKNNKNVDENVKINKENIK 48
+                6778888888888888775 PP
+
+  == domain 2  score: 63.5 bits;  conditional E-value: 5.6e-20
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl +lEk+++ l++k+++ ++        +kRLE+H++T+R++m++L+kKiD+QTg
+  ABQ43592.1  91 RLLVLEKLFTLLFDKWSDSND-------VIKRLEHHTDTVRKNMIILSKKIDIQTG 139
+                 7899*****************.......***************************8 PP
+
+>> AAR07473.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.3   0.8   6.6e-20   6.6e-20       1      56 []      94     142 ..      94     142 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 63.3 bits;  conditional E-value: 6.6e-20
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl +lEk+++ l++k++  ++       ++kRLEnH++T+R++m++L+kKiDvQTg
+  AAR07473.1  94 RLLVLEKLFTLLFNKWSISND-------IIKRLENHTDTIRKNMIILSKKIDVQTG 142
+                 7899***********998888.......***************************8 PP
+
+>> sp|P26654.1|VFUS_ORFN2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.9   0.7   9.1e-20   9.1e-20       5      56 .]      34      85 ..      32      85 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 62.9 bits;  conditional E-value: 9.1e-20
+              Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                            +E+r+ +l++ +k++ +cc e  ++l+RLE+H+e+lR+++l L +KiDvQTg
+  sp|P26654.1|VFUS_ORFN2 34 VEERLVSLLDSYKTITDCCRETGNRLDRLERHLESLRKALLDLNRKIDVQTG 85
+                            7999***********************************************8 PP
+
+>> Q6TV84  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.6   0.7   1.1e-19   1.1e-19       4      56 .]      32      84 ..      30      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 62.6 bits;  conditional E-value: 1.1e-19
+  Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                 +E+r+ +l++++k++ +cc e   +l+RLE+H+e+lR ++l+L  KiDvQTg
+      Q6TV84 32 SVEERLVSLLDNYKTITDCCRETGARLDRLERHLESLRTALLNLNTKIDVQTG 84
+                57999***********************************************8 PP
+
+>> YBU52136.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.2   0.7   1.5e-19   1.5e-19       5      56 .]      35      86 ..      33      86 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 62.2 bits;  conditional E-value: 1.5e-19
+  Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                +E+r+  l++ +k++ +cc e  ++l+RLE+H+e+lR+++l L +KiDvQTg
+  YBU52136.1 35 VEERLLALLDSYKNITECCRETGNRLDRLERHLESLRKALLDLNRKIDVQTG 86
+                7999999********************************************8 PP
+
+>> WZD65968.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.2   0.5   1.5e-19   1.5e-19       4      56 .]      32      84 ..      30      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 62.2 bits;  conditional E-value: 1.5e-19
+  Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                 +E+r+ +l++ +k++ +cc e   +l+RLE+H+e+lR+++l+L kK+DvQTg
+  WZD65968.1 32 SVEERLVNLLDSYKTITDCCRETGARLDRLERHLESLRSALLTLNKKVDVQTG 84
+                579999**********************************************8 PP
+
+>> YDE36723.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.2   0.5   1.5e-19   1.5e-19       4      56 .]      32      84 ..      30      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 62.2 bits;  conditional E-value: 1.5e-19
+  Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                 +E+r+ +l++ +k++ +cc e   +l+RLE+H+e+lR+++l+L kK+DvQTg
+  YDE36723.1 32 SVEERLVNLLDSYKTITDCCRETGARLDRLERHLESLRSALLTLNKKVDVQTG 84
+                579999**********************************************8 PP
+
+>> XPQ45389.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.9   0.4   1.8e-19   1.8e-19       5      56 .]      35      86 ..      33      86 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 61.9 bits;  conditional E-value: 1.8e-19
+  Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                +E+r+ +l++ +k++ +cc e  ++l+RLE+H+e+lR+++l L +KiDvQTg
+  XPQ45389.1 35 VEERLVSLLDGYKTITDCCRETGNRLDRLERHLESLRKALLDLNRKIDVQTG 86
+                7999***********************************************8 PP
+
+>> AYC44792.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.7   3.2   2.1e-19   2.1e-19       1      56 []      80     128 ..      80     128 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 61.7 bits;  conditional E-value: 2.1e-19
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl+++Ek++k +i+++k l++       t+kRLE+H+eT+R++ml+L kKiDvQTg
+  AYC44792.1  80 RLMVMEKILKISIERCKVLEN-------TVKRLETHTETVRRNMLILGKKIDVQTG 128
+                 89***************9999.......***************************8 PP
+
+>> ABI99281.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.6   3.5   2.3e-19   2.3e-19       1      56 []      82     130 ..      82     130 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 61.6 bits;  conditional E-value: 2.3e-19
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl+++Ek++k +i+++k l++       t+kRLE+H+eT+R++ml+L kKiDvQTg
+  ABI99281.1  82 RLMVMEKILKISIERCKVLEN-------TVKRLETHTETVRRNMLTLGKKIDVQTG 130
+                 89***************9999.......***************************8 PP
+
+>> AUI80687.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.6   3.5   2.3e-19   2.3e-19       1      56 []      82     130 ..      82     130 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 61.6 bits;  conditional E-value: 2.3e-19
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl+++Ek++k +i+++k l++       t+kRLE+H+eT+R++ml+L kKiDvQTg
+  AUI80687.1  82 RLMVMEKILKISIERCKVLEN-------TVKRLETHTETVRRNMLTLGKKIDVQTG 130
+                 89***************9999.......***************************8 PP
+
+>> YBO75993.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.9   4.1   7.9e-19   7.9e-19       1      56 []     137     185 ..     137     185 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 59.9 bits;  conditional E-value: 7.9e-19
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+++ +ik++k+ +k        ++R+EnH+eT+R+ ml+L+kKiDvQTg
+  YBO75993.1 137 RLMVLEKLVQLTIKRQKKNNK-------AIRRIENHLETVRKGMLMLSKKIDVQTG 185
+                 89*************777777.......***************************8 PP
+
+>> WZD65710.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.9   0.9   3.7e-19   3.7e-19       4      56 .]      32      84 ..      30      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 60.9 bits;  conditional E-value: 3.7e-19
+  Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                 +E+r+ +l++ +k++ +cc e   +l+RLE+H+e+lR ++l+L  KiDvQTg
+  WZD65710.1 32 SVEERLVNLLDSYKTITDCCRETGARLDRLERHLESLRTALLTLNTKIDVQTG 84
+                579999**********************************************8 PP
+
+>> CAC21355.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.6   0.6       5.9       5.9      13      31 ..      30      48 ..      25      51 .. 0.77
+   2 !   61.1   0.7   3.3e-19   3.3e-19       1      56 []      91     139 ..      91     139 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: -0.6 bits;  conditional E-value: 5.9
+  Vac_Fusion 13 ikkhkelakcckeneetlk 31
+                +k++k++++ +k n+e++k
+  CAC21355.1 30 EKNNKNVDENVKINKENIK 48
+                6778888888888888775 PP
+
+  == domain 2  score: 61.1 bits;  conditional E-value: 3.3e-19
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl +lEk+++ l++k+++ ++        +kRLE+H++T+R++m++L kKiDvQTg
+  CAC21355.1  91 RLLVLEKLFTLLFDKWSDSND-------VIKRLEHHTDTVRKNMIILNKKIDVQTG 139
+                 7899*****************.......***************************8 PP
+
+>> WZD66097.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.1   0.9   6.6e-19   6.6e-19       4      56 .]      32      84 ..      30      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 60.1 bits;  conditional E-value: 6.6e-19
+  Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                 +E+r+ +l++ ++++ +cc e   +l+RLE+H+e+lR ++l+L  KiDvQTg
+  WZD66097.1 32 SVEERLVNLLDSYRTITDCCRETGARLDRLERHLESLRTALLTLNTKIDVQTG 84
+                579999**********************************************8 PP
+
+>> WGO62741.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.0   3.8   7.1e-19   7.1e-19       5      55 ..      41      91 ..      37      92 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 60.0 bits;  conditional E-value: 7.1e-19
+  Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                + ++i +l+kk+++l++ ck+n +++kRL +H+eTlR+t+++LakKiD+QT
+  WGO62741.1 41 IKDKILELEKKYNTLDNICKQNINNIKRLDTHTETLRKTVISLAKKIDIQT 91
+                6678999*******************************************9 PP
+
+>> WZD65840.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.9   1.0   7.9e-19   7.9e-19       5      56 .]      33      84 ..      31      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 59.9 bits;  conditional E-value: 7.9e-19
+  Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                +E+r+ +l++ ++++ +cc e   +l+RLE+H+e+lR ++l+L  KiDvQTg
+  WZD65840.1 33 VEERLVNLLDSYRTITDCCRETGARLDRLERHLESLRTALLTLNTKIDVQTG 84
+                799999*********************************************8 PP
+
+>> YP_003457410.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2   1.7   1.3e-18   1.3e-18       5      55 ..      36      86 ..      34      87 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 59.2 bits;  conditional E-value: 1.3e-18
+      Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                    +E r+ +l++ ++++ +cc e   +l+RLE+H+eTlR+++l+L  KiDvQT
+  YP_003457410.1 36 IEGRLVDLLESYRTITECCRETGARLDRLERHLETLREALLKLNTKIDVQT 86
+                    7889999*******************************************9 PP
+
+>> Q83655  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.5   4.6     1e-18     1e-18       1      56 []     138     186 ..     138     186 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 59.5 bits;  conditional E-value: 1e-18
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+++ +ik++k+++k        ++R+EnH+eT+R+ ml+L+kKiD+QTg
+      Q83655 138 RLMVLEKLVQLTIKRQKRHNK-------AIRRIENHLETVRKGMLMLSKKIDAQTG 186
+                 89*******************.......***************************8 PP
+
+>> YAW79107.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.5   4.6     1e-18     1e-18       1      56 []     138     186 ..     138     186 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 59.5 bits;  conditional E-value: 1e-18
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+++ +ik++k+++k        ++R+EnH+eT+R+ ml+L+kKiD+QTg
+  YAW79107.1 138 RLMVLEKLVQLTIKRQKRHNK-------AIRRIENHLETVRKGMLMLSKKIDAQTG 186
+                 89*******************.......***************************8 PP
+
+>> WZD65198.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.7   2.4   1.8e-18   1.8e-18       5      55 ..      36      86 ..      34      87 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 58.7 bits;  conditional E-value: 1.8e-18
+  Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                +E r+ +l++ ++++ +cc e  ++l+RLE+H+eTlR+++l+L  KiDvQT
+  WZD65198.1 36 IEGRLVDLLESYRTITECCRETGTRLDRLERHLETLREALLKLNTKIDVQT 86
+                7889999*******************************************9 PP
+
+>> WZD65323.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.7   2.4   1.8e-18   1.8e-18       5      55 ..      36      86 ..      34      87 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 58.7 bits;  conditional E-value: 1.8e-18
+  Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                +E r+ +l++ ++++ +cc e  ++l+RLE+H+eTlR+++l+L  KiDvQT
+  WZD65323.1 36 IEGRLVDLLESYRTITECCRETGTRLDRLERHLETLREALLKLNTKIDVQT 86
+                7889999*******************************************9 PP
+
+>> YCL81897.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.6   0.1       5.9       5.9       4      21 ..      53      70 ..      45      78 .. 0.70
+   2 !   58.3   0.4   2.5e-18   2.5e-18      19      56 .]     106     143 ..      98     143 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: -0.6 bits;  conditional E-value: 5.9
+  Vac_Fusion  4 klEkrikklikkhkelak 21
+                ++ k+i++ ++++ ++++
+  YCL81897.1 53 DIKKIINERYSNYISIDD 70
+                566777777777777766 PP
+
+  == domain 2  score: 58.3 bits;  conditional E-value: 2.5e-18
+  Vac_Fusion  19 lakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                   k+c+  ++++kRLEnH+eT+R++m+ L+kK+D+QTg
+  YCL81897.1 106 SVKECNSLKNIIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                 457799*******************************8 PP
+
+>> WZD65066.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.2   3.4   2.6e-18   2.6e-18       5      55 ..      35      85 ..      33      86 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 58.2 bits;  conditional E-value: 2.6e-18
+  Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                +E+r+  l++ ++++ +cc e  ++l+RLE+H+eTlR+++l+L  KiDvQT
+  WZD65066.1 35 VEERLMALLDSYRTITECCRETGTRLDRLERHLETLREALLKLNTKIDVQT 85
+                79999*********************************************9 PP
+
+>> ABI99110.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.9   3.2   3.3e-18   3.3e-18       4      56 .]      84     129 ..      81     129 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 57.9 bits;  conditional E-value: 3.3e-18
+  Vac_Fusion   4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                  +Ek++k +i+++k l++       t+kRLE+H+eT+R++ml+L kKiDvQTg
+  ABI99110.1  84 LMEKILKISIERCKVLEN-------TVKRLETHTETVRRNMLTLGKKIDVQTG 129
+                 567777777777777777.......***************************8 PP
+
+>> AAF17998.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.6   3.8   8.5e-18   8.5e-18       1      56 []     128     176 ..     128     176 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 56.6 bits;  conditional E-value: 8.5e-18
+  Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                 rl++lEk+++ ++k++k+ +k        + R+EnH+eT+R+ ml+L+kKiD+QTg
+  AAF17998.1 128 RLMVLEKLVRLTVKRQKKNNK-------SIHRIENHLETVRKGMLMLSKKIDAQTG 176
+                 89*************777777.......***************************8 PP
+
+>> XSG12557.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.7   1.3     2e-14     2e-14       4      55 ..      29      80 ..      28      81 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 45.7 bits;  conditional E-value: 2e-14
+  Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                +++k++  l+k++ e ++cc+ n++  k LE+H+eT+Rq+ +  ++K+Dv T
+  XSG12557.1 29 RVDKLLAPLEKTLAEAKTCCESNRKAGKHLEHHIETMRQYAVLVSNKTDVHT 80
+                57899999*****************************************976 PP
+
+>> Q8QMS8  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.8   0.7   3.6e-13   3.6e-13       7      55 ..     117     164 ..     111     165 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 41.8 bits;  conditional E-value: 3.6e-13
+  Vac_Fusion   7 krikklikkhkelak.cckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55 
+                  ++++l ++++++   cc +    ++RLE+H+eTl q+ ++La+Ki++QT
+      Q8QMS8 117 HILNTLDHNLNSIGHyCCDT--AAVDRLEHHIETLGQYAVILARKINMQT 164
+                 56777778888887745554..479************************9 PP
+
+>> YCL31741.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.7   0.7   3.6e-13   3.6e-13       7      55 ..     118     165 ..     112     166 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 41.7 bits;  conditional E-value: 3.6e-13
+  Vac_Fusion   7 krikklikkhkelak.cckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55 
+                  ++++l ++++++   cc +    ++RLE+H+eTl q+ ++La+Ki++QT
+  YCL31741.1 118 HILNTLDHNLNSIGHyCCDT--AAVDRLEHHIETLGQYAVILARKINMQT 165
+                 56777778888887745554..479************************9 PP
+
+>> Q83970  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.6   0.6   3.9e-13   3.9e-13       7      55 ..     139     186 ..     133     187 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 41.6 bits;  conditional E-value: 3.9e-13
+  Vac_Fusion   7 krikklikkhkelak.cckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55 
+                  ++++l ++++++   cc +    ++RLE+H+eTl q+ ++La+Ki++QT
+      Q83970 139 HILNTLDHNLNSIGHyCCDT--AAVDRLEHHIETLGQYAVILARKINMQT 186
+                 56777778888887745554..479************************9 PP
+
+>> Q88963  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.2   0.7   2.3e-12   2.3e-12      22      55 ..     220     251 ..     198     252 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 39.2 bits;  conditional E-value: 2.3e-12
+  Vac_Fusion  22 cckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55 
+                 cc +    ++RLE+H+eTl q+ ++La+Ki++QT
+      Q88963 220 CCDT--AAVDRLEHHIETLGQYAVILARKINMQT 251
+                 5554..479************************9 PP
+
+>> QGT49194.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.8   0.2   3.4e-08   3.4e-08       6      52 ..     108     154 ..     104     155 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 25.8 bits;  conditional E-value: 3.4e-08
+  Vac_Fusion   6 EkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiD 52 
+                 ++ ++++++k+ ++a+  ++ ++  +R   H+eT+R+ ++aL  KiD
+  QGT49194.1 108 DEDVTEVLDKVVQVADTHENTTNANSRQDGHLETIRKILVALNAKID 154
+                 67799***********7777788889********************9 PP
+
+>> QGT49408.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.0   0.2   6.3e-08   6.3e-08       6      52 ..     176     222 ..     172     223 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 25.0 bits;  conditional E-value: 6.3e-08
+  Vac_Fusion   6 EkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiD 52 
+                 ++ ++++++k+ ++a+  ++ ++  +R   H+eT+R+ ++aL  KiD
+  QGT49408.1 176 DEDVTEVLDKVVQVADTHENTTNANSRQDGHLETIRKILVALNAKID 222
+                 677999**********7777788889********************9 PP
+
+>> QGT48981.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.8   0.2   7.1e-08   7.1e-08       6      52 ..     193     239 ..     189     240 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 24.8 bits;  conditional E-value: 7.1e-08
+  Vac_Fusion   6 EkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiD 52 
+                 ++ ++++++k+ ++a+  ++ ++  +R   H+eT+R+ ++aL  KiD
+  QGT48981.1 193 DEDVTEVLDKVVQVADTHENTTNANSRQDGHLETIRKILVALNAKID 239
+                 677999**********7777788889********************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (56 nodes)
+Target sequences:                         85  (11039 residues searched)
+Passed MSV filter:                        85  (1); expected 1.7 (0.02)
+Passed bias filter:                       85  (1); expected 1.7 (0.02)
+Passed Vit filter:                        85  (1); expected 0.1 (0.001)
+Passed Fwd filter:                        85  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 85  [actual number of targets]
+Domain search space  (domZ):              85  [number of targets reported over threshold]
+# CPU time: 0.03u 0.03s 00:00:00.06 Elapsed: 00:00:00.12
+# Mc/sec: 4.86
+//
+[ok]

@@ -1,0 +1,16 @@
+2026-07-22 11:23:37,670 [INFO] Wrote query FASTA: output_phase2\query.fasta
+2026-07-22 11:23:37,673 [INFO] All prerequisite files found.
+2026-07-22 11:23:37,725 [INFO] Building BLAST database ...
+2026-07-22 11:23:37,727 [INFO] Running: wsl makeblastdb -dbtype prot -in output_phase1/search_db.fasta -out output_phase2/searchdb
+2026-07-22 11:23:39,622 [INFO] DONE — BLAST database: output_phase2\searchdb
+2026-07-22 11:23:39,733 [INFO] Running PSI-BLAST ...
+2026-07-22 11:23:39,736 [INFO] Running: wsl psiblast -query output_phase2/query.fasta -db output_phase2/searchdb -num_iterations 5 -evalue 1e-3 -inclusion_ethresh 1e-3 -matrix BLOSUM62 -gapopen 11 -gapextend 1 -outfmt 6 -out output_phase2/psiblast.tbl
+2026-07-22 11:23:40,477 [INFO] PSI-BLAST found 82 hits.
+2026-07-22 11:23:40,552 [INFO] Running jackhmmer ...
+2026-07-22 11:23:40,553 [INFO] Running: wsl jackhmmer -N 5 -E 1e-3 --incE 1e-3 --tblout output_phase2/jackhmmer_tbl.txt -o output_phase2/jackhmmer.log output_phase2/query.fasta output_phase1/search_db.fasta
+2026-07-22 11:23:42,470 [INFO] jackhmmer found 82 hits.
+2026-07-22 11:23:42,525 [INFO] Running hmmsearch with PF02346 ...
+2026-07-22 11:23:42,527 [INFO] Running: wsl hmmsearch -E 1e-3 --tblout output_phase2/hmmsearch_tbl.txt -o output_phase2/hmmsearch.log PF02346.hmm output_phase1/search_db.fasta
+2026-07-22 11:23:43,185 [INFO] hmmsearch found 82 hits.
+2026-07-22 11:23:43,232 [INFO] Total unique candidates across all 3 methods: 82
+2026-07-22 11:23:43,271 [INFO] DONE — output_phase2\homology_candidates.fasta, output_phase2\search_hits_provenance.csv

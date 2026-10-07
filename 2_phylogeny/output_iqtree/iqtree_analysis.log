@@ -1,0 +1,68 @@
+2026-07-25 09:39:45,617 [INFO] IQ-TREE version 3.0.1 for Linux x86 64-bit built May  5 2025
+2026-07-25 09:39:45,623 [INFO] Alignment: 60 sequences x 300 columns
+2026-07-25 09:39:45,623 [INFO] Genera represented: 15
+2026-07-25 09:39:45,628 [INFO]   Parapoxvirus                 16
+2026-07-25 09:39:45,628 [INFO]   Orthopoxvirus                14
+2026-07-25 09:39:45,628 [INFO]   Capripoxvirus                5
+2026-07-25 09:39:45,632 [INFO]   Leporipoxvirus               4
+2026-07-25 09:39:45,632 [INFO]   Cervidpoxvirus               4
+2026-07-25 09:39:45,632 [INFO]   unclassified                 4
+2026-07-25 09:39:45,641 [INFO]   Centapoxvirus                3
+2026-07-25 09:39:45,643 [INFO]   Yatapoxvirus                 2
+2026-07-25 09:39:45,645 [INFO]   Oryzopoxvirus                2
+2026-07-25 09:39:45,646 [INFO]   Sciuripoxvirus               1
+2026-07-25 09:39:45,650 [INFO]   Pteropopoxvirus              1
+2026-07-25 09:39:45,652 [INFO]   Vespertilionpoxvirus         1
+2026-07-25 09:39:45,655 [INFO]   Mustelpoxvirus               1
+2026-07-25 09:39:45,657 [INFO]   Suipoxvirus                  1
+2026-07-25 09:39:45,658 [INFO]   Avipoxvirus                  1
+2026-07-25 09:39:46,327 [INFO] Running IQ-TREE (ModelFinder + ML + UFBoot + SH-aLRT + aBayes) ...
+2026-07-25 09:39:46,330 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m MFP -B 1000 --alrt 1000 --abayes -T AUTO --seed 12345 --prefix output_iqtree/A29L
+2026-07-25 09:46:27,384 [INFO] DONE — tree written to output_iqtree\A29L.treefile
+2026-07-25 09:46:27,711 [INFO] Best-fit model (BIC): Q.INSECT+F+I+G4
+2026-07-25 09:46:27,711 [INFO] BIC score: 14808.5149
+2026-07-25 09:46:27,727 [INFO] Internal nodes with support values: 57
+2026-07-25 09:46:27,729 [INFO] Well supported (UFBoot>=95 and SH-aLRT>=80): 16 (28.1%)
+2026-07-25 09:46:27,729 [INFO] Per-node values written to output_iqtree\branch_support.csv
+2026-07-25 09:46:27,865 [INFO] Genera to test (n>=2, excluding non-genus labels): 8 — ['Capripoxvirus', 'Centapoxvirus', 'Cervidpoxvirus', 'Leporipoxvirus', 'Orthopoxvirus', 'Oryzopoxvirus', 'Parapoxvirus', 'Yatapoxvirus']
+2026-07-25 09:46:27,865 [INFO] Excluded as not a genus: ['unclassified']
+2026-07-25 09:46:27,865 [INFO] Skipped (fewer than 2 sequences, trivially monophyletic): ['Avipoxvirus', 'Mustelpoxvirus', 'Pteropopoxvirus', 'Sciuripoxvirus', 'Suipoxvirus', 'Vespertilionpoxvirus']
+2026-07-25 09:46:27,872 [INFO] Testing monophyly of Capripoxvirus (5 sequences) ...
+2026-07-25 09:46:27,874 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -g output_iqtree/constraint_Capripoxvirus.nwk -T AUTO --seed 12345 --prefix output_iqtree/constrained_Capripoxvirus
+2026-07-25 09:51:06,803 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -z output_iqtree/candidates_Capripoxvirus.nwk -n 0 -zb 10000 -au -T AUTO --seed 12345 --prefix output_iqtree/AU_Capripoxvirus
+2026-07-25 09:52:15,238 [INFO] Testing monophyly of Centapoxvirus (3 sequences) ...
+2026-07-25 09:52:15,238 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -g output_iqtree/constraint_Centapoxvirus.nwk -T AUTO --seed 12345 --prefix output_iqtree/constrained_Centapoxvirus
+2026-07-25 09:58:39,804 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -z output_iqtree/candidates_Centapoxvirus.nwk -n 0 -zb 10000 -au -T AUTO --seed 12345 --prefix output_iqtree/AU_Centapoxvirus
+2026-07-25 09:59:45,989 [INFO] Testing monophyly of Cervidpoxvirus (4 sequences) ...
+2026-07-25 09:59:46,001 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -g output_iqtree/constraint_Cervidpoxvirus.nwk -T AUTO --seed 12345 --prefix output_iqtree/constrained_Cervidpoxvirus
+2026-07-25 10:07:14,049 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -z output_iqtree/candidates_Cervidpoxvirus.nwk -n 0 -zb 10000 -au -T AUTO --seed 12345 --prefix output_iqtree/AU_Cervidpoxvirus
+2026-07-25 10:08:25,073 [INFO] Testing monophyly of Leporipoxvirus (4 sequences) ...
+2026-07-25 10:08:25,083 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -g output_iqtree/constraint_Leporipoxvirus.nwk -T AUTO --seed 12345 --prefix output_iqtree/constrained_Leporipoxvirus
+2026-07-25 10:14:21,252 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -z output_iqtree/candidates_Leporipoxvirus.nwk -n 0 -zb 10000 -au -T AUTO --seed 12345 --prefix output_iqtree/AU_Leporipoxvirus
+2026-07-25 10:15:25,548 [INFO] Testing monophyly of Orthopoxvirus (14 sequences) ...
+2026-07-25 10:15:25,564 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -g output_iqtree/constraint_Orthopoxvirus.nwk -T AUTO --seed 12345 --prefix output_iqtree/constrained_Orthopoxvirus
+2026-07-25 10:21:39,217 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -z output_iqtree/candidates_Orthopoxvirus.nwk -n 0 -zb 10000 -au -T AUTO --seed 12345 --prefix output_iqtree/AU_Orthopoxvirus
+2026-07-25 10:22:37,234 [INFO] Testing monophyly of Oryzopoxvirus (2 sequences) ...
+2026-07-25 10:22:37,247 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -g output_iqtree/constraint_Oryzopoxvirus.nwk -T AUTO --seed 12345 --prefix output_iqtree/constrained_Oryzopoxvirus
+2026-07-25 10:29:26,953 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -z output_iqtree/candidates_Oryzopoxvirus.nwk -n 0 -zb 10000 -au -T AUTO --seed 12345 --prefix output_iqtree/AU_Oryzopoxvirus
+2026-07-25 10:30:31,367 [INFO] Testing monophyly of Parapoxvirus (16 sequences) ...
+2026-07-25 10:30:31,426 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -g output_iqtree/constraint_Parapoxvirus.nwk -T AUTO --seed 12345 --prefix output_iqtree/constrained_Parapoxvirus
+2026-07-25 10:36:21,686 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -z output_iqtree/candidates_Parapoxvirus.nwk -n 0 -zb 10000 -au -T AUTO --seed 12345 --prefix output_iqtree/AU_Parapoxvirus
+2026-07-25 10:37:19,426 [INFO] Testing monophyly of Yatapoxvirus (2 sequences) ...
+2026-07-25 10:37:19,438 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -g output_iqtree/constraint_Yatapoxvirus.nwk -T AUTO --seed 12345 --prefix output_iqtree/constrained_Yatapoxvirus
+2026-07-25 10:42:12,093 [INFO] Running: wsl iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -z output_iqtree/candidates_Yatapoxvirus.nwk -n 0 -zb 10000 -au -T AUTO --seed 12345 --prefix output_iqtree/AU_Yatapoxvirus
+2026-07-25 10:43:06,932 [INFO] Per-genus monophyly results (AU test vs unconstrained ML tree):
+2026-07-25 10:43:06,936 [INFO]   genus                        n   deltaLogL         p-AU monophyletic
+2026-07-25 10:43:06,938 [INFO]   Cervidpoxvirus               4        0.00        0.361 yes
+2026-07-25 10:43:06,940 [INFO]   Centapoxvirus                3        3.21        0.382 yes
+2026-07-25 10:43:06,942 [INFO]   Leporipoxvirus               4        2.70        0.383 yes
+2026-07-25 10:43:06,945 [INFO]   Yatapoxvirus                 2        2.70         0.39 yes
+2026-07-25 10:43:06,946 [INFO]   Oryzopoxvirus                2        1.25        0.402 yes
+2026-07-25 10:43:06,947 [INFO]   Orthopoxvirus               14        1.24        0.405 yes
+2026-07-25 10:43:06,949 [INFO]   Capripoxvirus                5        0.00        0.413 yes
+2026-07-25 10:43:06,950 [INFO]   Parapoxvirus                16        0.92        0.427 yes
+2026-07-25 10:43:06,952 [INFO] Consistent with monophyly: 8/8 genera — ['Capripoxvirus', 'Centapoxvirus', 'Cervidpoxvirus', 'Leporipoxvirus', 'Orthopoxvirus', 'Oryzopoxvirus', 'Parapoxvirus', 'Yatapoxvirus']
+2026-07-25 10:43:06,957 [INFO] Table written to output_iqtree\genus_monophyly_tests.csv
+2026-07-25 10:43:21,104 [INFO] DONE — tree figure saved to output_iqtree\A29L_ml_tree.png
+2026-07-25 10:43:21,149 [INFO] Newick for iTOL/FigTree: output_iqtree\A29L.treefile (supports), output_iqtree\A29L.contree (consensus)
+2026-07-25 10:43:21,150 [INFO] IQ-TREE analysis complete. Outputs in output_iqtree

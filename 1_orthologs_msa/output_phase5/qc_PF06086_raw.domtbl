@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      PF06086.hmm
+# Target file:     output_phase5/annotated_orthologs.fasta
+# Option settings: hmmsearch -o output_phase5/qc_PF06086_raw.log --domtblout output_phase5/qc_PF06086_raw.domtbl PF06086.hmm output_phase5/annotated_orthologs.fasta 
+# Current dir:     /mnt/c/Users/dmitr/PycharmProjects/A29_v3
+# Date:            Fri Jul 24 17:43:08 2026
+# [ok]

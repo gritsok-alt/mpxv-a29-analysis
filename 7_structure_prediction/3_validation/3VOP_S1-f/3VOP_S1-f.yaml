@@ -1,0 +1,22 @@
+version: 1
+sequences:
+  - protein:
+      id: A
+      sequence: STKAAKKPEAKREAIVKADEDDNEETLKQRLTNLEKKITNVTTKFEQIEKAAKRNDEVLFRLEN
+  - protein:
+      id: B
+      sequence: STKAAKKPEAKREAIVKADEDDNEETLKQRLTNLEKKITNVTTKFEQIEKAAKRNDEVLFRLEN
+  - protein:
+      id: C
+      sequence: STKAAKKPEAKREAIVKADEDDNEETLKQRLTNLEKKITNVTTKFEQIEKAAKRNDEVLFRLEN
+constraints:
+  - contact:
+      token1: [A, 27]
+      token2: [C, 45]
+      max_distance: 8.0
+      force: false
+  - contact:
+      token1: [A, 45]
+      token2: [C, 27]
+      max_distance: 8.0
+      force: false

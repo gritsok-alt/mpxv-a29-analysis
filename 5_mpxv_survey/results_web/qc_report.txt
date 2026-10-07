@@ -1,0 +1,85 @@
+[1] sequences read                       :   9,870
+[2] length distribution:
+       110 aa :   9,870   <- reference
+[3] length != 110                        :       0
+[4] non-standard residues (X, B, Z, ...) :       1
+      characters seen: {'B': 1}
+[5] identity < 90% (unrelated protein)   :     184
+[6] FINAL curated set                    :   9,685   (185 excluded -> excluded_sequences.csv)
+
+[7] clade labels:
+      IIb            8,347
+      unassigned       683
+      Ia               455
+      Ib               152
+      IIa               25
+      I                 14
+      II                 9
+
+[8] variable positions: 17 of 110
+ position reference_aa major_aa  major_n minor domain
+        2            D        D     9684   N=1    NTR
+       15            P        P     9684   S=1    NTR
+       18            E        E     9683   K=2    NTR
+       21            S        S     9666  F=19    HBD
+       29            E        E     9683   K=2    HBD
+       30            T        T     9682   S=3    HBD
+       33            E        E     9682   K=3    HBD
+       34            A        A     9684   T=1    HBD
+       42            D        D     9682   N=3     sp
+       50            R        R     9683   W=2    CCD
+       66            E        E     9684   K=1    CCD
+       74            H        R     8957 H=728    CCD
+       77            E        E     9684   K=1    CCD
+       91            A        A     9580 V=105    LZD
+       92            A        A     9684   T=1    LZD
+      107            R        H     8957 R=728    LZD
+      108            P        P     9676   L=9    LZD
+
+[9] distinct haplotypes: 17
+haplotype    n  percent res74 res107 differences_vs_dominant
+       H1 8816   91.027     R      H                DOMINANT
+       H2  716    7.393     H      R             R74H; H107R
+       H3  104    1.074     R      H                    A91V
+       H4   19    0.196     R      H                    S21F
+       H5    9    0.093     H      R      R74H; H107R; P108L
+       H6    3    0.031     R      H                    E33K
+       H7    3    0.031     H      R       D42N; R74H; H107R
+       H8    3    0.031     R      H                    T30S
+       H9    2    0.021     R      H                    E18K
+      H10    2    0.021     R      H                    E29K
+      H11    2    0.021     R      H                    R50W
+      H12    1    0.010     R      H                    E77K
+      H13    1    0.010     R      H              A34T; A91V
+      H14    1    0.010     R      H                    E66K
+      H15    1    0.010     R      H                     D2N
+      H16    1    0.010     R      H                    A92T
+      H17    1    0.010     R      H                    P15S
+
+[10] CLADE x residue-74/107 pair  (n = 9,002 clade-assigned)
+pair         H74/R107  R74/H107
+clade_group                    
+I                 621         0
+II                  0      8381
+     discordant sequences: 0
+
+[11] unassigned (683) partition by pair: {'R74/H107': 576, 'H74/R107': 107}
+     imputed via pair->clade {'H74/R107': 'I', 'R74/H107': 'II'}; group sizes now {'II': 8957, 'I': 728}
+     clade-defining haplotypes excluded from [12]-[13]: ['H1', 'H2']
+
+[12] SUBMISSION-BATCH DIAGNOSTIC for low-frequency haplotypes
+     A variant confined to one accession prefix and a narrow numeric span
+     is a single deposit, not evidence of spread.
+haplotype   n             change  n_prefixes top_prefix  top_prefix_frac  acc_span              years                verdict
+       H3 104               A91V          24        XXI            0.221   97624.0 [2024, 2025, 2026] spread across deposits
+       H4  19               S21F           6        XLU            0.263   91795.0             [2024] spread across deposits
+       H5   9 R74H; H107R; P108L           1        XEX            1.000   32843.0       [2022, 2023]         check manually
+
+[13] temporal frequency (denominator = same imputed clade group, same year)
+haplotype  year  n  denominator  percent_of_clade_year
+       H3  2024  1          737                   0.14
+       H3  2025 97          746                  13.00
+       H3  2026  6          173                   3.47
+       H4  2024 19          737                   2.58
+       H5  2022  5          107                   4.67
+       H5  2023  4          256                   1.56

@@ -1,0 +1,18 @@
+[{
+ "name": "AF3-A27-run-5",
+ "modelSeeds": [
+  "345548130"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MDGTLFPGDDDLAIPATEFFSTKAAKKPEAKREAIVKADEDDNEETLKQRLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTGRRPYE",
+    "count": 3,
+    "useStructureTemplate": false
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 3
+}
+]

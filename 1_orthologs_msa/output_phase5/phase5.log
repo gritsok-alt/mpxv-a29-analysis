@@ -1,0 +1,26 @@
+2026-07-24 17:43:06,754 [INFO] Cleaned 4 malformed header(s) to bare accession, e.g. sp|P16717.1|VFUS_SHEVK -> P16717.1
+2026-07-24 17:43:06,757 [INFO] output_phase5\taxonomy_overrides.csv exists — using your curated taxonomy (not regenerating).
+2026-07-24 17:43:06,763 [INFO] Annotated 83 sequences across 16 genera: {'Capripoxvirus': 10, 'Leporipoxvirus': 4, 'Orthopoxvirus': 26, 'Yatapoxvirus': 3, 'Sciuripoxvirus': 1, 'Cervidpoxvirus': 4, 'Oryzopoxvirus': 2, 'Centapoxvirus': 3, 'Parapoxvirus': 18, 'Pteropopoxvirus': 1, 'Vespertilionpoxvirus': 2, 'Mustelpoxvirus': 1, 'Suipoxvirus': 1, 'unclassified': 4, 'Crocodylidpoxvirus': 2, 'Avipoxvirus': 1}
+2026-07-24 17:43:06,765 [WARNING] 4 sequence(s) have genus=unclassified (edit the table if wrong): ['QDJ95055.1', 'QHG62676.1', 'QHR82657.1', 'WGO62741.1']
+2026-07-24 17:43:07,688 [INFO] Running: wsl hmmsearch --domtblout output_phase5/qc_PF02346_raw.domtbl -o output_phase5/qc_PF02346_raw.log PF02346.hmm output_phase5/annotated_orthologs.fasta
+2026-07-24 17:43:08,487 [INFO] Running: wsl hmmsearch --domtblout output_phase5/qc_PF02346_ga.domtbl -o output_phase5/qc_PF02346_ga.log --cut_ga PF02346.hmm output_phase5/annotated_orthologs.fasta
+2026-07-24 17:43:08,794 [INFO] Running: wsl hmmsearch --domtblout output_phase5/qc_PF06086_raw.domtbl -o output_phase5/qc_PF06086_raw.log PF06086.hmm output_phase5/annotated_orthologs.fasta
+2026-07-24 17:43:09,037 [INFO] Running: wsl hmmsearch --domtblout output_phase5/qc_PF06086_ga.domtbl -o output_phase5/qc_PF06086_ga.log --cut_ga PF06086.hmm output_phase5/annotated_orthologs.fasta
+2026-07-24 17:43:09,299 [INFO] Domain QC (83 sequences, nothing removed):
+2026-07-24 17:43:09,301 [INFO]   PF02346 (A29L) pass GA: 81/83
+2026-07-24 17:43:09,303 [INFO]   PF06086 (A26)  pass GA: 0/83
+2026-07-24 17:43:09,305 [WARNING]   below PF02346 GA (review): ['QGT49194.1', 'QGT49408.1']
+2026-07-24 17:43:09,307 [INFO] QC report written to output_phase5\qc_scores.csv — review it, then edit manual_exclusions.py.
+2026-07-24 17:43:09,496 [INFO] Excluded P26312 — <Excluded due to to wrong length, Vaccinia virus>
+2026-07-24 17:43:09,497 [INFO] Excluded Q83970 — <Excluded due to wrong length, Cowpox virus>
+2026-07-24 17:43:09,499 [INFO] Excluded Q8QMS8 — <Excluded due to wrong length, Cowpox virus>
+2026-07-24 17:43:09,500 [INFO] Excluded QGT49194.1 — <Crocodylidpoxvirus below threshold GA in PF02346 QC check>
+2026-07-24 17:43:09,502 [INFO] Excluded QGT49408.1 — <Crocodylidpoxvirus below threshold GA in PF02346 QC check>
+2026-07-24 17:43:09,503 [INFO] Excluded XSG12557.1 — <Excluded due to frame-shifted C-term>
+2026-07-24 17:43:09,504 [INFO] Excluded YCL31741.1 — <Excluded due to wrong length, Cowpox virus>
+2026-07-24 17:43:09,506 [INFO] Excluded YCL81897.1 — <Excluded due to 10 ambiguous residues X, Goatpox virus>
+2026-07-24 17:43:09,507 [INFO] Excluded YFT67137.1 — <Excluded due to missing 3 first residues, Monkeypox virus>
+2026-07-24 17:43:09,509 [INFO] Exclusion QJX15523.1 not present in set — nothing to remove.
+2026-07-24 17:43:09,511 [INFO] Exclusion VTU03264.1 not present in set — nothing to remove.
+2026-07-24 17:43:09,515 [INFO] Final curated set: 74 sequences (9 excluded, 0 renamed) -> output_phase5\manually_curated_orthologs.fasta
+2026-07-24 17:43:09,517 [INFO] Phase 5 complete. Outputs in output_phase5

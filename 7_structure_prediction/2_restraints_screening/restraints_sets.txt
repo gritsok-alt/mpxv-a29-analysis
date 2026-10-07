@@ -1,0 +1,37 @@
+# Distance restraints used in the Boltz-2 restraint screen
+# (MPXV A29, full length, three chains A/B/C).
+#
+# Each entry is (chain1, residue1, chain2, residue2, d), where d is the Cβ–Cβ
+# distance between the corresponding residues in 3vop-assembly1.cif (VACV A27;
+# interfaces A–B parallel, A–C and B–C antiparallel). All measured contacts are
+# listed in Table S14 of the article; measurements are in 3vop_distances.pse.
+#
+# The measured distances were used ONLY to select which residue pairs to
+# restrain. In every run the restraint applied was a Boltz-2 `contact`
+# constraint with max_distance: 8.0 and force: false, i.e. a uniform soft
+# upper bound.
+#
+# SET_NAME selects the set; DROP omits one restraint by 0-based index:
+# S1 with DROP=0 omits (A47, C65); S1 with DROP=1 omits (A65, C47).
+
+
+SETS = {
+    "S1": [("A",47,"C",65,6.33), ("A",65,"C",47,7.68)],
+    "S2": [("A",47,"C",65,6.33), ("A",65,"C",47,7.68),
+           ("B",47,"C",65,6.07), ("B",65,"C",47,7.75)],
+    "S3": [("A",47,"B",47,7.54), ("A",65,"B",65,7.16),
+           ("A",47,"C",65,6.33), ("A",65,"C",47,7.68)],
+    "S4": [("A",47,"C",65,6.33), ("A",65,"C",47,7.68),
+           ("B",47,"C",65,6.07), ("B",65,"C",47,7.75),
+           ("A",47,"B",47,7.54), ("A",65,"B",65,7.16)],
+    "S5": [("A",47,"C",65,6.33), ("B",47,"C",65,6.07)],
+    "S6": [("A",65,"C",47,7.68), ("B",65,"C",47,7.75)],
+    "S7": [("A",47,"C",65,6.33), ("A",65,"C",47,7.68),
+           ("B",47,"C",65,6.07), ("B",65,"C",47,7.75),
+           ("A",54,"C",57,5.88), ("B",51,"C",62,5.21)],
+    "S8": [("A",54,"C",57,5.88), ("A",57,"C",54,6.00),
+           ("B",51,"C",62,5.21), ("B",62,"C",51,5.68)],
+}
+
+SET_NAME = "INSERT_SET_NUMBER_FROM_S1_to_S8"            # key from SETS, or "none" for the unrestrained control
+DROP     = None            				# 0-based index of one restraint to omit (ablation). Either 0, 1, ...

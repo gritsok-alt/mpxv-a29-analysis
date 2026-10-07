@@ -1,0 +1,32 @@
+{
+  "INFO": {
+    "failedjobs": 0,
+    "size": 1
+  },
+  "CSV_FILE": "/services/SignalP-6.0/tmp/6A6CC42900241CFBC9AC2AFC/prediction_results.txt",
+  "MATURE_FILE": "/services/SignalP-6.0/tmp/6A6CC42900241CFBC9AC2AFC/processed_entries.fasta",
+  "GFF_FILE": "/services/SignalP-6.0/tmp/6A6CC42900241CFBC9AC2AFC/output.gff3",
+  "ZIP_FILE": "/services/SignalP-6.0/tmp/6A6CC42900241CFBC9AC2AFC/output_all_results.zip",
+  "SEQUENCES": {
+    "Sequence": {
+      "Name": "Sequence",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6CC42900241CFBC9AC2AFC/output_Sequence_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6CC42900241CFBC9AC2AFC/output_Sequence_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6CC42900241CFBC9AC2AFC/output_Sequence_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    }
+  },
+  "FORMAT": "all",
+  "ORG": "eukarya",
+  "MODE": "slow-sequential",
+  "REGION_GFF_FILE": "/services/SignalP-6.0/tmp/6A6CC42900241CFBC9AC2AFC/region_output.gff3"
+}

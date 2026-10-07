@@ -1,0 +1,18 @@
+[{
+ "name": "AF3-A29-run-4",
+ "modelSeeds": [
+  "1091040542"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MDGTLFPGDDDLAIPATEFFSTKAAKNPETKREAIVKAYGDDNEETLKQRLTNLEKKITNITTKFEQIEKCCKHNDEVLFRLENHAETLRAAMISLAKKIDVQTGRRPYE",
+    "count": 3,
+    "useStructureTemplate": false
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 3
+}
+]

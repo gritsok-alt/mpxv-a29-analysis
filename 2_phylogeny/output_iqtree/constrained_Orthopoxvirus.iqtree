@@ -1,0 +1,233 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: A29L_msa_linsi.fasta
+Type of analysis: tree reconstruction
+Random seed number: 12345
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 60 sequences with 300 amino-acid sites
+Number of constant sites: 70 (= 23.3333% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 70 (= 23.3333% of all sites)
+Number of parsimony informative sites: 157
+Number of distinct site patterns: 274
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.INSECT+F+I+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0505
+  pi(R) = 0.0641
+  pi(N) = 0.0593
+  pi(D) = 0.0912
+  pi(C) = 0.0128
+  pi(Q) = 0.0245
+  pi(E) = 0.1066
+  pi(G) = 0.0434
+  pi(H) = 0.0161
+  pi(I) = 0.0740
+  pi(L) = 0.0930
+  pi(K) = 0.0911
+  pi(M) = 0.0256
+  pi(F) = 0.0266
+  pi(P) = 0.0376
+  pi(S) = 0.0441
+  pi(T) = 0.0691
+  pi(W) = 0.0013
+  pi(Y) = 0.0245
+  pi(V) = 0.0445
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0355
+Gamma shape alpha: 1.8487
+
+ Category  Relative_rate  Proportion
+  0         0              0.0355
+  1         0.2846         0.2411
+  2         0.6614         0.2411
+  3         1.1049         0.2411
+  4         2.0962         0.2411
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7011.9189 (s.e. 390.5527)
+Unconstrained log-likelihood (without tree): -1659.4377
+Number of free parameters (#branches + #model parameters): 138
+Akaike information criterion (AIC) score: 14299.8378
+Corrected Akaike information criterion (AICc) score: 14538.1235
+Bayesian information criterion (BIC) score: 14810.9598
+
+Total tree length (sum of branch lengths): 29.7979
+Sum of internal branch lengths: 16.6613 (55.9141% of tree length)
+
+WARNING: 10 near-zero internal branches (<0.0033) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Capripoxvirus|A0A4D6DKN1|Capripoxvirus_goatpox' is drawn at root
+
++--Capripoxvirus|A0A4D6DKN1|Capripoxvirus_goatpox
+|
+|               +--Leporipoxvirus|AAF17998.1|Leporipoxvirus_shope
+|            +--|
+|            |  +--Leporipoxvirus|YBO75993.1|Leporipoxvirus_myxoma
+|        +---|
+|        |   |  +--Leporipoxvirus|Q83655|Leporipoxvirus_myxoma
+|        |   +--|
+|        |      +**Leporipoxvirus|YAW79107.1|Leporipoxvirus_myxoma
+|     +--|
+|     |  |                                                           +--Orthopoxvirus|AAL73853.1|Orthopoxvirus_camelpox
+|     |  |                                                        +**|
+|     |  |                                                        |  |        +--Orthopoxvirus|AAQ72922.1|Orthopoxvirus_skunkpox
+|     |  |                                                        |  |     +--|
+|     |  |                                                        |  |     |  |  +--Orthopoxvirus|AKJ93776.1|Orthopoxvirus_raccoonpox
+|     |  |                                                        |  |     |  +--|
+|     |  |                                                        |  |     |     +--Orthopoxvirus|AOP31836.1|Orthopoxvirus_volepox
+|     |  |                                                        |  |  +--|
+|     |  |                                                        |  |  |  +--Orthopoxvirus|QED21266.1|Orthopoxvirus_borealpox
+|     |  |                                                        |  +--|
+|     |  |                                                        |     |  +--Orthopoxvirus|ABD97717.1|Orthopoxvirus_taterapox
+|     |  |                                                        |     +**|
+|     |  |                                                        |        |  +**Orthopoxvirus|YFT66960.1|Orthopoxvirus_monkeypox
+|     |  |                                                        |        +--|
+|     |  |                                                        |           +--Orthopoxvirus|YFT67316.1|Orthopoxvirus_monkeypox
+|     |  |                                                     +**|
+|     |  |                                                     |  +--Orthopoxvirus|AYN64713.1|Orthopoxvirus_abatino
+|     |  |                                                  +**|
+|     |  |                                                  |  +--Orthopoxvirus|QEQ49703.1|Orthopoxvirus_akhmetapox
+|     |  |                                               +**|
+|     |  |                                               |  +--Orthopoxvirus|CAG7621171.1|Orthopoxvirus_ectomelia
+|     |  |                                            +**|
+|     |  |                                            |  +--Orthopoxvirus|V9PXP5|Orthopoxvirus_cowpox
+|     |  |                                         +--|
+|     |  |                                         |  +--Orthopoxvirus|WWS34253.1|Orthopoxvirus_variola
+|     |  |                                      +**|
+|     |  |                                      |  +**Orthopoxvirus|P20535.1|Orthopoxvirus_vaccinia
+|     |  |                                   +--|
+|     |  |                                   |  |     +-------Sciuripoxvirus|ABD51467.1|Sciuripoxvirus_squirrelpox
+|     |  |                                   |  +-----|
+|     |  |                                   |        |                  +--Parapoxvirus|AIZ77355.1|Parapoxvirus_reddeerpox
+|     |  |                                   |        |               +--|
+|     |  |                                   |        |               |  +--Parapoxvirus|ASF89976.1|Parapoxvirus_sealpox
+|     |  |                                   |        |            +--|
+|     |  |                                   |        |            |  |        +--Parapoxvirus|Q6TV84|Parapoxvirus_bovinestomatitis
+|     |  |                                   |        |            |  |     +--|
+|     |  |                                   |        |            |  |     |  |     +**Parapoxvirus|WZD65710.1|Parapoxvirus_bovinestomatitis
+|     |  |                                   |        |            |  |     |  |  +--|
+|     |  |                                   |        |            |  |     |  |  |  |  +--Parapoxvirus|WZD65840.1|Parapoxvirus_bovinestomatitis
+|     |  |                                   |        |            |  |     |  |  |  +--|
+|     |  |                                   |        |            |  |     |  |  |     +--Parapoxvirus|WZD66097.1|Parapoxvirus_bovinestomatitis
+|     |  |                                   |        |            |  |     |  +--|
+|     |  |                                   |        |            |  |     |     +--Parapoxvirus|WZD65968.1|Parapoxvirus_bovinestomatitis
+|     |  |                                   |        |            |  |  +--|
+|     |  |                                   |        |            |  |  |  |     +--Parapoxvirus|Q6TVL6|Parapoxvirus_orf
+|     |  |                                   |        |            |  |  |  |  +--|
+|     |  |                                   |        |            |  |  |  |  |  +--Parapoxvirus|P26654.1|Parapoxvirus_orf
+|     |  |                                   |        |            |  |  |  +--|
+|     |  |                                   |        |            |  |  |     +--Parapoxvirus|XPQ45389.1|Parapoxvirus_orf
+|     |  |                                   |        |            |  +--|
+|     |  |                                   |        |            |     |     +--Parapoxvirus|WZD65066.1|Parapoxvirus_pseudocowpox
+|     |  |                                   |        |            |     |  +--|
+|     |  |                                   |        |            |     |  |  |     +--Parapoxvirus|WZD65198.1|Parapoxvirus_pseudocowpox
+|     |  |                                   |        |            |     |  |  |  +--|
+|     |  |                                   |        |            |     |  |  |  |  +--Parapoxvirus|WZD65323.1|Parapoxvirus_pseudocowpox
+|     |  |                                   |        |            |     |  |  +--|
+|     |  |                                   |        |            |     |  |     +--Parapoxvirus|YP_003457410.1|Parapoxvirus_pseudocowpox
+|     |  |                                   |        |            |     +**|
+|     |  |                                   |        |            |        +--Parapoxvirus|YBU52136.1|Parapoxvirus_orf
+|     |  |                                   |        |      +-----|
+|     |  |                                   |        |      |     +--Parapoxvirus|WOC35488.1|Unclassified_equine_parapoxvirus
+|     |  |                                   |        |  +---|
+|     |  |                                   |        |  |   |      +--Pteropopoxvirus|ANS71206.1|Pteropopoxvirus_pteropox
+|     |  |                                   |        |  |   +------|
+|     |  |                                   |        |  |          +--Mustelpoxvirus|AWU47162.1|Mustelpoxvirus_seaotterpox
+|     |  |                                   |        +--|
+|     |  |                                   |           +----------Avipoxvirus|QZW33596.1|Unclassified_magpiepox_virus_2
+|     |  |                                +--|
+|     |  |                                |  |      +--Vespertilionpoxvirus|ASK51325.1|Vespertilionpoxvirus_eptesipox
+|     |  |                                |  +------|
+|     |  |                                |         +--unclassified|QDJ95055.1|Unclassified_hypsugopox_virus
+|     |  |                             +--|
+|     |  |                             |  |  +--Centapoxvirus|AEN03720.1|Centapoxvirus_yokapox
+|     |  |                             |  +--|
+|     |  |                             |     |     +---------unclassified|QHG62676.1|Unclassified_cetacean_poxvirus_1
+|     |  |                             |     +-----|
+|     |  |                             |           +-------------unclassified|WGO62741.1|Unclassified_wadden_sea_poxvirus
+|     |  |                          +--|
+|     |  |                          |  +--Centapoxvirus|AST09338.1|Centapoxvirus_microtuspox
+|     |  |        +-----------------|
+|     |  |        |                 +--Centapoxvirus|AST09540.1|Centapoxvirus_microtuspox
+|     |  |     +--|
+|     |  |     |  |      +--Oryzopoxvirus|ADT91144.1|Oryzopoxvirus_cotia
+|     |  |     |  |  +---|
+|     |  |     |  |  |   +--Oryzopoxvirus|APG58335.1|Unclassified_BeAn58058
+|     |  |     |  +--|
+|     |  |     |     +--unclassified|QHR82657.1|Unclassified_brazilian_porcupinepox_virus_1
+|     |  |  +--|
+|     |  |  |  +--Suipoxvirus|NP_570274.1|Suipoxvirus_swinepox
+|     |  +--|
+|     |     |        +--Cervidpoxvirus|ABI99110.1|Cervidpoxvirus_muledeerpox
+|     |     |     +--|
+|     |     |     |  +--Cervidpoxvirus|ABI99281.1|Cervidpoxvirus_muledeerpox
+|     |     |  +**|
+|     |     |  |  +**Cervidpoxvirus|AUI80687.1|Unclassified_white-tailed_deer_poxvirus
+|     |     +--|
+|     |        +--Cervidpoxvirus|AYC44792.1|Unclassified_moosepox_virus
+|  +--|
+|  |  |    +--Yatapoxvirus|AAR07473.1|Yatapoxvirus_yabapox
+|  |  +----|
+|  |       +--Yatapoxvirus|ABQ43592.1|Yatapoxvirus_tanapox
++**|
+|  +--Capripoxvirus|YBU52347.1|Capripoxvirus_sheeppox
+|
+|     +**Capripoxvirus|T2DHX9|Capripoxvirus_sheeppox
+|  +--|
+|  |  +--Capripoxvirus|XKH15810.1|Capripoxvirus_sheeppox
++--|
+   +--Capripoxvirus|YCL82046.1|Capripoxvirus_lumpyskinpox
+
+Tree in newick format:
+
+(Capripoxvirus|A0A4D6DKN1|Capripoxvirus_goatpox:0.0210931062,(((((Leporipoxvirus|AAF17998.1|Leporipoxvirus_shope:0.1608656752,Leporipoxvirus|YBO75993.1|Leporipoxvirus_myxoma:0.0661725621):0.0629344127,(Leporipoxvirus|Q83655|Leporipoxvirus_myxoma:0.0220834528,Leporipoxvirus|YAW79107.1|Leporipoxvirus_myxoma:0.0000023907):0.0816738459):0.7437144957,(((((((((((((((Orthopoxvirus|AAL73853.1|Orthopoxvirus_camelpox:0.0247552117,(((Orthopoxvirus|AAQ72922.1|Orthopoxvirus_skunkpox:0.0719194328,(Orthopoxvirus|AKJ93776.1|Orthopoxvirus_raccoonpox:0.1749651641,Orthopoxvirus|AOP31836.1|Orthopoxvirus_volepox:0.0829653085):0.0369921746):0.1402148912,Orthopoxvirus|QED21266.1|Orthopoxvirus_borealpox:0.1007733774):0.0570876595,(Orthopoxvirus|ABD97717.1|Orthopoxvirus_taterapox:0.0245259116,(Orthopoxvirus|YFT66960.1|Orthopoxvirus_monkeypox:0.0000027422,Orthopoxvirus|YFT67316.1|Orthopoxvirus_monkeypox:0.0242711104):0.0497875198):0.0000020966):0.0126082530):0.0000025642,Orthopoxvirus|AYN64713.1|Orthopoxvirus_abatino:0.0242516710):0.0000010000,Orthopoxvirus|QEQ49703.1|Orthopoxvirus_akhmetapox:0.0372476587):0.0000010000,Orthopoxvirus|CAG7621171.1|Orthopoxvirus_ectomelia:0.0375093716):0.0000010000,Orthopoxvirus|V9PXP5|Orthopoxvirus_cowpox:0.0368914010):0.0000010000,Orthopoxvirus|WWS34253.1|Orthopoxvirus_variola:0.0119888262):0.0269724136,Orthopoxvirus|P20535.1|Orthopoxvirus_vaccinia:0.0000026419):0.0000028557,(Sciuripoxvirus|ABD51467.1|Sciuripoxvirus_squirrelpox:1.2161805609,(((((Parapoxvirus|AIZ77355.1|Parapoxvirus_reddeerpox:0.2301303597,Parapoxvirus|ASF89976.1|Parapoxvirus_sealpox:0.3750785629):0.2447468464,(((Parapoxvirus|Q6TV84|Parapoxvirus_bovinestomatitis:0.0493712603,((Parapoxvirus|WZD65710.1|Parapoxvirus_bovinestomatitis:0.0000023961,(Parapoxvirus|WZD65840.1|Parapoxvirus_bovinestomatitis:0.0166974635,Parapoxvirus|WZD66097.1|Parapoxvirus_bovinestomatitis:0.0159114717):0.0163037772):0.0152758738,Parapoxvirus|WZD65968.1|Parapoxvirus_bovinestomatitis:0.0655188518):0.0719484497):0.3122834364,((Parapoxvirus|Q6TVL6|Parapoxvirus_orf:0.0467466804,Parapoxvirus|P26654.1|Parapoxvirus_orf:0.0313695071):0.0272796780,Parapoxvirus|XPQ45389.1|Parapoxvirus_orf:0.0407722984):0.1001432489):0.1322050737,((Parapoxvirus|WZD65066.1|Parapoxvirus_pseudocowpox:0.0721952539,((Parapoxvirus|WZD65198.1|Parapoxvirus_pseudocowpox:0.0659318276,Parapoxvirus|WZD65323.1|Parapoxvirus_pseudocowpox:0.0545570879):0.0173046106,Parapoxvirus|YP_003457410.1|Parapoxvirus_pseudocowpox:0.0468169954):0.1043814812):0.1304030100,Parapoxvirus|YBU52136.1|Parapoxvirus_orf:0.0396246558):0.0000022367):0.2729918004):0.4489422160,Parapoxvirus|WOC35488.1|Unclassified_equine_parapoxvirus:0.1805266357):0.9338934482,(Pteropopoxvirus|ANS71206.1|Pteropopoxvirus_pteropox:0.4044355937,Mustelpoxvirus|AWU47162.1|Mustelpoxvirus_seaotterpox:0.5981765037):1.0791191816):0.6309513776,Avipoxvirus|QZW33596.1|Unclassified_magpiepox_virus_2:1.7862428774):0.5305749407):1.0237482110):0.1784602263,(Vespertilionpoxvirus|ASK51325.1|Vespertilionpoxvirus_eptesipox:0.1129906171,unclassified|QDJ95055.1|Unclassified_hypsugopox_virus:0.2961588647):1.1966724754):0.5502073869,(Centapoxvirus|AEN03720.1|Centapoxvirus_yokapox:0.3921391714,(unclassified|QHG62676.1|Unclassified_cetacean_poxvirus_1:1.6094113214,unclassified|WGO62741.1|Unclassified_wadden_sea_poxvirus:2.2382563893):0.9613615662):0.1692236262):0.2042744003,Centapoxvirus|AST09338.1|Centapoxvirus_microtuspox:0.1782730506):0.0124494611,Centapoxvirus|AST09540.1|Centapoxvirus_microtuspox:0.0444355705):2.7323025535,((Oryzopoxvirus|ADT91144.1|Oryzopoxvirus_cotia:0.2469116484,Oryzopoxvirus|APG58335.1|Unclassified_BeAn58058:0.1225893086):0.7515885572,unclassified|QHR82657.1|Unclassified_brazilian_porcupinepox_virus_1:0.5429681821):0.4404685686):0.0332410285,Suipoxvirus|NP_570274.1|Suipoxvirus_swinepox:0.5688147435):0.0472682237,(((Cervidpoxvirus|ABI99110.1|Cervidpoxvirus_muledeerpox:0.0257907839,Cervidpoxvirus|ABI99281.1|Cervidpoxvirus_muledeerpox:0.0255842297):0.0083308320,Cervidpoxvirus|AUI80687.1|Unclassified_white-tailed_deer_poxvirus:0.0000021366):0.0000021103,Cervidpoxvirus|AYC44792.1|Unclassified_moosepox_virus:0.0346473043):0.3277889264):0.2657854800):0.1667524249,(Yatapoxvirus|AAR07473.1|Yatapoxvirus_yabapox:0.1392866663,Yatapoxvirus|ABQ43592.1|Yatapoxvirus_tanapox:0.2421826845):0.8577444129):0.4098424151,Capripoxvirus|YBU52347.1|Capripoxvirus_sheeppox:0.0072439007):0.0000021165,((Capripoxvirus|T2DHX9|Capripoxvirus_sheeppox:0.0000010000,Capripoxvirus|XKH15810.1|Capripoxvirus_sheeppox:0.0219482136):0.0283669123,Capripoxvirus|YCL82046.1|Capripoxvirus_lumpyskinpox:0.0284654928):0.0146271839);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t output_iqtree/constrained_Orthopoxvirus.treefile -m "Q.INSECT+F+I{0.0354674}+G4{1.8487}" --length 300
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s A29L_msa_linsi.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s A29L_msa_linsi.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Jul 25 10:21:38 2026
+Total CPU time used: 1752.49 seconds (0h:29m:12s)
+Total wall-clock time used: 372.728 seconds (0h:6m:12s)
+

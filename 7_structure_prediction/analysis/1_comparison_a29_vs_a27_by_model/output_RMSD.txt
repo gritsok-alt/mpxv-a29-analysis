@@ -1,0 +1,22 @@
+PyMOL>align A29_s2m0-B and resi 44-100 and name CA, A27_s5m0-B and resi 44-100 and name CA, cycles=0
+ Match: read scoring matrix.
+ Match: assigning 171 x 171 pairwise scores.
+ MatchAlign: aligning residues (171 vs 171)...
+ MatchAlign: score 837.000
+ ExecutiveAlign: 171 atoms aligned.
+ Executive: RMSD =    0.815 (171 to 171 atoms)
+PyMOL>align A29_s1m2-AF2M and resi 44-100 and name CA, A27_s6m2-AF2M and resi 44-100 and name CA, cycles=0
+ Match: read scoring matrix.
+ Match: assigning 171 x 171 pairwise scores.
+ MatchAlign: aligning residues (171 vs 171)...
+ MatchAlign: score 837.000
+ ExecutiveAlign: 171 atoms aligned.
+ Executive: RMSD =    0.163 (171 to 171 atoms)
+PyMOL>align A29_s1062804165m0-AF3 and resi 44-100 and name CA, A27_s345548130m0-AF3 and resi 44-100 and name CA, cycles=0
+ Match: read scoring matrix.
+ Match: assigning 171 x 171 pairwise scores.
+ MatchAlign: aligning residues (171 vs 171)...
+ MatchAlign: score 837.000
+ ExecutiveAlign: 171 atoms aligned.
+ Executive: RMSD =    0.420 (171 to 171 atoms)
+

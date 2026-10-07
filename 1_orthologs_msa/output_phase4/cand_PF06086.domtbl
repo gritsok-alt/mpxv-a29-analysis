@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QGT48981.1           -            250 Pox_A30L_A26L_N      PF06086.19   193   0.00052   12.1   0.6   1   2   1.2e-05     0.001   11.2   0.2     5    94    12    91     9    94 0.66 -
+QGT48981.1           -            250 Pox_A30L_A26L_N      PF06086.19   193   0.00052   12.1   0.6   2   2      0.19        16   -2.6   0.0   129   154   188   213   175   214 0.75 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      PF06086.hmm
+# Target file:     output_phase4/combined_candidates.fasta
+# Option settings: hmmsearch -o output_phase4/PF06086_hmmsearch.log --domtblout output_phase4/cand_PF06086.domtbl PF06086.hmm output_phase4/combined_candidates.fasta 
+# Current dir:     /mnt/c/Users/dmitr/PycharmProjects/A29_v3
+# Date:            Wed Jul 22 11:28:37 2026
+# [ok]

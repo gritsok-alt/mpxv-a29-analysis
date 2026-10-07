@@ -1,0 +1,125 @@
+ COILED-COIL PROBABILITY LIST PER RESIDUE
+
+
+Using a calibration from one of the implementations of the Lupas et al. method 
+Using: cc: Normalpdf(1.63, 0.22, score)   others: Normalpdf(0.77, 0.20, score) 
+
+
+>UniProtKB_Q77HM6_MPXV_A29   ## 1 
+MDGTLFPGDD DLAIPATEFF STKAAKNPET KREAIVKAYG DDNEETLKQR LTNLEKKITN
+ITTKFEQIEK CCKHNDEVLF RLENHAETLR AAMISLAKKI DVQTGRRPYE *
+
+  cc-probability in percent and best heptad phase
+   1 M   0.0 a 
+   2 D   0.0 b 
+   3 G   0.0 c 
+   4 T   0.0 d 
+   5 L   0.0 e 
+   6 F   0.0 f 
+   7 P   0.0 g 
+   8 G   0.0 a 
+   9 D   0.0 b 
+  10 D   0.0 c 
+  11 D   0.0 d 
+  12 L   0.0 e 
+  13 A   0.0 f 
+  14 I   0.0 g 
+  15 P   0.0 a 
+  16 A   0.0 f 
+  17 T   0.0 g 
+  18 E   0.0 a 
+  19 F   0.0 b 
+  20 F   0.0 c 
+  21 S   0.0 d 
+  22 T   0.0 e 
+  23 K   0.0 f 
+  24 A   0.0 g 
+  25 A   0.0 a 
+  26 K   0.0 b 
+  27 N   0.0 c 
+  28 P   0.0 d 
+  29 E   1.4 g 
+  30 T   1.4 a 
+  31 K  11.5 b 
+  32 R  11.5 c 
+  33 E  11.5 d 
+  34 A  11.5 e 
+  35 I  11.5 f 
+  36 V  12.7 g 
+  37 K  49.8 a 
+  38 A  49.8 b 
+  39 Y  49.8 c 
+  40 G  93.3 d 
+  41 D  98.6 e 
+  42 D  99.9 f 
+  43 N  99.9 g 
+  44 E  99.9 a 
+  45 E  99.9 b 
+  46 T  99.9 c 
+  47 L  99.9 d 
+  48 K  99.9 e 
+  49 Q  99.9 f 
+  50 R  99.9 g 
+  51 L  99.9 a 
+  52 T  99.9 b 
+  53 N  99.9 c 
+  54 L  99.9 d 
+  55 E  99.9 e 
+  56 K  99.9 f 
+  57 K  99.9 g 
+  58 I  99.9 a 
+  59 T  99.9 b 
+  60 N  99.9 c 
+  61 I  99.9 d 
+  62 T  99.9 e 
+  63 T  99.9 f 
+  64 K  99.9 g 
+  65 F  99.9 a 
+  66 E  99.9 b 
+  67 Q  99.9 c 
+  68 I  99.9 d 
+  69 E  99.9 e 
+  70 K  99.9 f 
+  71 C  97.6 g 
+  72 C  97.6 a 
+  73 K  96.7 b 
+  74 H  95.3 c 
+  75 N  16.3 d 
+  76 D  10.6 e 
+  77 E  10.6 f 
+  78 V   4.6 g 
+  79 L   4.6 a 
+  80 F   4.6 b 
+  81 R   4.6 c 
+  82 L   4.6 d 
+  83 E   4.6 e 
+  84 N   4.6 f 
+  85 H   4.6 g 
+  86 A   4.6 a 
+  87 E   4.6 b 
+  88 T   4.6 c 
+  89 L   4.6 d 
+  90 R   4.6 e 
+  91 A   4.6 f 
+  92 A   4.6 g 
+  93 M   4.6 a 
+  94 I   4.6 b 
+  95 S   4.6 c 
+  96 L   4.6 d 
+  97 A   4.6 e 
+  98 K   4.6 f 
+  99 K   4.6 g 
+ 100 I   4.6 a 
+ 101 D   4.6 b 
+ 102 V   4.6 c 
+ 103 Q   4.6 d 
+ 104 T   4.6 e 
+ 105 G   4.0 f 
+ 106 R   4.0 g 
+ 107 R   1.2 a 
+ 108 P   0.2 b 
+ 109 Y   0.0 c 
+ 110 E   0.0 d 
+
+
+****

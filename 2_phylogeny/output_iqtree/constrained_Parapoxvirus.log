@@ -1,0 +1,406 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built May  5 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Electrochemist (AVX2, FMA3, 3 GB RAM)
+Command: iqtree3 -s A29L_msa_linsi.fasta -m Q.INSECT+F+I+G4 -g output_iqtree/constraint_Parapoxvirus.nwk -T AUTO --seed 12345 --prefix output_iqtree/constrained_Parapoxvirus
+Seed:    12345 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Jul 25 10:30:31 2026
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file A29L_msa_linsi.fasta ... Fasta format detected
+Reading fasta file: done in 0.00561723 secs
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00165068 secs using 536.5% CPU
+Alignment has 60 sequences with 300 columns, 274 distinct patterns
+157 parsimony-informative, 73 singleton sites, 70 constant sites
+                                                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00464317 secs using 1390% CPU
+   1  Capripoxvirus|A0A4D6DKN1|Capripoxvirus_goatpox                        50.67%    passed     15.86%
+   2  Leporipoxvirus|AAF17998.1|Leporipoxvirus_shope                        40.33%    passed     46.42%
+   3  Orthopoxvirus|AAL73853.1|Orthopoxvirus_camelpox                       61.00%    passed     73.95%
+   4  Orthopoxvirus|AAQ72922.1|Orthopoxvirus_skunkpox                       54.67%    passed     20.36%
+   5  Yatapoxvirus|AAR07473.1|Yatapoxvirus_yabapox                          50.00%    failed      0.07%
+   6  Sciuripoxvirus|ABD51467.1|Sciuripoxvirus_squirrelpox                  75.33%    passed     10.93%
+   7  Orthopoxvirus|ABD97717.1|Orthopoxvirus_taterapox                      63.33%    passed     88.44%
+   8  Cervidpoxvirus|ABI99110.1|Cervidpoxvirus_muledeerpox                  54.67%    passed     72.43%
+   9  Cervidpoxvirus|ABI99281.1|Cervidpoxvirus_muledeerpox                  54.33%    passed     51.23%
+  10  Yatapoxvirus|ABQ43592.1|Yatapoxvirus_tanapox                          50.67%    passed      7.76%
+  11  Oryzopoxvirus|ADT91144.1|Oryzopoxvirus_cotia                          21.00%    failed      0.00%
+  12  Centapoxvirus|AEN03720.1|Centapoxvirus_yokapox                        66.00%    passed     95.51%
+  13  Parapoxvirus|AIZ77355.1|Parapoxvirus_reddeerpox                       70.00%    passed      6.79%
+  14  Orthopoxvirus|AKJ93776.1|Orthopoxvirus_raccoonpox                     60.33%    passed     35.52%
+  15  Pteropopoxvirus|ANS71206.1|Pteropopoxvirus_pteropox                   67.33%    passed     44.38%
+  16  Orthopoxvirus|AOP31836.1|Orthopoxvirus_volepox                        56.00%    passed     58.12%
+  17  Oryzopoxvirus|APG58335.1|Unclassified_BeAn58058                       21.33%    failed      0.00%
+  18  Parapoxvirus|ASF89976.1|Parapoxvirus_sealpox                          70.33%    failed      1.00%
+  19  Vespertilionpoxvirus|ASK51325.1|Vespertilionpoxvirus_eptesipox        62.00%    passed     92.09%
+  20  Centapoxvirus|AST09338.1|Centapoxvirus_microtuspox                    60.33%    passed     14.62%
+  21  Centapoxvirus|AST09540.1|Centapoxvirus_microtuspox                    61.00%    passed     49.61%
+  22  Cervidpoxvirus|AUI80687.1|Unclassified_white-tailed_deer_poxvirus     54.33%    passed     59.60%
+  23  Mustelpoxvirus|AWU47162.1|Mustelpoxvirus_seaotterpox                  64.00%    passed     15.41%
+  24  Cervidpoxvirus|AYC44792.1|Unclassified_moosepox_virus                 55.00%    passed     37.41%
+  25  Orthopoxvirus|AYN64713.1|Orthopoxvirus_abatino                        63.33%    passed     80.35%
+  26  Orthopoxvirus|CAG7621171.1|Orthopoxvirus_ectomelia                    63.33%    passed     83.70%
+  27  Suipoxvirus|NP_570274.1|Suipoxvirus_swinepox                          50.33%    passed     16.05%
+  28  Parapoxvirus|Q6TV84|Parapoxvirus_bovinestomatitis                     70.33%    passed     12.32%
+  29  Parapoxvirus|Q6TVL6|Parapoxvirus_orf                                  70.00%    passed     65.43%
+  30  Leporipoxvirus|Q83655|Leporipoxvirus_myxoma                           37.33%    passed     39.42%
+  31  unclassified|QDJ95055.1|Unclassified_hypsugopox_virus                 61.33%    passed     94.76%
+  32  Orthopoxvirus|QED21266.1|Orthopoxvirus_borealpox                      63.33%    passed     79.79%
+  33  Orthopoxvirus|QEQ49703.1|Orthopoxvirus_akhmetapox                     63.33%    passed     91.45%
+  34  unclassified|QHG62676.1|Unclassified_cetacean_poxvirus_1              68.00%    passed     85.69%
+  35  unclassified|QHR82657.1|Unclassified_brazilian_porcupinepox_virus_1   52.33%    passed     14.96%
+  36  Avipoxvirus|QZW33596.1|Unclassified_magpiepox_virus_2                 69.33%    passed     18.96%
+  37  Capripoxvirus|T2DHX9|Capripoxvirus_sheeppox                           50.67%    passed      7.75%
+  38  Orthopoxvirus|V9PXP5|Orthopoxvirus_cowpox                             63.33%    passed     64.92%
+  39  unclassified|WGO62741.1|Unclassified_wadden_sea_poxvirus              68.00%    failed      0.38%
+  40  Parapoxvirus|WOC35488.1|Unclassified_equine_parapoxvirus              68.33%    passed     15.42%
+  41  Orthopoxvirus|WWS34253.1|Orthopoxvirus_variola                        63.33%    passed     80.70%
+  42  Parapoxvirus|WZD65066.1|Parapoxvirus_pseudocowpox                     70.00%    passed     41.23%
+  43  Parapoxvirus|WZD65198.1|Parapoxvirus_pseudocowpox                     69.67%    passed     27.28%
+  44  Parapoxvirus|WZD65323.1|Parapoxvirus_pseudocowpox                     69.67%    passed     59.38%
+  45  Parapoxvirus|WZD65710.1|Parapoxvirus_bovinestomatitis                 70.67%    passed     13.44%
+  46  Parapoxvirus|WZD65840.1|Parapoxvirus_bovinestomatitis                 70.67%    passed      5.51%
+  47  Parapoxvirus|WZD65968.1|Parapoxvirus_bovinestomatitis                 70.33%    failed      4.60%
+  48  Parapoxvirus|WZD66097.1|Parapoxvirus_bovinestomatitis                 70.67%    passed      6.60%
+  49  Capripoxvirus|XKH15810.1|Capripoxvirus_sheeppox                       50.33%    passed      5.41%
+  50  Parapoxvirus|XPQ45389.1|Parapoxvirus_orf                              70.00%    passed     52.69%
+  51  Leporipoxvirus|YAW79107.1|Leporipoxvirus_myxoma                       37.33%    passed     41.70%
+  52  Leporipoxvirus|YBO75993.1|Leporipoxvirus_myxoma                       35.67%    passed     21.57%
+  53  Parapoxvirus|YBU52136.1|Parapoxvirus_orf                              70.00%    passed     38.14%
+  54  Capripoxvirus|YBU52347.1|Capripoxvirus_sheeppox                       50.67%    passed     16.75%
+  55  Capripoxvirus|YCL82046.1|Capripoxvirus_lumpyskinpox                   50.67%    passed     32.99%
+  56  Parapoxvirus|YP_003457410.1|Parapoxvirus_pseudocowpox                 69.67%    passed     34.70%
+  57  Orthopoxvirus|P20535.1|Orthopoxvirus_vaccinia                         63.33%    passed     86.62%
+  58  Parapoxvirus|P26654.1|Parapoxvirus_orf                                70.33%    passed     57.34%
+  59  Orthopoxvirus|YFT66960.1|Orthopoxvirus_monkeypox                      63.33%    passed     91.45%
+  60  Orthopoxvirus|YFT67316.1|Orthopoxvirus_monkeypox                      63.33%    passed     91.45%
+WARNING: 53 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                 59.61%  6 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading constraint tree output_iqtree/constraint_Parapoxvirus.nwk...
+Creating fast initial parsimony tree by random order stepwise addition...
+0.537 seconds, parsimony score: 1344 (based on 230 sites)
+
+NOTE: 10 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 16.787 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -10995
+Threads: 2 / Time: 10.576 sec / Speedup: 1.587 / Efficiency: 79% / LogL: -10995
+Threads: 3 / Time: 8.608 sec / Speedup: 1.950 / Efficiency: 65% / LogL: -10995
+Threads: 4 / Time: 6.045 sec / Speedup: 2.777 / Efficiency: 69% / LogL: -10995
+Threads: 5 / Time: 5.071 sec / Speedup: 3.311 / Efficiency: 66% / LogL: -10995
+Threads: 6 / Time: 6.880 sec / Speedup: 2.440 / Efficiency: 41% / LogL: -10995
+Determining AUTO threadcount: done in 53.9887 secs using 285% CPU
+BEST NUMBER OF THREADS: 5
+
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.035, 1.820 / LogL: -7054.364
+Init pinv, alpha: 0.026, 1.000 / Estimate: 0.035, 1.870 / LogL: -7054.356
+Init pinv, alpha: 0.052, 1.000 / Estimate: 0.036, 1.870 / LogL: -7054.356
+Init pinv, alpha: 0.078, 1.000 / Estimate: 0.036, 1.871 / LogL: -7054.356
+Init pinv, alpha: 0.104, 1.000 / Estimate: 0.036, 1.872 / LogL: -7054.356
+Init pinv, alpha: 0.130, 1.000 / Estimate: 0.036, 1.872 / LogL: -7054.357
+Init pinv, alpha: 0.156, 1.000 / Estimate: 0.036, 1.872 / LogL: -7054.357
+Init pinv, alpha: 0.181, 1.000 / Estimate: 0.036, 1.873 / LogL: -7054.358
+Init pinv, alpha: 0.207, 1.000 / Estimate: 0.036, 1.873 / LogL: -7054.359
+Init pinv, alpha: 0.233, 1.000 / Estimate: 0.036, 1.873 / LogL: -7054.359
+Optimal pinv,alpha: 0.035, 1.870 / LogL: -7054.356
+
+Parameters optimization took 6.666 sec
+Wrote distance file to... 
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.319 second
+Computing log-likelihood of 99 initial trees ... 3.265 seconds
+Current best score: -7054.356
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 4.08578 secs using 497.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7019.754
+Optimizing NNI: done in 0.970219 secs using 498.2% CPU
+Optimizing NNI: done in 1.48127 secs using 494.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -7019.370
+Optimizing NNI: done in 0.888439 secs using 498.8% CPU
+Optimizing NNI: done in 0.854583 secs using 498.4% CPU
+Optimizing NNI: done in 0.830629 secs using 498.2% CPU
+Optimizing NNI: done in 0.752647 secs using 496.5% CPU
+Optimizing NNI: done in 0.975238 secs using 497.5% CPU
+Optimizing NNI: done in 0.923202 secs using 496.4% CPU
+Optimizing NNI: done in 1.12082 secs using 497.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -7017.619
+Iteration 10 / LogL: -7017.619 / Time: 0h:1m:18s
+Optimizing NNI: done in 1.49525 secs using 496.3% CPU
+Optimizing NNI: done in 2.85852 secs using 497% CPU
+Optimizing NNI: done in 0.970375 secs using 496.5% CPU
+Optimizing NNI: done in 1.13576 secs using 498.2% CPU
+Optimizing NNI: done in 1.07787 secs using 496% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 15: -7015.786
+Optimizing NNI: done in 1.22117 secs using 498.2% CPU
+Optimizing NNI: done in 1.11818 secs using 495.9% CPU
+Optimizing NNI: done in 0.755607 secs using 499.4% CPU
+Optimizing NNI: done in 0.539887 secs using 497.3% CPU
+Optimizing NNI: done in 1.49566 secs using 498% CPU
+Iteration 20 / LogL: -7021.459 / Time: 0h:1m:31s
+Finish initializing candidate tree set (20)
+Current best tree score: -7015.786 / CPU time: 29.760
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 1.20231 secs using 498.6% CPU
+Optimizing NNI: done in 0.851134 secs using 496.7% CPU
+Optimizing NNI: done in 0.784153 secs using 496.9% CPU
+Optimizing NNI: done in 1.32567 secs using 497.4% CPU
+Optimizing NNI: done in 2.21524 secs using 494.8% CPU
+Optimizing NNI: done in 1.1217 secs using 493.2% CPU
+Optimizing NNI: done in 1.42028 secs using 495.6% CPU
+Optimizing NNI: done in 1.69875 secs using 497.3% CPU
+BETTER TREE FOUND at iteration 28: -7015.784
+Optimizing NNI: done in 0.940657 secs using 494.9% CPU
+Optimizing NNI: done in 1.13403 secs using 497.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -7014.141
+Iteration 30 / LogL: -7014.141 / Time: 0h:1m:44s (0h:5m:56s left)
+Optimizing NNI: done in 0.928762 secs using 497.6% CPU
+Optimizing NNI: done in 1.40815 secs using 497.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -7013.434
+Optimizing NNI: done in 1.21597 secs using 495.7% CPU
+Optimizing NNI: done in 1.18439 secs using 498.3% CPU
+Optimizing NNI: done in 3.1377 secs using 498.1% CPU
+Optimizing NNI: done in 1.06034 secs using 497.5% CPU
+Optimizing NNI: done in 1.13681 secs using 498% CPU
+Optimizing NNI: done in 1.34639 secs using 495.4% CPU
+Optimizing NNI: done in 1.47448 secs using 497.8% CPU
+Optimizing NNI: done in 2.0324 secs using 497.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -7012.478
+Iteration 40 / LogL: -7012.478 / Time: 0h:1m:59s (0h:5m:4s left)
+Optimizing NNI: done in 0.826882 secs using 499.5% CPU
+Optimizing NNI: done in 0.669193 secs using 495.9% CPU
+Optimizing NNI: done in 1.16828 secs using 496.4% CPU
+Optimizing NNI: done in 1.72329 secs using 497.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -7012.272
+Optimizing NNI: done in 3.51565 secs using 497.6% CPU
+Optimizing NNI: done in 0.857625 secs using 499.4% CPU
+Optimizing NNI: done in 1.43117 secs using 498.9% CPU
+Optimizing NNI: done in 1.45504 secs using 497.6% CPU
+Optimizing NNI: done in 1.55298 secs using 498.8% CPU
+Optimizing NNI: done in 1.21468 secs using 495.4% CPU
+Iteration 50 / LogL: -7013.372 / Time: 0h:2m:13s (0h:4m:15s left)
+Optimizing NNI: done in 1.19581 secs using 498.1% CPU
+Optimizing NNI: done in 1.33123 secs using 497.5% CPU
+Optimizing NNI: done in 1.10848 secs using 497.4% CPU
+Optimizing NNI: done in 0.920746 secs using 497.6% CPU
+Optimizing NNI: done in 3.01267 secs using 491.8% CPU
+Optimizing NNI: done in 1.56045 secs using 498.1% CPU
+Optimizing NNI: done in 0.963161 secs using 497.9% CPU
+Optimizing NNI: done in 1.07383 secs using 497.1% CPU
+Optimizing NNI: done in 0.977332 secs using 497.5% CPU
+Optimizing NNI: done in 1.00295 secs using 495.2% CPU
+Iteration 60 / LogL: -7040.107 / Time: 0h:2m:27s (0h:3m:28s left)
+Optimizing NNI: done in 1.5722 secs using 498.2% CPU
+Optimizing NNI: done in 1.57418 secs using 497% CPU
+Optimizing NNI: done in 1.69099 secs using 495.6% CPU
+Optimizing NNI: done in 1.33612 secs using 496.3% CPU
+Optimizing NNI: done in 1.26769 secs using 496.6% CPU
+Optimizing NNI: done in 3.85239 secs using 497.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 66: -7012.106
+Optimizing NNI: done in 0.99055 secs using 495.7% CPU
+Optimizing NNI: done in 1.35395 secs using 496.1% CPU
+Optimizing NNI: done in 0.981854 secs using 495.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -7011.938
+Optimizing NNI: done in 1.12521 secs using 495.6% CPU
+Iteration 70 / LogL: -7061.111 / Time: 0h:2m:43s (0h:3m:53s left)
+Optimizing NNI: done in 1.28168 secs using 498.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 71: -7011.920
+Optimizing NNI: done in 0.906347 secs using 497.2% CPU
+Optimizing NNI: done in 1.25261 secs using 498.1% CPU
+Optimizing NNI: done in 1.56468 secs using 497.2% CPU
+Optimizing NNI: done in 1.38069 secs using 495% CPU
+Optimizing NNI: done in 3.50844 secs using 497.1% CPU
+Optimizing NNI: done in 1.26132 secs using 500.1% CPU
+Optimizing NNI: done in 0.740837 secs using 499.1% CPU
+Optimizing NNI: done in 1.32096 secs using 496.3% CPU
+Optimizing NNI: done in 1.25314 secs using 497.3% CPU
+Iteration 80 / LogL: -7022.876 / Time: 0h:2m:57s (0h:3m:24s left)
+Optimizing NNI: done in 1.68109 secs using 498.1% CPU
+Optimizing NNI: done in 1.27176 secs using 494.9% CPU
+Optimizing NNI: done in 1.40741 secs using 496.2% CPU
+Optimizing NNI: done in 1.05611 secs using 496.5% CPU
+Optimizing NNI: done in 1.10389 secs using 498.3% CPU
+Optimizing NNI: done in 3.2471 secs using 497.9% CPU
+Optimizing NNI: done in 1.46492 secs using 497.9% CPU
+Optimizing NNI: done in 1.35614 secs using 498.6% CPU
+Optimizing NNI: done in 0.625827 secs using 496.3% CPU
+Optimizing NNI: done in 1.69478 secs using 498.5% CPU
+Iteration 90 / LogL: -7012.841 / Time: 0h:3m:12s (0h:2m:55s left)
+Optimizing NNI: done in 1.12799 secs using 497.9% CPU
+Optimizing NNI: done in 1.37035 secs using 498.9% CPU
+BETTER TREE FOUND at iteration 92: -7011.920
+Optimizing NNI: done in 1.41967 secs using 497.9% CPU
+Optimizing NNI: done in 1.26509 secs using 495.9% CPU
+Optimizing NNI: done in 1.09773 secs using 497.1% CPU
+Optimizing NNI: done in 2.74588 secs using 496.6% CPU
+Optimizing NNI: done in 1.48332 secs using 497.2% CPU
+Optimizing NNI: done in 1.38263 secs using 497.2% CPU
+Optimizing NNI: done in 1.39459 secs using 497% CPU
+Optimizing NNI: done in 0.979928 secs using 498.5% CPU
+Iteration 100 / LogL: -7019.604 / Time: 0h:3m:27s (0h:3m:12s left)
+Optimizing NNI: done in 1.30763 secs using 497.4% CPU
+Optimizing NNI: done in 1.27309 secs using 496.2% CPU
+Optimizing NNI: done in 1.37771 secs using 497.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 103: -7011.602
+Optimizing NNI: done in 0.961497 secs using 497.9% CPU
+Optimizing NNI: done in 1.00087 secs using 497.6% CPU
+Optimizing NNI: done in 1.32835 secs using 497.5% CPU
+Optimizing NNI: done in 3.22495 secs using 498.3% CPU
+Optimizing NNI: done in 1.17616 secs using 495.4% CPU
+Optimizing NNI: done in 1.36958 secs using 498.5% CPU
+Optimizing NNI: done in 1.36757 secs using 497.6% CPU
+Iteration 110 / LogL: -7034.721 / Time: 0h:3m:41s (0h:3m:8s left)
+Optimizing NNI: done in 1.14453 secs using 497.8% CPU
+Optimizing NNI: done in 1.0415 secs using 496.8% CPU
+Optimizing NNI: done in 1.26148 secs using 495.6% CPU
+Optimizing NNI: done in 0.751899 secs using 497% CPU
+Optimizing NNI: done in 1.13083 secs using 498.8% CPU
+Optimizing NNI: done in 1.35603 secs using 496.1% CPU
+Optimizing NNI: done in 1.24794 secs using 496.8% CPU
+Optimizing NNI: done in 3.5603 secs using 495.5% CPU
+Optimizing NNI: done in 1.14421 secs using 495.6% CPU
+Optimizing NNI: done in 1.44085 secs using 497.6% CPU
+Iteration 120 / LogL: -7016.982 / Time: 0h:3m:56s (0h:2m:44s left)
+Optimizing NNI: done in 1.09509 secs using 497.8% CPU
+Optimizing NNI: done in 0.922455 secs using 494.4% CPU
+Optimizing NNI: done in 1.0202 secs using 495.5% CPU
+Optimizing NNI: done in 0.971967 secs using 498.9% CPU
+Optimizing NNI: done in 1.00105 secs using 497.2% CPU
+Optimizing NNI: done in 2.98158 secs using 498.5% CPU
+Optimizing NNI: done in 1.93691 secs using 496.7% CPU
+Optimizing NNI: done in 1.36775 secs using 496.5% CPU
+UPDATE BEST LOG-LIKELIHOOD: -7011.602
+Optimizing NNI: done in 1.22114 secs using 498.7% CPU
+Optimizing NNI: done in 1.36772 secs using 496.1% CPU
+Iteration 130 / LogL: -7014.600 / Time: 0h:4m:10s (0h:2m:21s left)
+Optimizing NNI: done in 1.73832 secs using 498.6% CPU
+Optimizing NNI: done in 1.13362 secs using 495.9% CPU
+Optimizing NNI: done in 1.0367 secs using 497.9% CPU
+Optimizing NNI: done in 1.12848 secs using 498.4% CPU
+Optimizing NNI: done in 1.3281 secs using 495.7% CPU
+Optimizing NNI: done in 1.28836 secs using 498.1% CPU
+Optimizing NNI: done in 0.834436 secs using 496.4% CPU
+Optimizing NNI: done in 1.23517 secs using 499.5% CPU
+Optimizing NNI: done in 3.53381 secs using 497.2% CPU
+Optimizing NNI: done in 1.24393 secs using 498.1% CPU
+Iteration 140 / LogL: -7020.243 / Time: 0h:4m:24s (0h:1m:59s left)
+Optimizing NNI: done in 1.19699 secs using 497.4% CPU
+Optimizing NNI: done in 1.17765 secs using 497% CPU
+Optimizing NNI: done in 1.05818 secs using 496.5% CPU
+Optimizing NNI: done in 0.643399 secs using 498.6% CPU
+Optimizing NNI: done in 0.906711 secs using 497.9% CPU
+Optimizing NNI: done in 0.958533 secs using 498.2% CPU
+Optimizing NNI: done in 1.09941 secs using 498.7% CPU
+Optimizing NNI: done in 1.43603 secs using 497.7% CPU
+Optimizing NNI: done in 0.862585 secs using 496% CPU
+Optimizing NNI: done in 3.23313 secs using 494% CPU
+Iteration 150 / LogL: -7013.603 / Time: 0h:4m:37s (0h:1m:38s left)
+Optimizing NNI: done in 1.2178 secs using 497.1% CPU
+Optimizing NNI: done in 1.12823 secs using 497.4% CPU
+Optimizing NNI: done in 1.33361 secs using 494.6% CPU
+Optimizing NNI: done in 0.95721 secs using 497.9% CPU
+Optimizing NNI: done in 0.966378 secs using 496.9% CPU
+Optimizing NNI: done in 1.35367 secs using 496.6% CPU
+Optimizing NNI: done in 1.26845 secs using 498.3% CPU
+Optimizing NNI: done in 1.69212 secs using 498.7% CPU
+Optimizing NNI: done in 0.955152 secs using 497.9% CPU
+Optimizing NNI: done in 1.05871 secs using 497.9% CPU
+Iteration 160 / LogL: -7011.939 / Time: 0h:4m:49s (0h:1m:18s left)
+Optimizing NNI: done in 3.56165 secs using 498.3% CPU
+Optimizing NNI: done in 1.46615 secs using 498.1% CPU
+Optimizing NNI: done in 1.02172 secs using 497.4% CPU
+Optimizing NNI: done in 1.49052 secs using 497.2% CPU
+Optimizing NNI: done in 0.923576 secs using 497.1% CPU
+Optimizing NNI: done in 1.37536 secs using 497.3% CPU
+Optimizing NNI: done in 0.935714 secs using 499.4% CPU
+Optimizing NNI: done in 1.47576 secs using 496.7% CPU
+Optimizing NNI: done in 0.961641 secs using 499.9% CPU
+Optimizing NNI: done in 0.912819 secs using 497.4% CPU
+Iteration 170 / LogL: -7013.159 / Time: 0h:5m:3s (0h:0m:59s left)
+Optimizing NNI: done in 1.14591 secs using 497.7% CPU
+Optimizing NNI: done in 2.66879 secs using 498.9% CPU
+Optimizing NNI: done in 1.13556 secs using 496.2% CPU
+Optimizing NNI: done in 0.981343 secs using 498.3% CPU
+Optimizing NNI: done in 1.32914 secs using 499.4% CPU
+Optimizing NNI: done in 1.31704 secs using 497.7% CPU
+Optimizing NNI: done in 1.34209 secs using 497.9% CPU
+Optimizing NNI: done in 1.10898 secs using 497.9% CPU
+Optimizing NNI: done in 1.70343 secs using 496.4% CPU
+Optimizing NNI: done in 1.12722 secs using 497.5% CPU
+Iteration 180 / LogL: -7013.720 / Time: 0h:5m:17s (0h:0m:40s left)
+Optimizing NNI: done in 1.30759 secs using 498.1% CPU
+Optimizing NNI: done in 2.21036 secs using 499.1% CPU
+Optimizing NNI: done in 1.98121 secs using 496.5% CPU
+Optimizing NNI: done in 1.19087 secs using 497.7% CPU
+Optimizing NNI: done in 1.10841 secs using 496.2% CPU
+Optimizing NNI: done in 1.3463 secs using 499.1% CPU
+Optimizing NNI: done in 1.30397 secs using 497.3% CPU
+Optimizing NNI: done in 1.19022 secs using 495.8% CPU
+Optimizing NNI: done in 1.12839 secs using 497.8% CPU
+Optimizing NNI: done in 1.17223 secs using 496.2% CPU
+Iteration 190 / LogL: -7011.602 / Time: 0h:5m:31s (0h:0m:22s left)
+Optimizing NNI: done in 1.16142 secs using 495.3% CPU
+Optimizing NNI: done in 1.17084 secs using 499.8% CPU
+Optimizing NNI: done in 0.791063 secs using 498% CPU
+Optimizing NNI: done in 2.7422 secs using 497.6% CPU
+Optimizing NNI: done in 1.05672 secs using 497.5% CPU
+Optimizing NNI: done in 1.14565 secs using 498% CPU
+Optimizing NNI: done in 1.17451 secs using 499.3% CPU
+Optimizing NNI: done in 1.29103 secs using 497.8% CPU
+Optimizing NNI: done in 1.44903 secs using 496.7% CPU
+Optimizing NNI: done in 0.906039 secs using 498.6% CPU
+Iteration 200 / LogL: -7011.920 / Time: 0h:5m:44s (0h:0m:5s left)
+Optimizing NNI: done in 1.15886 secs using 495.9% CPU
+Optimizing NNI: done in 1.23245 secs using 495.9% CPU
+Optimizing NNI: done in 1.04467 secs using 497.4% CPU
+Optimizing NNI: done in 1.12232 secs using 498.2% CPU
+TREE SEARCH COMPLETED AFTER 204 ITERATIONS / Time: 0h:5m:49s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7011.602
+Optimal log-likelihood: -7011.602
+Proportion of invariable sites: 0.035
+Gamma shape alpha: 1.856
+Parameters optimization took 1 rounds (0.098 sec)
+BEST SCORE FOUND : -7011.602
+Total tree length: 29.688
+
+Total number of iterations: 204
+CPU time used for tree search: 1429.891 sec (0h:23m:49s)
+Wall-clock time used for tree search: 287.821 sec (0h:4m:47s)
+Total CPU time used: 1626.672 sec (0h:27m:6s)
+Total wall-clock time used: 349.202 sec (0h:5m:49s)
+
+Analysis results written to: 
+  IQ-TREE report:                output_iqtree/constrained_Parapoxvirus.iqtree
+  Maximum-likelihood tree:       output_iqtree/constrained_Parapoxvirus.treefile
+  Screen log file:               output_iqtree/constrained_Parapoxvirus.log
+
+Date and Time: Sat Jul 25 10:36:21 2026

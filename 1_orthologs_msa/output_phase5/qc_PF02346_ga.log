@@ -1,0 +1,1121 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF02346.hmm
+# target sequence database:        output_phase5/annotated_orthologs.fasta
+# output directed to file:         output_phase5/qc_PF02346_ga.log
+# per-dom hits tabular output:     output_phase5/qc_PF02346_ga.domtbl
+# model-specific thresholding:     GA cutoffs
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Vac_Fusion  [M=56]
+Accession:   PF02346.23
+Description: Chordopoxvirus multifunctional envelope protein A27
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                                            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                                            -----------
+    1.9e-28   90.6   2.1    2.8e-28   90.1   2.1    1.3  1  Orthopoxvirus|C9E790|Orthopoxvirus_camelpox                          
+    2.2e-28   90.4   2.8    3.5e-28   89.8   2.8    1.3  1  Orthopoxvirus|YFT67316.1|Orthopoxvirus_monkeypox                     
+    2.5e-28   90.3   2.1    3.7e-28   89.7   2.1    1.3  1  Orthopoxvirus|AYN64713.1|Orthopoxvirus_abatino                       
+    2.6e-28   90.2   2.6    4.2e-28   89.5   2.6    1.3  1  Orthopoxvirus|YFT67137.1|Orthopoxvirus_monkeypox                     
+    2.8e-28   90.1   2.4      5e-28   89.3   2.4    1.4  1  Orthopoxvirus|QEQ49703.1|Orthopoxvirus_akhmetapox                    
+    2.9e-28   90.1   2.6    4.5e-28   89.4   2.6    1.3  1  Orthopoxvirus|YFT66960.1|Orthopoxvirus_monkeypox                     
+    3.1e-28   89.9   2.4      5e-28   89.3   2.4    1.3  1  Orthopoxvirus|CAG7621171.1|Orthopoxvirus_ectomelia                   
+    3.2e-28   89.9   1.8    5.6e-28   89.1   1.8    1.4  1  Orthopoxvirus|AOP31836.1|Orthopoxvirus_volepox                       
+    3.3e-28   89.9   2.4      5e-28   89.3   2.4    1.3  1  Orthopoxvirus|P20535.1|Orthopoxvirus_vaccinia                        
+    3.3e-28   89.9   2.4      5e-28   89.3   2.4    1.3  1  Orthopoxvirus|YFN02224.1|Orthopoxvirus_vaccinia                      
+    3.4e-28   89.8   2.4      5e-28   89.3   2.4    1.3  1  Orthopoxvirus|YCL31793.1|Orthopoxvirus_cowpox                        
+    3.4e-28   89.8   2.4      5e-28   89.3   2.4    1.3  1  Orthopoxvirus|C9E791|Orthopoxvirus_camelpox                          
+    3.4e-28   89.8   2.4      5e-28   89.3   2.4    1.3  1  Orthopoxvirus|C9E789|Orthopoxvirus_camelpox                          
+    3.4e-28   89.8   2.4      5e-28   89.3   2.4    1.3  1  Orthopoxvirus|YCL31322.1|Orthopoxvirus_cowpox                        
+    3.5e-28   89.8   1.9    4.7e-28   89.4   1.9    1.2  1  Centapoxvirus|AST09338.1|Centapoxvirus_microtuspox                   
+      4e-28   89.6   2.4    5.9e-28   89.1   2.4    1.3  1  Orthopoxvirus|AAL73853.1|Orthopoxvirus_camelpox                      
+    5.1e-28   89.3   1.2    7.6e-28   88.7   1.2    1.3  1  Orthopoxvirus|V9PXP5|Orthopoxvirus_cowpox                            
+    5.3e-28   89.2   2.1    7.9e-28   88.7   2.1    1.3  1  Orthopoxvirus|P33816.1|Orthopoxvirus_vaccinia                        
+    5.4e-28   89.2   2.1    7.9e-28   88.7   2.1    1.3  1  Orthopoxvirus|WWS34253.1|Orthopoxvirus_variola                       
+    5.4e-28   89.2   2.5    7.4e-28   88.7   2.5    1.2  1  Centapoxvirus|AST09540.1|Centapoxvirus_microtuspox                   
+    5.4e-28   89.2   2.5    8.7e-28   88.5   2.5    1.3  1  Orthopoxvirus|AAQ72922.1|Orthopoxvirus_skunkpox                      
+      6e-28   89.0   2.4    8.4e-28   88.6   2.4    1.2  1  Orthopoxvirus|P26312|Orthopoxvirus_vaccinia                          
+    1.2e-27   88.0   2.1    1.8e-27   87.5   2.1    1.2  1  Orthopoxvirus|ABD97717.1|Orthopoxvirus_taterapox                     
+    1.4e-27   87.9   3.1    1.9e-27   87.5   3.1    1.2  1  Centapoxvirus|AEN03720.1|Centapoxvirus_yokapox                       
+    1.7e-27   87.6   2.1    2.5e-27   87.0   2.1    1.3  1  Orthopoxvirus|QED21266.1|Orthopoxvirus_borealpox                     
+    1.8e-27   87.5   2.3    2.7e-27   86.9   2.3    1.3  1  Orthopoxvirus|AKJ93776.1|Orthopoxvirus_raccoonpox                    
+    3.4e-27   86.6   2.3    3.4e-27   86.6   2.3    1.5  1  Vespertilionpoxvirus|ASK51325.1|Vespertilionpoxvirus_eptesipox       
+    3.4e-27   86.6   2.3    3.4e-27   86.6   2.3    1.5  1  Vespertilionpoxvirus|WAH71083.1|Vespertilionpoxvirus_eptesipox       
+    5.2e-27   86.0   1.0    6.7e-27   85.7   1.0    1.1  1  Avipoxvirus|QZW33596.1|Unclassified_magpiepox_virus_2                
+    5.6e-27   85.9   3.1    8.3e-27   85.4   3.1    1.3  1  unclassified|QDJ95055.1|Unclassified_hypsugopox_virus                
+    6.5e-25   79.3   3.6    8.6e-25   78.9   3.6    1.2  1  Mustelpoxvirus|AWU47162.1|Mustelpoxvirus_seaotterpox                 
+    5.4e-24   76.4   0.6    6.7e-24   76.1   0.6    1.1  1  Parapoxvirus|WOC35488.1|Unclassified_equine_parapoxvirus             
+    1.1e-23   75.4   5.2    1.3e-23   75.1   5.2    1.1  1  Sciuripoxvirus|ABD51467.1|Sciuripoxvirus_squirrelpox                 
+    3.3e-23   73.9   0.6    3.9e-23   73.6   0.6    1.1  1  Pteropopoxvirus|ANS71206.1|Pteropopoxvirus_pteropox                  
+    8.7e-23   72.5   1.1    1.1e-22   72.2   1.1    1.1  1  Parapoxvirus|ASF89976.1|Parapoxvirus_sealpox                         
+    3.4e-22   70.6   1.9    5.5e-22   70.0   1.9    1.3  1  unclassified|QHG62676.1|Unclassified_cetacean_poxvirus_1             
+    2.9e-21   67.6   0.4    3.7e-21   67.3   0.4    1.1  1  Parapoxvirus|AIZ77355.1|Parapoxvirus_reddeerpox                      
+    3.5e-21   67.4   1.8    3.5e-21   67.4   1.8    1.6  1  unclassified|QHR82657.1|Unclassified_brazilian_porcupinepox_virus_1  
+    6.7e-21   66.5   2.4    1.5e-20   65.3   2.4    1.6  1  Suipoxvirus|NP_570274.1|Suipoxvirus_swinepox                         
+    1.2e-20   65.7   3.8    1.2e-19   62.4   3.8    2.2  1  Oryzopoxvirus|ADT91144.1|Oryzopoxvirus_cotia                         
+    1.4e-20   65.5   1.1    1.8e-20   65.1   1.1    1.1  1  Parapoxvirus|Q6TVL6|Parapoxvirus_orf                                 
+    1.6e-20   65.3   1.2    1.6e-20   65.3   1.2    2.2  1  Capripoxvirus|T2DHX9|Capripoxvirus_sheeppox                          
+    1.6e-20   65.3   1.2    1.6e-20   65.3   1.2    2.2  1  Capripoxvirus|T2DJJ6|Capripoxvirus_sheeppox                          
+    1.6e-20   65.2   1.2    1.6e-20   65.2   1.2    2.2  1  Capripoxvirus|XKH15810.1|Capripoxvirus_sheeppox                      
+    1.6e-20   65.2   1.2    1.6e-20   65.2   1.2    2.3  1  Capripoxvirus|XPY37795.1|Capripoxvirus_sheeppox                      
+    1.9e-20   65.0   1.5    1.9e-20   65.0   1.5    2.3  1  Capripoxvirus|A0A4D6DKN1|Capripoxvirus_goatpox                       
+    1.9e-20   65.0   1.5    1.9e-20   65.0   1.5    2.0  1  Capripoxvirus|P16717.1|Capripoxvirus_sheeppox                        
+    1.9e-20   65.0   1.5    1.9e-20   65.0   1.5    2.0  1  Capripoxvirus|YBU52347.1|Capripoxvirus_sheeppox                      
+    1.9e-20   65.0   1.5    1.9e-20   65.0   1.5    2.0  1  Capripoxvirus|YCL82046.1|Capripoxvirus_lumpyskinpox                  
+    1.9e-20   65.0   1.5    1.9e-20   65.0   1.5    2.0  1  Capripoxvirus|YDS16483.1|Capripoxvirus_lumpyskinpox                  
+      3e-20   64.4   6.0    3.9e-19   60.8   6.0    2.2  1  Oryzopoxvirus|APG58335.1|Unclassified_BeAn58058                      
+    5.5e-20   63.5   0.7    5.5e-20   63.5   0.7    2.1  1  Yatapoxvirus|ABQ43592.1|Yatapoxvirus_tanapox                         
+    6.4e-20   63.3   0.8    6.4e-20   63.3   0.8    1.8  1  Yatapoxvirus|AAR07473.1|Yatapoxvirus_yabapox                         
+    6.7e-20   63.3   0.7    8.8e-20   62.9   0.7    1.1  1  Parapoxvirus|P26654.1|Parapoxvirus_orf                               
+    8.5e-20   62.9   0.7    1.1e-19   62.6   0.7    1.1  1  Parapoxvirus|Q6TV84|Parapoxvirus_bovinestomatitis                    
+    1.1e-19   62.5   0.7    1.5e-19   62.2   0.7    1.1  1  Parapoxvirus|YBU52136.1|Parapoxvirus_orf                             
+    1.2e-19   62.5   0.5    1.5e-19   62.2   0.5    1.1  1  Parapoxvirus|WZD65968.1|Parapoxvirus_bovinestomatitis                
+    1.2e-19   62.5   0.5    1.5e-19   62.2   0.5    1.1  1  Parapoxvirus|YDE36723.1|Parapoxvirus_bovinestomatitis                
+    1.3e-19   62.3   0.4    1.7e-19   61.9   0.4    1.1  1  Parapoxvirus|XPQ45389.1|Parapoxvirus_orf                             
+    2.1e-19   61.7   3.2    2.1e-19   61.7   3.2    1.6  1  Cervidpoxvirus|AYC44792.1|Unclassified_moosepox_virus                
+    2.3e-19   61.6   3.5    2.3e-19   61.6   3.5    1.6  1  Cervidpoxvirus|ABI99281.1|Cervidpoxvirus_muledeerpox                 
+    2.3e-19   61.6   3.5    2.3e-19   61.6   3.5    1.6  1  Cervidpoxvirus|AUI80687.1|Unclassified_white-tailed_deer_poxvirus    
+    2.7e-19   61.3   4.1    7.8e-19   59.9   4.1    1.8  1  Leporipoxvirus|YBO75993.1|Leporipoxvirus_myxoma                      
+      3e-19   61.2   0.9    3.6e-19   60.9   0.9    1.1  1  Parapoxvirus|WZD65710.1|Parapoxvirus_bovinestomatitis                
+    3.2e-19   61.1   0.7    3.2e-19   61.1   0.7    2.1  1  Yatapoxvirus|CAC21355.1|Yatapoxvirus_tanapox                         
+    5.2e-19   60.4   0.9    6.4e-19   60.1   0.9    1.1  1  Parapoxvirus|WZD66097.1|Parapoxvirus_bovinestomatitis                
+    5.4e-19   60.4   3.8    6.9e-19   60.0   3.8    1.2  1  unclassified|WGO62741.1|Unclassified_wadden_sea_poxvirus             
+    6.2e-19   60.2   1.0    7.7e-19   59.9   1.0    1.1  1  Parapoxvirus|WZD65840.1|Parapoxvirus_bovinestomatitis                
+    9.1e-19   59.6   1.7    1.2e-18   59.2   1.7    1.1  1  Parapoxvirus|YP_003457410.1|Parapoxvirus_pseudocowpox                
+    9.8e-19   59.5   4.6    9.8e-19   59.5   4.6    1.9  1  Leporipoxvirus|Q83655|Leporipoxvirus_myxoma                          
+    9.8e-19   59.5   4.6    9.8e-19   59.5   4.6    1.9  1  Leporipoxvirus|YAW79107.1|Leporipoxvirus_myxoma                      
+    1.3e-18   59.2   2.4    1.7e-18   58.7   2.4    1.1  1  Parapoxvirus|WZD65198.1|Parapoxvirus_pseudocowpox                    
+    1.3e-18   59.2   2.4    1.7e-18   58.7   2.4    1.1  1  Parapoxvirus|WZD65323.1|Parapoxvirus_pseudocowpox                    
+    1.8e-18   58.7   2.4    2.4e-18   58.3   0.4    2.0  1  Capripoxvirus|YCL81897.1|Capripoxvirus_goatpox                       
+    1.8e-18   58.7   3.4    2.5e-18   58.2   3.4    1.1  1  Parapoxvirus|WZD65066.1|Parapoxvirus_pseudocowpox                    
+    3.2e-18   57.9   3.2    3.2e-18   57.9   3.2    1.6  1  Cervidpoxvirus|ABI99110.1|Cervidpoxvirus_muledeerpox                 
+    8.3e-18   56.6   3.8    8.3e-18   56.6   3.8    1.9  1  Leporipoxvirus|AAF17998.1|Leporipoxvirus_shope                       
+    1.4e-14   46.2   1.3      2e-14   45.7   1.3    1.1  1  Parapoxvirus|XSG12557.1|Parapoxvirus_orf                             
+    1.6e-13   42.9   0.7    3.5e-13   41.8   0.7    1.6  1  Orthopoxvirus|Q8QMS8|Orthopoxvirus_cowpox                            
+    1.6e-13   42.9   0.7    3.5e-13   41.7   0.7    1.6  1  Orthopoxvirus|YCL31741.1|Orthopoxvirus_cowpox                        
+    1.6e-13   42.9   0.6    3.8e-13   41.6   0.6    1.7  1  Orthopoxvirus|Q83970|Orthopoxvirus_cowpox                            
+
+
+Domain annotation for each sequence (and alignments):
+>> Orthopoxvirus|C9E790|Orthopoxvirus_camelpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.1   2.1   2.7e-28   2.8e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.1 bits;  conditional E-value: 2.7e-28
+                                   Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                  rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|C9E790|Orthopoxvirus_camelpox  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMVSLAKKIDVQTG 105
+                                                  89*****************************************************8 PP
+
+>> Orthopoxvirus|YFT67316.1|Orthopoxvirus_monkeypox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.8   2.8   3.4e-28   3.5e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.8 bits;  conditional E-value: 3.4e-28
+                                        Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                       rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|YFT67316.1|Orthopoxvirus_monkeypox  50 RLTNLEKKITNITTKFEQIEKCCKHNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                       89*****************************************************8 PP
+
+>> Orthopoxvirus|AYN64713.1|Orthopoxvirus_abatino  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.7   2.1   3.6e-28   3.7e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.7 bits;  conditional E-value: 3.6e-28
+                                      Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                     rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|AYN64713.1|Orthopoxvirus_abatino  50 RLTNLEKKINNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                     89*****************************************************8 PP
+
+>> Orthopoxvirus|YFT67137.1|Orthopoxvirus_monkeypox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.5   2.6   4.1e-28   4.2e-28       1      56 []      47     102 ..      47     102 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.5 bits;  conditional E-value: 4.1e-28
+                                        Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                       rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|YFT67137.1|Orthopoxvirus_monkeypox  47 RLTNLEKKITNITTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 102
+                                                       89*****************************************************8 PP
+
+>> Orthopoxvirus|QEQ49703.1|Orthopoxvirus_akhmetapox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   4.9e-28     5e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 4.9e-28
+                                         Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                        rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|QEQ49703.1|Orthopoxvirus_akhmetapox  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                        89*****************************************************8 PP
+
+>> Orthopoxvirus|YFT66960.1|Orthopoxvirus_monkeypox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.4   2.6   4.4e-28   4.5e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.4 bits;  conditional E-value: 4.4e-28
+                                        Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                       rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|YFT66960.1|Orthopoxvirus_monkeypox  50 RLTNLEKKITNITTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                       89*****************************************************8 PP
+
+>> Orthopoxvirus|CAG7621171.1|Orthopoxvirus_ectomelia  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   4.9e-28     5e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 4.9e-28
+                                          Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                         rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|CAG7621171.1|Orthopoxvirus_ectomelia  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                         89*****************************************************8 PP
+
+>> Orthopoxvirus|AOP31836.1|Orthopoxvirus_volepox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.1   1.8   5.5e-28   5.6e-28       1      56 []      72     127 ..      72     127 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.1 bits;  conditional E-value: 5.5e-28
+                                      Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                     rl++lEk+i++++ k+ +++kcck+n+e l RLEnHaeTlR++mlaLakKiDvQTg
+  Orthopoxvirus|AOP31836.1|Orthopoxvirus_volepox  72 RLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLENHAETLRAAMLALAKKIDVQTG 127
+                                                     89*****************************************************8 PP
+
+>> Orthopoxvirus|P20535.1|Orthopoxvirus_vaccinia  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   4.9e-28     5e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 4.9e-28
+                                     Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                    rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|P20535.1|Orthopoxvirus_vaccinia  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                    89*****************************************************8 PP
+
+>> Orthopoxvirus|YFN02224.1|Orthopoxvirus_vaccinia  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   4.9e-28     5e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 4.9e-28
+                                       Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                      rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|YFN02224.1|Orthopoxvirus_vaccinia  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                      89*****************************************************8 PP
+
+>> Orthopoxvirus|YCL31793.1|Orthopoxvirus_cowpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   4.9e-28     5e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 4.9e-28
+                                     Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                    rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|YCL31793.1|Orthopoxvirus_cowpox  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                    89*****************************************************8 PP
+
+>> Orthopoxvirus|C9E791|Orthopoxvirus_camelpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   4.9e-28     5e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 4.9e-28
+                                   Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                  rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|C9E791|Orthopoxvirus_camelpox  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                  89*****************************************************8 PP
+
+>> Orthopoxvirus|C9E789|Orthopoxvirus_camelpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   4.9e-28     5e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 4.9e-28
+                                   Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                  rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|C9E789|Orthopoxvirus_camelpox  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                  89*****************************************************8 PP
+
+>> Orthopoxvirus|YCL31322.1|Orthopoxvirus_cowpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   2.4   4.9e-28     5e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 4.9e-28
+                                     Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                    rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|YCL31322.1|Orthopoxvirus_cowpox  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                    89*****************************************************8 PP
+
+>> Centapoxvirus|AST09338.1|Centapoxvirus_microtuspox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.4   1.9   4.6e-28   4.7e-28       1      56 []      57     112 ..      57     112 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.4 bits;  conditional E-value: 4.6e-28
+                                          Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                         rlk++E+++++++ k+++++kcck+n+e+++RLEnHaeTlR +mlaLakKiD+QTg
+  Centapoxvirus|AST09338.1|Centapoxvirus_microtuspox  57 RLKNIETKLNNITAKFSQIEKCCKKNDEIIYRLENHAETLRVAMLALAKKIDIQTG 112
+                                                         89*****************************************************8 PP
+
+>> Orthopoxvirus|AAL73853.1|Orthopoxvirus_camelpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.1   2.4   5.7e-28   5.9e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.1 bits;  conditional E-value: 5.7e-28
+                                       Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                      rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|AAL73853.1|Orthopoxvirus_camelpox  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                      89*****************************************************8 PP
+
+>> Orthopoxvirus|V9PXP5|Orthopoxvirus_cowpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7   1.2   7.5e-28   7.6e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 7.5e-28
+                                 Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m+ LakKiDvQTg
+  Orthopoxvirus|V9PXP5|Orthopoxvirus_cowpox  50 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMIPLAKKIDVQTG 105
+                                                89*****************************************************8 PP
+
+>> Orthopoxvirus|P33816.1|Orthopoxvirus_vaccinia  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7   2.1   7.7e-28   7.9e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 7.7e-28
+                                     Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                    rl++lEk+i++++ k+++++kcck+n++ l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|P33816.1|Orthopoxvirus_vaccinia  50 RLTNLEKKITNVTTKFEQIEKCCKRNDDVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                    89*****************************************************8 PP
+
+>> Orthopoxvirus|WWS34253.1|Orthopoxvirus_variola  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7   2.1   7.7e-28   7.9e-28       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 7.7e-28
+                                      Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                     rl++lEk+i++++ k+++++kcck+n++ l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|WWS34253.1|Orthopoxvirus_variola  50 RLTNLEKKITNVTTKFEQIEKCCKRNDDVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                     89*****************************************************8 PP
+
+>> Centapoxvirus|AST09540.1|Centapoxvirus_microtuspox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7   2.5   7.2e-28   7.4e-28       1      56 []      55     110 ..      55     110 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 7.2e-28
+                                          Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                         rlk++E+++++++ k+++++kcck+n+e+++RLEnHaeTlR +mlaLakKiDvQTg
+  Centapoxvirus|AST09540.1|Centapoxvirus_microtuspox  55 RLKNIETKLNNITTKFSQIEKCCKKNDEIIYRLENHAETLRLAMLALAKKIDVQTG 110
+                                                         89*****************************************************8 PP
+
+>> Orthopoxvirus|AAQ72922.1|Orthopoxvirus_skunkpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.5   2.5   8.5e-28   8.7e-28       1      56 []      76     131 ..      76     131 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.5 bits;  conditional E-value: 8.5e-28
+                                       Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                      rl++lEk+i++++ k+ +++kcck+n+e l RLEnHaeTlR++ml+LakKiDvQTg
+  Orthopoxvirus|AAQ72922.1|Orthopoxvirus_skunkpox  76 RLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLENHAETLRAAMLTLAKKIDVQTG 131
+                                                      89*****************************************************8 PP
+
+>> Orthopoxvirus|P26312|Orthopoxvirus_vaccinia  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.6   2.4   8.2e-28   8.4e-28       1      56 []      76     131 ..      76     131 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.6 bits;  conditional E-value: 8.2e-28
+                                   Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                  rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|P26312|Orthopoxvirus_vaccinia  76 RLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 131
+                                                  89*****************************************************8 PP
+
+>> Orthopoxvirus|ABD97717.1|Orthopoxvirus_taterapox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.5   2.1   1.7e-27   1.8e-27       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.5 bits;  conditional E-value: 1.7e-27
+                                        Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                       rl++lEk+i++++ k+++++kcck+n+e l RLEnHaeTlR++m++LakKiDvQTg
+  Orthopoxvirus|ABD97717.1|Orthopoxvirus_taterapox  50 RLTNLEKKITNVTIKFEQIEKCCKRNDEVLFRLENHAETLRAAMISLAKKIDVQTG 105
+                                                       89*****************************************************8 PP
+
+>> Centapoxvirus|AEN03720.1|Centapoxvirus_yokapox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.5   3.1   1.8e-27   1.9e-27       1      56 []      39      94 ..      39      94 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.5 bits;  conditional E-value: 1.8e-27
+                                      Vac_Fusion  1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                    rl+++Ek++++++ k+++++kcc++nee ++RLEnHaeTlR tml+LakKiD+QTg
+  Centapoxvirus|AEN03720.1|Centapoxvirus_yokapox 39 RLTNIEKKLNNITVKFSNIEKCCNKNEEVIYRLENHAETLRLTMLTLAKKIDIQTG 94
+                                                    89*****************************************************8 PP
+
+>> Orthopoxvirus|QED21266.1|Orthopoxvirus_borealpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.0   2.1   2.4e-27   2.5e-27       1      56 []      50     105 ..      50     105 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.0 bits;  conditional E-value: 2.4e-27
+                                        Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                       rl++lEk+i++++ k+ +++kcck+n+e l RLEnHaeTlR +m++LakKiDvQTg
+  Orthopoxvirus|QED21266.1|Orthopoxvirus_borealpox  50 RLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLENHAETLRVAMISLAKKIDVQTG 105
+                                                       89*****************************************************8 PP
+
+>> Orthopoxvirus|AKJ93776.1|Orthopoxvirus_raccoonpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.9   2.3   2.6e-27   2.7e-27       1      56 []      59     114 ..      59     114 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 86.9 bits;  conditional E-value: 2.6e-27
+                                         Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                        rl++lEk+i++++ k+ +++kcck+n+e l RLEnHaeTlR +ml+LakKiD+QTg
+  Orthopoxvirus|AKJ93776.1|Orthopoxvirus_raccoonpox  59 RLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLENHAETLRVAMLSLAKKIDIQTG 114
+                                                        89*****************************************************8 PP
+
+>> Vespertilionpoxvirus|ASK51325.1|Vespertilionpoxvirus_eptesipox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.6   2.3   3.3e-27   3.4e-27       1      56 []      52     107 ..      52     107 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 86.6 bits;  conditional E-value: 3.3e-27
+                                                      Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaL 47 
+                                                                     rl klEkri+++i+++ el+kcck+n+e l+RLE+HaeTlR+tm+aL
+  Vespertilionpoxvirus|ASK51325.1|Vespertilionpoxvirus_eptesipox  52 RLDKLEKRITDVINNFDELEKCCKRNSEVLSRLEEHAETLRKTMVAL 98 
+                                                                     799******************************************** PP
+
+                                                      Vac_Fusion  48 akKiDvQTg 56 
+                                                                     a KiD QTg
+  Vespertilionpoxvirus|ASK51325.1|Vespertilionpoxvirus_eptesipox  99 AIKIDLQTG 107
+                                                                     ********8 PP
+
+>> Vespertilionpoxvirus|WAH71083.1|Vespertilionpoxvirus_eptesipox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.6   2.3   3.3e-27   3.4e-27       1      56 []      52     107 ..      52     107 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 86.6 bits;  conditional E-value: 3.3e-27
+                                                      Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaL 47 
+                                                                     rl klEkri+++i+++ el+kcck+n+e l+RLE+HaeTlR+tm+aL
+  Vespertilionpoxvirus|WAH71083.1|Vespertilionpoxvirus_eptesipox  52 RLDKLEKRITDVINNFDELEKCCKRNSEVLSRLEEHAETLRKTMVAL 98 
+                                                                     799******************************************** PP
+
+                                                      Vac_Fusion  48 akKiDvQTg 56 
+                                                                     a KiD QTg
+  Vespertilionpoxvirus|WAH71083.1|Vespertilionpoxvirus_eptesipox  99 AIKIDLQTG 107
+                                                                     ********8 PP
+
+>> Avipoxvirus|QZW33596.1|Unclassified_magpiepox_virus_2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.7   1.0   6.6e-27   6.7e-27       2      56 .]      31      85 ..      30      85 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 85.7 bits;  conditional E-value: 6.6e-27
+                                             Vac_Fusion  2 lkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                           lk+lE+r+ +++++h e+ak+c+ ++etl+RLE+Ha+TlRq+m++LakKiD+QTg
+  Avipoxvirus|QZW33596.1|Unclassified_magpiepox_virus_2 31 LKRLERRLARVEQDHVEVAKSCSIVAETLDRLERHADTLRQSMVNLAKKIDYQTG 85
+                                                           89****************************************************8 PP
+
+>> unclassified|QDJ95055.1|Unclassified_hypsugopox_virus  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.4   3.1   8.1e-27   8.3e-27       1      56 []      54     109 ..      54     109 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 85.4 bits;  conditional E-value: 8.1e-27
+                                             Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                            rl+klE+r+++li++++e++kcck+n+e l+RLE+HaeTlR++mlaLa KiD QTg
+  unclassified|QDJ95055.1|Unclassified_hypsugopox_virus  54 RLTKLENRVTDLINNFSEMEKCCKHNNEVLTRLEEHAETLRKAMLALAIKIDLQTG 109
+                                                            89*****************************************************8 PP
+
+>> Mustelpoxvirus|AWU47162.1|Mustelpoxvirus_seaotterpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.9   3.6   8.4e-25   8.6e-25       1      56 []      48     103 ..      48     103 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 78.9 bits;  conditional E-value: 8.4e-25
+                                            Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                           r+++lEk++++l+++h+el +cc+e+e++++RLE+Ha TlR+++l+L+ KiDvQTg
+  Mustelpoxvirus|AWU47162.1|Mustelpoxvirus_seaotterpox  48 RISMLEKTVNDLLDTHTELIRCCSEAEDRMRRLETHASTLRSSILNLTTKIDVQTG 103
+                                                           799****************************************************8 PP
+
+>> Parapoxvirus|WOC35488.1|Unclassified_equine_parapoxvirus  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.1   0.6   6.5e-24   6.7e-24       5      56 .]      40      91 ..      38      91 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 76.1 bits;  conditional E-value: 6.5e-24
+                                                Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                              +E+r+  l+++++++a+cc e  e+++RLE+H+eT+Rq++l+La+KiDvQTg
+  Parapoxvirus|WOC35488.1|Unclassified_equine_parapoxvirus 40 VEDRLAALLDTYQTIANCCRETGERMDRLERHTETMRQALLQLARKIDVQTG 91
+                                                              799************************************************8 PP
+
+>> Sciuripoxvirus|ABD51467.1|Sciuripoxvirus_squirrelpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.1   5.2   1.3e-23   1.3e-23       5      56 .]      14      66 ..      10      66 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 75.1 bits;  conditional E-value: 1.3e-23
+                                            Vac_Fusion  5 lEk.rikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                           ++ r+k+l+++++++ +cc++++++l+RLE+Ha+TlR+tml+La+KiDvQTg
+  Sciuripoxvirus|ABD51467.1|Sciuripoxvirus_squirrelpox 14 RNReRLKRLLEEQERVIECCEHADDRLTRLEKHADTLRETMLKLARKIDVQTG 66
+                                                          555589**********************************************8 PP
+
+>> Pteropopoxvirus|ANS71206.1|Pteropopoxvirus_pteropox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.6   0.6   3.8e-23   3.9e-23       1      56 []      39      94 ..      39      94 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 73.6 bits;  conditional E-value: 3.8e-23
+                                           Vac_Fusion  1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                         rl+ lEk++++l++++k+l kc++ +ee+++RLE Ha +lR+++l+L++KiDvQTg
+  Pteropopoxvirus|ANS71206.1|Pteropopoxvirus_pteropox 39 RLSLLEKTVTDLLDTYKDLIKCTGAAEERMRRLEGHAASLRASILHLTHKIDVQTG 94
+                                                         7999***************************************************8 PP
+
+>> Parapoxvirus|ASF89976.1|Parapoxvirus_sealpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.2   1.1   1.1e-22   1.1e-22       4      56 .]      33      85 ..      31      85 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 72.2 bits;  conditional E-value: 1.1e-22
+                                    Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                   +E+r+ +l++ ++++a+ccke  e+l+RLEnH+e+lR+++l+La+KiD+QTg
+  Parapoxvirus|ASF89976.1|Parapoxvirus_sealpox 33 SIEERLVSLLESYRSIAECCKETGERLSRLENHTESLRKALLTLAHKIDIQTG 85
+                                                  6899************************************************8 PP
+
+>> unclassified|QHG62676.1|Unclassified_cetacean_poxvirus_1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.0   1.9   5.3e-22   5.5e-22       1      55 [.      34      88 ..      34      89 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 70.0 bits;  conditional E-value: 5.3e-22
+                                                Vac_Fusion  1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                                                              +l++++k+i+++ +k++ela+ ++ene+tl+RLE+H eTl++t+l+LakKiD+QT
+  unclassified|QHG62676.1|Unclassified_cetacean_poxvirus_1 34 KLSDIDKIIDEIKSKYEELATLIGENEKTLTRLEDHGETLKNTLLQLAKKIDAQT 88
+                                                              589***************************************************9 PP
+
+>> Parapoxvirus|AIZ77355.1|Parapoxvirus_reddeerpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.3   0.4   3.6e-21   3.7e-21       4      56 .]      34      86 ..      33      86 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 67.3 bits;  conditional E-value: 3.6e-21
+                                       Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                      +E+r+  l++ ++++a+cc e  e+l+RLE+H+e+lRq+m++L +KiDvQTg
+  Parapoxvirus|AIZ77355.1|Parapoxvirus_reddeerpox 34 SIEERLVGLLDSYTSIATCCRETGERLDRLERHMESLRQAMMSLNRKIDVQTG 86
+                                                     58999999********************************************8 PP
+
+>> unclassified|QHR82657.1|Unclassified_brazilian_porcupinepox_virus_1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.4   1.8   3.5e-21   3.5e-21       1      56 []      93     141 ..      93     141 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 67.4 bits;  conditional E-value: 3.5e-21
+                                                           Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRq 42 
+                                                                          rl++lEk++++++ k+ +l+k       t+kR+EnH+eT+R+
+  unclassified|QHR82657.1|Unclassified_brazilian_porcupinepox_virus_1  93 RLMVLEKLFTSSVYKCISLEK-------TIKRIENHTETIRK 127
+                                                                          89*******************.......************** PP
+
+                                                           Vac_Fusion  43 tmlaLakKiDvQTg 56 
+                                                                          +ml LakKiD+QT+
+  unclassified|QHR82657.1|Unclassified_brazilian_porcupinepox_virus_1 128 NMLLLAKKIDFQTN 141
+                                                                          *************7 PP
+
+>> Suipoxvirus|NP_570274.1|Suipoxvirus_swinepox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.3   2.4   1.5e-20   1.5e-20       1      56 []      92     140 ..      92     140 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.3 bits;  conditional E-value: 1.5e-20
+                                    Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                   rl +lEk+++ +i+++k+l++        +kR+EnH+eT+R++m++L+kKiDvQTg
+  Suipoxvirus|NP_570274.1|Suipoxvirus_swinepox  92 RLLVLEKIFQLSISNYKTLEN-------SMKRVENHLETIRRNMITLTKKIDVQTG 140
+                                                   7899*****************.......***************************8 PP
+
+>> Oryzopoxvirus|ADT91144.1|Oryzopoxvirus_cotia  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.4   3.8   1.2e-19   1.2e-19       1      56 []     165     233 ..     165     233 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 62.4 bits;  conditional E-value: 1.2e-19
+                                    Vac_Fusion   1 rlkklEkrikklikkhkelak.............cckeneetlkRLEnHaeTlRqtmlaLakKiD 52 
+                                                   rl++lEk++k +++ +++++k             +++ +++++ RLEnH+eT+R++ml++akKiD
+  Oryzopoxvirus|ADT91144.1|Oryzopoxvirus_cotia 165 RLMVLEKVFKMTYESYNNIDKiikrldeidmdikRLEVIDSDILRLENHFETIRRNMLTMAKKID 229
+                                                   89*************************************************************** PP
+
+                                    Vac_Fusion  53 vQTg 56 
+                                                   +QTg
+  Oryzopoxvirus|ADT91144.1|Oryzopoxvirus_cotia 230 IQTG 233
+                                                   ***8 PP
+
+>> Parapoxvirus|Q6TVL6|Parapoxvirus_orf  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.1   1.1   1.7e-20   1.8e-20       5      56 .]      35      86 ..      33      86 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 65.1 bits;  conditional E-value: 1.7e-20
+                            Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                          +E+r+ +l++ +k++ +cc e  ++l+RLE+H+eTlR+++l L +KiDvQTg
+  Parapoxvirus|Q6TVL6|Parapoxvirus_orf 35 VEERLVSLLDSYKTITDCCRETGNRLDRLEKHLETLRRALLDLNRKIDVQTG 86
+                                          7999***********************************************8 PP
+
+>> Capripoxvirus|T2DHX9|Capripoxvirus_sheeppox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.3   1.2   1.6e-20   1.6e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.3 bits;  conditional E-value: 1.6e-20
+                                   Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                  rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  Capripoxvirus|T2DHX9|Capripoxvirus_sheeppox  95 RLVVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                                                  7899*****************.......***************************8 PP
+
+>> Capripoxvirus|T2DJJ6|Capripoxvirus_sheeppox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.3   1.2   1.6e-20   1.6e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.3 bits;  conditional E-value: 1.6e-20
+                                   Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                  rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  Capripoxvirus|T2DJJ6|Capripoxvirus_sheeppox  95 RLVVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                                                  7899*****************.......***************************8 PP
+
+>> Capripoxvirus|XKH15810.1|Capripoxvirus_sheeppox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.2   1.2   1.6e-20   1.6e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.2 bits;  conditional E-value: 1.6e-20
+                                       Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                      rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  Capripoxvirus|XKH15810.1|Capripoxvirus_sheeppox  95 RLVVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                                                      7899*****************.......***************************8 PP
+
+>> Capripoxvirus|XPY37795.1|Capripoxvirus_sheeppox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.2   1.2   1.6e-20   1.6e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.2 bits;  conditional E-value: 1.6e-20
+                                       Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                      rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  Capripoxvirus|XPY37795.1|Capripoxvirus_sheeppox  95 RLVVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                                                      7899*****************.......***************************8 PP
+
+>> Capripoxvirus|A0A4D6DKN1|Capripoxvirus_goatpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.0   1.5   1.9e-20   1.9e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.0 bits;  conditional E-value: 1.9e-20
+                                      Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                     rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  Capripoxvirus|A0A4D6DKN1|Capripoxvirus_goatpox  95 RLLVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                                                     7899*****************.......***************************8 PP
+
+>> Capripoxvirus|P16717.1|Capripoxvirus_sheeppox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.0   1.5   1.9e-20   1.9e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.0 bits;  conditional E-value: 1.9e-20
+                                     Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                    rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  Capripoxvirus|P16717.1|Capripoxvirus_sheeppox  95 RLLVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                                                    7899*****************.......***************************8 PP
+
+>> Capripoxvirus|YBU52347.1|Capripoxvirus_sheeppox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.0   1.5   1.9e-20   1.9e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.0 bits;  conditional E-value: 1.9e-20
+                                       Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                      rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  Capripoxvirus|YBU52347.1|Capripoxvirus_sheeppox  95 RLLVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                                                      7899*****************.......***************************8 PP
+
+>> Capripoxvirus|YCL82046.1|Capripoxvirus_lumpyskinpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.0   1.5   1.9e-20   1.9e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.0 bits;  conditional E-value: 1.9e-20
+                                           Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                          rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  Capripoxvirus|YCL82046.1|Capripoxvirus_lumpyskinpox  95 RLLVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                                                          7899*****************.......***************************8 PP
+
+>> Capripoxvirus|YDS16483.1|Capripoxvirus_lumpyskinpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.0   1.5   1.9e-20   1.9e-20       1      56 []      95     143 ..      95     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.0 bits;  conditional E-value: 1.9e-20
+                                           Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                          rl +lEk++++++k++++l++       ++kRLEnH+eT+R++m+ L+kK+D+QTg
+  Capripoxvirus|YDS16483.1|Capripoxvirus_lumpyskinpox  95 RLLVLEKLFQTSVKECNSLKN-------IIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                                                          7899*****************.......***************************8 PP
+
+>> Oryzopoxvirus|APG58335.1|Unclassified_BeAn58058  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.8   6.0   3.8e-19   3.9e-19       1      56 []     164     232 ..     164     232 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 60.8 bits;  conditional E-value: 3.8e-19
+                                       Vac_Fusion   1 rlkklEkrikklikkhkelak.............cckeneetlkRLEnHaeTlRqtmlaLak 49 
+                                                      rl++lEk++kk++++++++++             +++ +++++ RLEnH+eT+R++ml++ak
+  Oryzopoxvirus|APG58335.1|Unclassified_BeAn58058 164 RLMILEKVFKKTYERNTNIDEvikrlneidmdikRLEVIDSDILRLENHFETIRRNMLTMAK 225
+                                                      89************************************************************ PP
+
+                                       Vac_Fusion  50 KiDvQTg 56 
+                                                      KiDvQTg
+  Oryzopoxvirus|APG58335.1|Unclassified_BeAn58058 226 KIDVQTG 232
+                                                      ******8 PP
+
+>> Yatapoxvirus|ABQ43592.1|Yatapoxvirus_tanapox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.5   0.7   5.3e-20   5.5e-20       1      56 []      91     139 ..      91     139 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 63.5 bits;  conditional E-value: 5.3e-20
+                                    Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                   rl +lEk+++ l++k+++ ++        +kRLE+H++T+R++m++L+kKiD+QTg
+  Yatapoxvirus|ABQ43592.1|Yatapoxvirus_tanapox  91 RLLVLEKLFTLLFDKWSDSND-------VIKRLEHHTDTVRKNMIILSKKIDIQTG 139
+                                                   7899*****************.......***************************8 PP
+
+>> Yatapoxvirus|AAR07473.1|Yatapoxvirus_yabapox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.3   0.8   6.3e-20   6.4e-20       1      56 []      94     142 ..      94     142 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 63.3 bits;  conditional E-value: 6.3e-20
+                                    Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                   rl +lEk+++ l++k++  ++       ++kRLEnH++T+R++m++L+kKiDvQTg
+  Yatapoxvirus|AAR07473.1|Yatapoxvirus_yabapox  94 RLLVLEKLFTLLFNKWSISND-------IIKRLENHTDTIRKNMIILSKKIDVQTG 142
+                                                   7899***********998888.......***************************8 PP
+
+>> Parapoxvirus|P26654.1|Parapoxvirus_orf  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.9   0.7   8.6e-20   8.8e-20       5      56 .]      34      85 ..      32      85 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 62.9 bits;  conditional E-value: 8.6e-20
+                              Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                            +E+r+ +l++ +k++ +cc e  ++l+RLE+H+e+lR+++l L +KiDvQTg
+  Parapoxvirus|P26654.1|Parapoxvirus_orf 34 VEERLVSLLDSYKTITDCCRETGNRLDRLERHLESLRKALLDLNRKIDVQTG 85
+                                            7999***********************************************8 PP
+
+>> Parapoxvirus|Q6TV84|Parapoxvirus_bovinestomatitis  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.6   0.7     1e-19   1.1e-19       4      56 .]      32      84 ..      30      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 62.6 bits;  conditional E-value: 1e-19
+                                         Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                        +E+r+ +l++++k++ +cc e   +l+RLE+H+e+lR ++l+L  KiDvQTg
+  Parapoxvirus|Q6TV84|Parapoxvirus_bovinestomatitis 32 SVEERLVSLLDNYKTITDCCRETGARLDRLERHLESLRTALLNLNTKIDVQTG 84
+                                                       57999***********************************************8 PP
+
+>> Parapoxvirus|YBU52136.1|Parapoxvirus_orf  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.2   0.7   1.4e-19   1.5e-19       5      56 .]      35      86 ..      33      86 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 62.2 bits;  conditional E-value: 1.4e-19
+                                Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                              +E+r+  l++ +k++ +cc e  ++l+RLE+H+e+lR+++l L +KiDvQTg
+  Parapoxvirus|YBU52136.1|Parapoxvirus_orf 35 VEERLLALLDSYKNITECCRETGNRLDRLERHLESLRKALLDLNRKIDVQTG 86
+                                              7999999********************************************8 PP
+
+>> Parapoxvirus|WZD65968.1|Parapoxvirus_bovinestomatitis  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.2   0.5   1.4e-19   1.5e-19       4      56 .]      32      84 ..      30      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 62.2 bits;  conditional E-value: 1.4e-19
+                                             Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                            +E+r+ +l++ +k++ +cc e   +l+RLE+H+e+lR+++l+L kK+DvQTg
+  Parapoxvirus|WZD65968.1|Parapoxvirus_bovinestomatitis 32 SVEERLVNLLDSYKTITDCCRETGARLDRLERHLESLRSALLTLNKKVDVQTG 84
+                                                           579999**********************************************8 PP
+
+>> Parapoxvirus|YDE36723.1|Parapoxvirus_bovinestomatitis  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.2   0.5   1.4e-19   1.5e-19       4      56 .]      32      84 ..      30      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 62.2 bits;  conditional E-value: 1.4e-19
+                                             Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                            +E+r+ +l++ +k++ +cc e   +l+RLE+H+e+lR+++l+L kK+DvQTg
+  Parapoxvirus|YDE36723.1|Parapoxvirus_bovinestomatitis 32 SVEERLVNLLDSYKTITDCCRETGARLDRLERHLESLRSALLTLNKKVDVQTG 84
+                                                           579999**********************************************8 PP
+
+>> Parapoxvirus|XPQ45389.1|Parapoxvirus_orf  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.9   0.4   1.7e-19   1.7e-19       5      56 .]      35      86 ..      33      86 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 61.9 bits;  conditional E-value: 1.7e-19
+                                Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                              +E+r+ +l++ +k++ +cc e  ++l+RLE+H+e+lR+++l L +KiDvQTg
+  Parapoxvirus|XPQ45389.1|Parapoxvirus_orf 35 VEERLVSLLDGYKTITDCCRETGNRLDRLERHLESLRKALLDLNRKIDVQTG 86
+                                              7999***********************************************8 PP
+
+>> Cervidpoxvirus|AYC44792.1|Unclassified_moosepox_virus  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.7   3.2     2e-19   2.1e-19       1      56 []      80     128 ..      80     128 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 61.7 bits;  conditional E-value: 2e-19
+                                             Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                            rl+++Ek++k +i+++k l++       t+kRLE+H+eT+R++ml+L kKiDvQTg
+  Cervidpoxvirus|AYC44792.1|Unclassified_moosepox_virus  80 RLMVMEKILKISIERCKVLEN-------TVKRLETHTETVRRNMLILGKKIDVQTG 128
+                                                            89***************9999.......***************************8 PP
+
+>> Cervidpoxvirus|ABI99281.1|Cervidpoxvirus_muledeerpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.6   3.5   2.2e-19   2.3e-19       1      56 []      82     130 ..      82     130 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 61.6 bits;  conditional E-value: 2.2e-19
+                                            Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                           rl+++Ek++k +i+++k l++       t+kRLE+H+eT+R++ml+L kKiDvQTg
+  Cervidpoxvirus|ABI99281.1|Cervidpoxvirus_muledeerpox  82 RLMVMEKILKISIERCKVLEN-------TVKRLETHTETVRRNMLTLGKKIDVQTG 130
+                                                           89***************9999.......***************************8 PP
+
+>> Cervidpoxvirus|AUI80687.1|Unclassified_white-tailed_deer_poxvirus  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.6   3.5   2.2e-19   2.3e-19       1      56 []      82     130 ..      82     130 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 61.6 bits;  conditional E-value: 2.2e-19
+                                                         Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtm 44 
+                                                                        rl+++Ek++k +i+++k l++       t+kRLE+H+eT+R++m
+  Cervidpoxvirus|AUI80687.1|Unclassified_white-tailed_deer_poxvirus  82 RLMVMEKILKISIERCKVLEN-------TVKRLETHTETVRRNM 118
+                                                                        89***************9999.......**************** PP
+
+                                                         Vac_Fusion  45 laLakKiDvQTg 56 
+                                                                        l+L kKiDvQTg
+  Cervidpoxvirus|AUI80687.1|Unclassified_white-tailed_deer_poxvirus 119 LTLGKKIDVQTG 130
+                                                                        ***********8 PP
+
+>> Leporipoxvirus|YBO75993.1|Leporipoxvirus_myxoma  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.9   4.1   7.6e-19   7.8e-19       1      56 []     137     185 ..     137     185 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 59.9 bits;  conditional E-value: 7.6e-19
+                                       Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                      rl++lEk+++ +ik++k+ +k        ++R+EnH+eT+R+ ml+L+kKiDvQTg
+  Leporipoxvirus|YBO75993.1|Leporipoxvirus_myxoma 137 RLMVLEKLVQLTIKRQKKNNK-------AIRRIENHLETVRKGMLMLSKKIDVQTG 185
+                                                      89*************777777.......***************************8 PP
+
+>> Parapoxvirus|WZD65710.1|Parapoxvirus_bovinestomatitis  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.9   0.9   3.5e-19   3.6e-19       4      56 .]      32      84 ..      30      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 60.9 bits;  conditional E-value: 3.5e-19
+                                             Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                            +E+r+ +l++ +k++ +cc e   +l+RLE+H+e+lR ++l+L  KiDvQTg
+  Parapoxvirus|WZD65710.1|Parapoxvirus_bovinestomatitis 32 SVEERLVNLLDSYKTITDCCRETGARLDRLERHLESLRTALLTLNTKIDVQTG 84
+                                                           579999**********************************************8 PP
+
+>> Yatapoxvirus|CAC21355.1|Yatapoxvirus_tanapox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.1   0.7   3.1e-19   3.2e-19       1      56 []      91     139 ..      91     139 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 61.1 bits;  conditional E-value: 3.1e-19
+                                    Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                   rl +lEk+++ l++k+++ ++        +kRLE+H++T+R++m++L kKiDvQTg
+  Yatapoxvirus|CAC21355.1|Yatapoxvirus_tanapox  91 RLLVLEKLFTLLFDKWSDSND-------VIKRLEHHTDTVRKNMIILNKKIDVQTG 139
+                                                   7899*****************.......***************************8 PP
+
+>> Parapoxvirus|WZD66097.1|Parapoxvirus_bovinestomatitis  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.1   0.9   6.3e-19   6.4e-19       4      56 .]      32      84 ..      30      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 60.1 bits;  conditional E-value: 6.3e-19
+                                             Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                            +E+r+ +l++ ++++ +cc e   +l+RLE+H+e+lR ++l+L  KiDvQTg
+  Parapoxvirus|WZD66097.1|Parapoxvirus_bovinestomatitis 32 SVEERLVNLLDSYRTITDCCRETGARLDRLERHLESLRTALLTLNTKIDVQTG 84
+                                                           579999**********************************************8 PP
+
+>> unclassified|WGO62741.1|Unclassified_wadden_sea_poxvirus  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.0   3.8   6.7e-19   6.9e-19       5      55 ..      41      91 ..      37      92 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 60.0 bits;  conditional E-value: 6.7e-19
+                                                Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                                                              + ++i +l+kk+++l++ ck+n +++kRL +H+eTlR+t+++LakKiD+QT
+  unclassified|WGO62741.1|Unclassified_wadden_sea_poxvirus 41 IKDKILELEKKYNTLDNICKQNINNIKRLDTHTETLRKTVISLAKKIDIQT 91
+                                                              6678999*******************************************9 PP
+
+>> Parapoxvirus|WZD65840.1|Parapoxvirus_bovinestomatitis  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.9   1.0   7.5e-19   7.7e-19       5      56 .]      33      84 ..      31      84 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 59.9 bits;  conditional E-value: 7.5e-19
+                                             Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56
+                                                           +E+r+ +l++ ++++ +cc e   +l+RLE+H+e+lR ++l+L  KiDvQTg
+  Parapoxvirus|WZD65840.1|Parapoxvirus_bovinestomatitis 33 VEERLVNLLDSYRTITDCCRETGARLDRLERHLESLRTALLTLNTKIDVQTG 84
+                                                           799999*********************************************8 PP
+
+>> Parapoxvirus|YP_003457410.1|Parapoxvirus_pseudocowpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2   1.7   1.2e-18   1.2e-18       5      55 ..      36      86 ..      34      87 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 59.2 bits;  conditional E-value: 1.2e-18
+                                             Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                                                           +E r+ +l++ ++++ +cc e   +l+RLE+H+eTlR+++l+L  KiDvQT
+  Parapoxvirus|YP_003457410.1|Parapoxvirus_pseudocowpox 36 IEGRLVDLLESYRTITECCRETGARLDRLERHLETLREALLKLNTKIDVQT 86
+                                                           7889999*******************************************9 PP
+
+>> Leporipoxvirus|Q83655|Leporipoxvirus_myxoma  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.5   4.6   9.5e-19   9.8e-19       1      56 []     138     186 ..     138     186 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 59.5 bits;  conditional E-value: 9.5e-19
+                                   Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                  rl++lEk+++ +ik++k+++k        ++R+EnH+eT+R+ ml+L+kKiD+QTg
+  Leporipoxvirus|Q83655|Leporipoxvirus_myxoma 138 RLMVLEKLVQLTIKRQKRHNK-------AIRRIENHLETVRKGMLMLSKKIDAQTG 186
+                                                  89*******************.......***************************8 PP
+
+>> Leporipoxvirus|YAW79107.1|Leporipoxvirus_myxoma  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.5   4.6   9.5e-19   9.8e-19       1      56 []     138     186 ..     138     186 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 59.5 bits;  conditional E-value: 9.5e-19
+                                       Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                      rl++lEk+++ +ik++k+++k        ++R+EnH+eT+R+ ml+L+kKiD+QTg
+  Leporipoxvirus|YAW79107.1|Leporipoxvirus_myxoma 138 RLMVLEKLVQLTIKRQKRHNK-------AIRRIENHLETVRKGMLMLSKKIDAQTG 186
+                                                      89*******************.......***************************8 PP
+
+>> Parapoxvirus|WZD65198.1|Parapoxvirus_pseudocowpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.7   2.4   1.7e-18   1.7e-18       5      55 ..      36      86 ..      34      87 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 58.7 bits;  conditional E-value: 1.7e-18
+                                         Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                                                       +E r+ +l++ ++++ +cc e  ++l+RLE+H+eTlR+++l+L  KiDvQT
+  Parapoxvirus|WZD65198.1|Parapoxvirus_pseudocowpox 36 IEGRLVDLLESYRTITECCRETGTRLDRLERHLETLREALLKLNTKIDVQT 86
+                                                       7889999*******************************************9 PP
+
+>> Parapoxvirus|WZD65323.1|Parapoxvirus_pseudocowpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.7   2.4   1.7e-18   1.7e-18       5      55 ..      36      86 ..      34      87 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 58.7 bits;  conditional E-value: 1.7e-18
+                                         Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                                                       +E r+ +l++ ++++ +cc e  ++l+RLE+H+eTlR+++l+L  KiDvQT
+  Parapoxvirus|WZD65323.1|Parapoxvirus_pseudocowpox 36 IEGRLVDLLESYRTITECCRETGTRLDRLERHLETLREALLKLNTKIDVQT 86
+                                                       7889999*******************************************9 PP
+
+>> Capripoxvirus|YCL81897.1|Capripoxvirus_goatpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.3   0.4   2.3e-18   2.4e-18      19      56 .]     106     143 ..      98     143 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 58.3 bits;  conditional E-value: 2.3e-18
+                                      Vac_Fusion  19 lakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                       k+c+  ++++kRLEnH+eT+R++m+ L+kK+D+QTg
+  Capripoxvirus|YCL81897.1|Capripoxvirus_goatpox 106 SVKECNSLKNIIKRLENHIETIRKNMIVLTKKVDFQTG 143
+                                                     457799*******************************8 PP
+
+>> Parapoxvirus|WZD65066.1|Parapoxvirus_pseudocowpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.2   3.4   2.5e-18   2.5e-18       5      55 ..      35      85 ..      33      86 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 58.2 bits;  conditional E-value: 2.5e-18
+                                         Vac_Fusion  5 lEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                                                       +E+r+  l++ ++++ +cc e  ++l+RLE+H+eTlR+++l+L  KiDvQT
+  Parapoxvirus|WZD65066.1|Parapoxvirus_pseudocowpox 35 VEERLMALLDSYRTITECCRETGTRLDRLERHLETLREALLKLNTKIDVQT 85
+                                                       79999*********************************************9 PP
+
+>> Cervidpoxvirus|ABI99110.1|Cervidpoxvirus_muledeerpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.9   3.2   3.1e-18   3.2e-18       4      56 .]      84     129 ..      81     129 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 57.9 bits;  conditional E-value: 3.1e-18
+                                            Vac_Fusion   4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                            +Ek++k +i+++k l++       t+kRLE+H+eT+R++ml+L kKiDvQTg
+  Cervidpoxvirus|ABI99110.1|Cervidpoxvirus_muledeerpox  84 LMEKILKISIERCKVLEN-------TVKRLETHTETVRRNMLTLGKKIDVQTG 129
+                                                           567777777777777777.......***************************8 PP
+
+>> Leporipoxvirus|AAF17998.1|Leporipoxvirus_shope  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.6   3.8   8.1e-18   8.3e-18       1      56 []     128     176 ..     128     176 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 56.6 bits;  conditional E-value: 8.1e-18
+                                      Vac_Fusion   1 rlkklEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQTg 56 
+                                                     rl++lEk+++ ++k++k+ +k        + R+EnH+eT+R+ ml+L+kKiD+QTg
+  Leporipoxvirus|AAF17998.1|Leporipoxvirus_shope 128 RLMVLEKLVRLTVKRQKKNNK-------SIHRIENHLETVRKGMLMLSKKIDAQTG 176
+                                                     89*************777777.......***************************8 PP
+
+>> Parapoxvirus|XSG12557.1|Parapoxvirus_orf  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.7   1.3     2e-14     2e-14       4      55 ..      29      80 ..      28      81 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 45.7 bits;  conditional E-value: 2e-14
+                                Vac_Fusion  4 klEkrikklikkhkelakcckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55
+                                              +++k++  l+k++ e ++cc+ n++  k LE+H+eT+Rq+ +  ++K+Dv T
+  Parapoxvirus|XSG12557.1|Parapoxvirus_orf 29 RVDKLLAPLEKTLAEAKTCCESNRKAGKHLEHHIETMRQYAVLVSNKTDVHT 80
+                                              57899999*****************************************976 PP
+
+>> Orthopoxvirus|Q8QMS8|Orthopoxvirus_cowpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.8   0.7   3.4e-13   3.5e-13       7      55 ..     117     164 ..     111     165 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 41.8 bits;  conditional E-value: 3.4e-13
+                                 Vac_Fusion   7 krikklikkhkelak.cckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55 
+                                                 ++++l ++++++   cc +    ++RLE+H+eTl q+ ++La+Ki++QT
+  Orthopoxvirus|Q8QMS8|Orthopoxvirus_cowpox 117 HILNTLDHNLNSIGHyCCDT--AAVDRLEHHIETLGQYAVILARKINMQT 164
+                                                56777778888887745554..479************************9 PP
+
+>> Orthopoxvirus|YCL31741.1|Orthopoxvirus_cowpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.7   0.7   3.4e-13   3.5e-13       7      55 ..     118     165 ..     112     166 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 41.7 bits;  conditional E-value: 3.4e-13
+                                     Vac_Fusion   7 krikklikkhkelak.cckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55 
+                                                     ++++l ++++++   cc +    ++RLE+H+eTl q+ ++La+Ki++QT
+  Orthopoxvirus|YCL31741.1|Orthopoxvirus_cowpox 118 HILNTLDHNLNSIGHyCCDT--AAVDRLEHHIETLGQYAVILARKINMQT 165
+                                                    56777778888887745554..479************************9 PP
+
+>> Orthopoxvirus|Q83970|Orthopoxvirus_cowpox  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.6   0.6   3.7e-13   3.8e-13       7      55 ..     139     186 ..     133     187 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 41.6 bits;  conditional E-value: 3.7e-13
+                                 Vac_Fusion   7 krikklikkhkelak.cckeneetlkRLEnHaeTlRqtmlaLakKiDvQT 55 
+                                                 ++++l ++++++   cc +    ++RLE+H+eTl q+ ++La+Ki++QT
+  Orthopoxvirus|Q83970|Orthopoxvirus_cowpox 139 HILNTLDHNLNSIGHyCCDT--AAVDRLEHHIETLGQYAVILARKINMQT 186
+                                                56777778888887745554..479************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (56 nodes)
+Target sequences:                         83  (10510 residues searched)
+Passed MSV filter:                        83  (1); expected 1.7 (0.02)
+Passed bias filter:                       83  (1); expected 1.7 (0.02)
+Passed Vit filter:                        83  (1); expected 0.1 (0.001)
+Passed Fwd filter:                        83  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 83  [actual number of targets]
+Domain search space  (domZ):              81  [number of targets reported over threshold]
+# CPU time: 0.02u 0.02s 00:00:00.04 Elapsed: 00:00:00.06
+# Mc/sec: 9.78
+//
+[ok]

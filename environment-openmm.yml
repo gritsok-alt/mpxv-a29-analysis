@@ -1,0 +1,16 @@
+# Energy-minimisation environment, used only by
+# 7_structure_prediction/analysis/8_energy_minimization/openmm/minimise.py
+#
+#   conda env create -f environment-openmm.yml
+#   conda activate openmm
+#
+# Kept separate from the main environment because OpenMM pins a different
+# Python build.
+
+name: openmm
+channels:
+  - conda-forge
+dependencies:
+  - openmm=8.6.1
+  - pdbfixer=1.12
+  - numpy

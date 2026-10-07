@@ -1,0 +1,21 @@
+# Environments and editors
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Office lock files
+~$*
+.~lock.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fonts fetched at runtime by plot_rate4site_A29.py
+3_r4s/Tinos*.ttf

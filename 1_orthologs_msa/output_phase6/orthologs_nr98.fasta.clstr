@@ -1,0 +1,130 @@
+>Cluster 0
+0	237aa, >Oryzopoxvirus|ADT91144.1|Oryzopoxvirus_cotia... *
+>Cluster 1
+0	236aa, >Oryzopoxvirus|APG58335.1|Unclassified_BeAn58058... *
+>Cluster 2
+0	193aa, >Leporipoxvirus|YBO75993.1|Leporipoxvirus_myxoma... *
+>Cluster 3
+0	188aa, >Leporipoxvirus|Q83655|Leporipoxvirus_myxoma... *
+>Cluster 4
+0	188aa, >Leporipoxvirus|YAW79107.1|Leporipoxvirus_myxoma... *
+>Cluster 5
+0	179aa, >Leporipoxvirus|AAF17998.1|Leporipoxvirus_shope... *
+>Cluster 6
+0	150aa, >Yatapoxvirus|AAR07473.1|Yatapoxvirus_yabapox... *
+>Cluster 7
+0	149aa, >Suipoxvirus|NP_570274.1|Suipoxvirus_swinepox... *
+>Cluster 8
+0	148aa, >Capripoxvirus|T2DJJ6|Capripoxvirus_sheeppox... at 99.32%
+1	149aa, >Capripoxvirus|XKH15810.1|Capripoxvirus_sheeppox... *
+2	149aa, >Capripoxvirus|XPY37795.1|Capripoxvirus_sheeppox... at 99.33%
+>Cluster 9
+0	148aa, >Capripoxvirus|A0A4D6DKN1|Capripoxvirus_goatpox... *
+>Cluster 10
+0	148aa, >Yatapoxvirus|ABQ43592.1|Yatapoxvirus_tanapox... *
+1	148aa, >Yatapoxvirus|CAC21355.1|Yatapoxvirus_tanapox... at 98.65%
+>Cluster 11
+0	148aa, >Capripoxvirus|T2DHX9|Capripoxvirus_sheeppox... *
+>Cluster 12
+0	148aa, >Capripoxvirus|YBU52347.1|Capripoxvirus_sheeppox... *
+>Cluster 13
+0	148aa, >Capripoxvirus|YCL82046.1|Capripoxvirus_lumpyskinpox... *
+1	148aa, >Capripoxvirus|YDS16483.1|Capripoxvirus_lumpyskinpox... at 99.32%
+2	148aa, >Capripoxvirus|P16717.1|Capripoxvirus_sheeppox... at 99.32%
+>Cluster 14
+0	143aa, >unclassified|QHR82657.1|Unclassified_brazilian_porcupinepox_virus_1... *
+>Cluster 15
+0	137aa, >Cervidpoxvirus|ABI99281.1|Cervidpoxvirus_muledeerpox... *
+>Cluster 16
+0	137aa, >Cervidpoxvirus|AUI80687.1|Unclassified_white-tailed_deer_poxvirus... *
+>Cluster 17
+0	136aa, >Orthopoxvirus|AAQ72922.1|Orthopoxvirus_skunkpox... *
+>Cluster 18
+0	136aa, >Cervidpoxvirus|ABI99110.1|Cervidpoxvirus_muledeerpox... *
+>Cluster 19
+0	135aa, >Cervidpoxvirus|AYC44792.1|Unclassified_moosepox_virus... *
+>Cluster 20
+0	132aa, >Orthopoxvirus|AOP31836.1|Orthopoxvirus_volepox... *
+>Cluster 21
+0	119aa, >Orthopoxvirus|AKJ93776.1|Orthopoxvirus_raccoonpox... *
+>Cluster 22
+0	119aa, >Centapoxvirus|AST09338.1|Centapoxvirus_microtuspox... *
+>Cluster 23
+0	117aa, >Orthopoxvirus|AAL73853.1|Orthopoxvirus_camelpox... *
+1	110aa, >Orthopoxvirus|C9E789|Orthopoxvirus_camelpox... at 98.18%
+2	110aa, >Orthopoxvirus|C9E790|Orthopoxvirus_camelpox... at 98.18%
+3	110aa, >Orthopoxvirus|C9E791|Orthopoxvirus_camelpox... at 99.09%
+4	110aa, >Orthopoxvirus|YCL31322.1|Orthopoxvirus_cowpox... at 98.18%
+>Cluster 24
+0	117aa, >Centapoxvirus|AST09540.1|Centapoxvirus_microtuspox... *
+>Cluster 25
+0	116aa, >unclassified|QDJ95055.1|Unclassified_hypsugopox_virus... *
+>Cluster 26
+0	114aa, >Vespertilionpoxvirus|ASK51325.1|Vespertilionpoxvirus_eptesipox... *
+1	114aa, >Vespertilionpoxvirus|WAH71083.1|Vespertilionpoxvirus_eptesipox... at 99.12%
+>Cluster 27
+0	110aa, >Orthopoxvirus|ABD97717.1|Orthopoxvirus_taterapox... *
+>Cluster 28
+0	110aa, >Orthopoxvirus|AYN64713.1|Orthopoxvirus_abatino... *
+>Cluster 29
+0	110aa, >Orthopoxvirus|CAG7621171.1|Orthopoxvirus_ectomelia... *
+>Cluster 30
+0	110aa, >Orthopoxvirus|QED21266.1|Orthopoxvirus_borealpox... *
+>Cluster 31
+0	110aa, >Orthopoxvirus|QEQ49703.1|Orthopoxvirus_akhmetapox... *
+>Cluster 32
+0	110aa, >Orthopoxvirus|V9PXP5|Orthopoxvirus_cowpox... *
+1	110aa, >Orthopoxvirus|YCL31793.1|Orthopoxvirus_cowpox... at 98.18%
+>Cluster 33
+0	110aa, >Orthopoxvirus|WWS34253.1|Orthopoxvirus_variola... *
+1	110aa, >Orthopoxvirus|YFN02224.1|Orthopoxvirus_vaccinia... at 98.18%
+2	110aa, >Orthopoxvirus|P33816.1|Orthopoxvirus_vaccinia... at 99.09%
+>Cluster 34
+0	110aa, >Orthopoxvirus|P20535.1|Orthopoxvirus_vaccinia... *
+>Cluster 35
+0	108aa, >Mustelpoxvirus|AWU47162.1|Mustelpoxvirus_seaotterpox... *
+>Cluster 36
+0	102aa, >Centapoxvirus|AEN03720.1|Centapoxvirus_yokapox... *
+>Cluster 37
+0	98aa, >Pteropopoxvirus|ANS71206.1|Pteropopoxvirus_pteropox... *
+>Cluster 38
+0	96aa, >unclassified|QHG62676.1|Unclassified_cetacean_poxvirus_1... *
+>Cluster 39
+0	96aa, >unclassified|WGO62741.1|Unclassified_wadden_sea_poxvirus... *
+>Cluster 40
+0	95aa, >Parapoxvirus|WOC35488.1|Unclassified_equine_parapoxvirus... *
+>Cluster 41
+0	92aa, >Avipoxvirus|QZW33596.1|Unclassified_magpiepox_virus_2... *
+>Cluster 42
+0	91aa, >Parapoxvirus|WZD65198.1|Parapoxvirus_pseudocowpox... *
+>Cluster 43
+0	91aa, >Parapoxvirus|WZD65323.1|Parapoxvirus_pseudocowpox... *
+>Cluster 44
+0	91aa, >Parapoxvirus|YP_003457410.1|Parapoxvirus_pseudocowpox... *
+>Cluster 45
+0	90aa, >Parapoxvirus|AIZ77355.1|Parapoxvirus_reddeerpox... *
+>Cluster 46
+0	90aa, >Parapoxvirus|Q6TVL6|Parapoxvirus_orf... *
+>Cluster 47
+0	90aa, >Parapoxvirus|WZD65066.1|Parapoxvirus_pseudocowpox... *
+>Cluster 48
+0	90aa, >Parapoxvirus|XPQ45389.1|Parapoxvirus_orf... *
+>Cluster 49
+0	90aa, >Parapoxvirus|YBU52136.1|Parapoxvirus_orf... *
+>Cluster 50
+0	89aa, >Parapoxvirus|ASF89976.1|Parapoxvirus_sealpox... *
+>Cluster 51
+0	89aa, >Parapoxvirus|Q6TV84|Parapoxvirus_bovinestomatitis... *
+>Cluster 52
+0	89aa, >Parapoxvirus|WZD65968.1|Parapoxvirus_bovinestomatitis... *
+1	89aa, >Parapoxvirus|YDE36723.1|Parapoxvirus_bovinestomatitis... at 98.88%
+>Cluster 53
+0	89aa, >Parapoxvirus|P26654.1|Parapoxvirus_orf... *
+>Cluster 54
+0	88aa, >Parapoxvirus|WZD65710.1|Parapoxvirus_bovinestomatitis... *
+>Cluster 55
+0	88aa, >Parapoxvirus|WZD65840.1|Parapoxvirus_bovinestomatitis... *
+>Cluster 56
+0	88aa, >Parapoxvirus|WZD66097.1|Parapoxvirus_bovinestomatitis... *
+>Cluster 57
+0	74aa, >Sciuripoxvirus|ABD51467.1|Sciuripoxvirus_squirrelpox... *

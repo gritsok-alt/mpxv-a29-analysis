@@ -1,0 +1,96 @@
+>query
+STKAAKKPEAKREAIVKADEDDNEETLKQRLTNLEKKITNVTTKFEQIEKAAKRNDEVLFRLEN
+>UniRef90_P11258/21-84 [subseq from] Protein A27 n=228 Tax=Orthopoxvirus TaxID=10242 RepID=A27_VACCW
+STKAAKKPEAKREAIVKADEDDNEETLKQRLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLEN
+>UniRef90_A0A5B8XAQ1/22-84 [subseq from] A27L membrane protein n=1 Tax=Alaskapox virus TaxID=2602439 RepID=A0A5B8XAQ1_9POXV
+-TTAAKKPDSNREAIIEADGDDNEETLKQRLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLEN
+>UniRef90_A0A2I6J1H2/60-123 [subseq from] IMV surface protein n=1 Tax=Vaccinia virus TaxID=10245 RepID=A0A2I6J1H2_9POXV
+STTAAKKPEAKRKAIVKADEDDNEESLKQRLTNLEKKITNVTTKVDQIKKCCKRNDEVLFRLEN
+>UniRef90_Q2EK33/1-52 [subseq from] Fusion protein (Fragment) n=5 Tax=Orthopoxvirus TaxID=10242 RepID=Q2EK33_COWPX
+------KPEAKREAIVKAEGDENEETLKQRLTNLEKKITNVTTKFEQIEKCCKRNDEV------
+>UniRef90_Q2EJV6/1-52 [subseq from] Fusion protein (Fragment) n=1 Tax=Volepox virus TaxID=28874 RepID=Q2EJV6_9POXV
+------KPEEKRKAVVKAEEEEDDETIKDRLTNLEKKITNVTTKFAQIEKCCKRNDEV------
+>UniRef90_Q2EJV5/1-52 [subseq from] Fusion protein (Fragment) n=1 Tax=Raccoon poxvirus TaxID=10256 RepID=Q2EJV5_RACVI
+------KPEAKRKVVEKADEEEDEEDIKGRLTNLEKKITNVTTKFAQIEKCCKRNDEV------
+>UniRef90_A0A0G3G4I8/23-93 [subseq from] IMV surface protein n=1 Tax=Raccoon poxvirus TaxID=10256 RepID=A0A0G3G4I8_RACVI
+--KAAKKPEkpAKRKVVkaddaeEKADeEEDAEEDIKGRLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLEN
+>UniRef90_P26312/70-110 [subseq from] 14 kDa fusion protein n=1 Tax=Vaccinia virus (strain WR 65-16) TaxID=10247 RepID=VFUS_VACC6
+-----------------------EDPLKQRLTNLEKKITNVTTKFEQIEKCCKRNDEVLFRLEN
+>UniRef90_A0A1C9KCI6/61-106 [subseq from] Imv surface protein n=1 Tax=Volepox virus TaxID=28874 RepID=A0A1C9KCI6_9POXV
+------------------EEEEDDETIKDRLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLEN
+>UniRef90_Q6EL84/63-110 [subseq from] 14 kDa protein n=1 Tax=Skunkpox virus TaxID=160796 RepID=Q6EL84_9POXV
+----------------DEEDDDAEETIKHRLTNLEKKITNVTTKFAQIEKCCKRNDEVLFRLEN
+>UniRef90_A0A223FNJ0/42-89 [subseq from] IMV surface protein n=1 Tax=NY_014 poxvirus TaxID=2025360 RepID=A0A223FNJ0_9POXV
+----------------DLQADDPPQNTKERLKNIETKLNNITTKFSQIEKCCKKNDEIIYRLEN
+>UniRef90_A0A223FMX7/46-91 [subseq from] IMV surface protein n=1 Tax=Murmansk poxvirus TaxID=2025359 RepID=A0A223FMX7_9POXV
+------------------DPPQPPQNTKERLKNIETKLNNITAKFSQIEKCCKKNDEIIYRLEN
+>UniRef90_G3EI23/30-73 [subseq from] IMV surface protein n=1 Tax=Yokapox virus TaxID=1076255 RepID=G3EI23_9POXV
+------------------SKDDI--DMNDRLTNIEKKLNNITVKFSNIEKCCNKNEEVIYRLEN
+>UniRef90_A0A1I7T9M7/7-40 [subseq from] TPR_REGION domain-containing protein n=1 Tax=Caenorhabditis tropicalis TaxID=1561998 RepID=A0A1I7T9M7_9PELO
+--------------------------VEKRYDNAEKWYTNVEKRYDNAEKRY-DNAELLYR---
+>UniRef90_A0A3B1JHA7/69-84 [subseq from] Chromosome partition protein Smc n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=A0A3B1JHA7_ASTMX
+-------------------------NLKQRITNLKQRITNL-----------------------
+>UniRef90_A0A3B1JHA7/93-110 [subseq from] Chromosome partition protein Smc n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=A0A3B1JHA7_ASTMX
+--------------------------LKQRITNLKQRIANLKQR--------------------
+>UniRef90_A0A3B1JHA7/114-131 [subseq from] Chromosome partition protein Smc n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=A0A3B1JHA7_ASTMX
+--------------------------LKQRITNLKQRITNLKQR--------------------
+>UniRef90_A0A3B1JHA7/141-158 [subseq from] Chromosome partition protein Smc n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=A0A3B1JHA7_ASTMX
+-------------------------NLKQRITNLKQRITNLKQ---------------------
+>UniRef90_A0A210QMB2/722-762 [subseq from] Adenylate kinase isoenzyme 5 n=5 Tax=Mizuhopecten yessoensis TaxID=6573 RepID=A0A210QMB2_MIZYE
+-------------ALTSGRVDDNEETIKKRLTTFHDITTPVIDYFTQHDKVKKV----------
+>UniRef90_A0A210QMB2/942-982 [subseq from] Adenylate kinase isoenzyme 5 n=5 Tax=Mizuhopecten yessoensis TaxID=6573 RepID=A0A210QMB2_MIZYE
+-------------ALTSGRVDDNEETIKKRLTTFHDITTPVIDHFSQQEKLKKV----------
+>UniRef90_A0A210QMB2/1152-1185 [subseq from] Adenylate kinase isoenzyme 5 n=5 Tax=Mizuhopecten yessoensis TaxID=6573 RepID=A0A210QMB2_MIZYE
+-------------------VDDNEETIKKRLETFHNQTKPVVDHYASKDKAVK-----------
+>UniRef90_A0A1S3IX24/752-787 [subseq from] uncharacterized protein LOC106168287 isoform X3 n=3 Tax=Lingula unguis TaxID=7574 RepID=A0A1S3IX24_LINUN
+------------------RSDDNEETIKERLKTFHEVTEPVITHFEAEDR-VKRV---------
+>UniRef90_A0A1S3IX24/951-991 [subseq from] uncharacterized protein LOC106168287 isoform X3 n=3 Tax=Lingula unguis TaxID=7574 RepID=A0A1S3IX24_LINUN
+-------------AKTSGRVDDNEETIAKRLKTFKECTTPVIKYYEEKKKAAKV----------
+>UniRef90_A0A1S3IX24/1155-1198 [subseq from] uncharacterized protein LOC106168287 isoform X3 n=3 Tax=Lingula unguis TaxID=7574 RepID=A0A1S3IX24_LINUN
+-------------AKTSGRVDDNEETIAKRLKTFKECTTPVIKYYEEKKKAAKVNAE-------
+>UniRef90_A0A6A5HW32/321-354 [subseq from] Titin n=1 Tax=Caenorhabditis remanei TaxID=31234 RepID=A0A6A5HW32_CAERE
+-----KLPEHVVPVVIEESEKKDEQSLKSKITGLFKKST-------------------------
+>UniRef90_UPI0014584209/466-508 [subseq from] adenylate kinase isoenzyme 5-like isoform X5 n=1 Tax=Pecten maximus TaxID=6579 RepID=UPI0014584209
+-------------ALTSGRVDDNEETIKKRLTTFHNITTPVIDYFTQQDKVKKVSS--------
+>UniRef90_UPI0014584209/686-726 [subseq from] adenylate kinase isoenzyme 5-like isoform X5 n=1 Tax=Pecten maximus TaxID=6579 RepID=UPI0014584209
+-------------ALTSGRVDDNEETIKKRLTTFHNITTPVIDYFTQQDKVKKV----------
+>UniRef90_UPI0014584209/896-926 [subseq from] adenylate kinase isoenzyme 5-like isoform X5 n=1 Tax=Pecten maximus TaxID=6579 RepID=UPI0014584209
+-------------------VDDNEETIKKRLETFHNQTKPVVDHYASKDK--------------
+>ERR1719159_1696115/848-878 [subseq from] ERR1719159_1696115
+------------RALTSGRDDDNEETIKKRLETFHKATQPVYM---------------------
+>ERR1719159_1696115/1051-1082 [subseq from] ERR1719159_1696115
+-------------------VDDNEETIKARLATFHQATTPVTEYYDSIQKL-------------
+>ERR1719159_1696115/1925-1961 [subseq from] ERR1719159_1696115
+-------------------VDDNEETIKSRLVTFHEATAPVTTHYHKQRKLHKINA--------
+>ERR1719187_2611283/704-741 [subseq from] ERR1719187_2611283
+-------------GITSGREDDNEETIKKRLETFHAATKPVTKYYGSLKKL-------------
+>ERR1719187_2611283/1783-1824 [subseq from] ERR1719187_2611283
+---------------TSGRVDDNEETIKARLETFHNATTPVTEYYDSIDKLYKINAE-------
+>SRR4029077_7317210/103-103 [subseq from] SRR4029077_7317210
+-------------------------------------------------K--------------
+>SRR4029077_7317210/241-260 [subseq from] SRR4029077_7317210
+---------------------------------LEKRFPNVEKPFPRLEKRFP-----------
+>SRR5678815_5968753/41-42 [subseq from] SRR5678815_5968753
+-----------------------------------------------LE---------------
+>SRR5678815_5968753/69-93 [subseq from] SRR5678815_5968753
+--------------------------LQSRISNLESRISNLESPIPNLESR-------------
+>SRR5678815_5968753/159-159 [subseq from] SRR5678815_5968753
+---------------------------------------N------------------------
+>ERR1719370_576503/108-137 [subseq from] ERR1719370_576503
+------------RALTSGRDDDNEETIKKRLETYHKATQPVY----------------------
+>ERR1719370_576503/307-348 [subseq from] ERR1719370_576503
+---------------TSGRVDDNEETIKAQLETFHNATTPVTEYYDSIDKLYKINAE-------
+>ERR1719370_576503/1185-1222 [subseq from] ERR1719370_576503
+-------------------VDDNEETIKSRLVTFHEATAPVTTHYHKQRKLHKINAE-------
+>ERR1719370_1565925/307-335 [subseq from] ERR1719370_1565925
+------------------REDDNVETIKKRLETFHATTTPVTEYYAG-----------------
+>ERR1719370_1565925/695-726 [subseq from] ERR1719370_1565925
+-------------------VDDNEETIKARLATFHQATTPVTEYYDSIEKL-------------
+>SRR5678816_4919330/13-65 [subseq from] SRR5678816_4919330
+--------ASKVEDLKTAPPVDNEI--TQRLEAWESSLKNVASKVEDLKTAPPVDNEITQRLE-
+>SRR5678816_4919330/105-158 [subseq from] SRR5678816_4919330
+-------VASKVEDLKTAPPVDNEI--TQRLEAWESSLKNVASKVEDLKTAPPVDNEITQRLE-
+>SRR5678816_4919330/199-251 [subseq from] SRR5678816_4919330
+--------ASKVEDLKTAPPVDNEI--TQRLEAWESSLKNVVSKVDDLKTPAPVDNEITQRLE-
+>SRR5271165_603829/171-200 [subseq from] SRR5271165_603829
+---------------------NQENAIEPRLANLDQKIDNVDQQIANQENA-------------

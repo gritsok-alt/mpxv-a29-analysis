@@ -1,0 +1,65 @@
+2026-07-22 11:09:13,144 [WARNING] No NCBI API key set; rate limited to 3 req/s. Set NCBI_API_KEY to raise it.
+2026-07-22 11:09:13,192 [INFO] Enumerating species-level taxa under txid10241 ...
+2026-07-22 11:09:16,251 [INFO] -> 266 species.
+2026-07-22 11:09:16,695 [INFO] Fetching protein IDs per species ...
+2026-07-22 11:09:19,170 [INFO] species 0/266 — accumulated IDs: 105
+2026-07-22 11:09:29,520 [INFO] taxid 3432644: capped at 400 IDs (661 available)
+2026-07-22 11:09:34,533 [INFO] taxid 3432242: capped at 400 IDs (1240 available)
+2026-07-22 11:09:44,678 [INFO] taxid 3431487: capped at 400 IDs (10595 available)
+2026-07-22 11:09:54,496 [INFO] taxid 3431483: capped at 400 IDs (1020709 available)
+2026-07-22 11:09:57,061 [INFO] taxid 3431482: capped at 400 IDs (1479 available)
+2026-07-22 11:09:59,513 [INFO] taxid 3431481: capped at 400 IDs (14385 available)
+2026-07-22 11:10:02,278 [INFO] taxid 3431480: capped at 400 IDs (1984 available)
+2026-07-22 11:10:10,175 [INFO] taxid 3431390: capped at 400 IDs (590 available)
+2026-07-22 11:10:12,620 [INFO] taxid 3431389: capped at 400 IDs (4619 available)
+2026-07-22 11:10:15,087 [INFO] taxid 3431388: capped at 400 IDs (1052 available)
+2026-07-22 11:10:20,219 [INFO] taxid 3430922: capped at 400 IDs (7358 available)
+2026-07-22 11:10:22,553 [INFO] species 25/266 — accumulated IDs: 8259
+2026-07-22 11:10:32,895 [INFO] taxid 3430367: capped at 400 IDs (16378 available)
+2026-07-22 11:10:45,695 [INFO] taxid 3427719: capped at 400 IDs (3214 available)
+2026-07-22 11:10:48,972 [INFO] taxid 3427718: capped at 400 IDs (22245 available)
+2026-07-22 11:10:51,663 [INFO] taxid 3427717: capped at 400 IDs (1685 available)
+2026-07-22 11:10:59,535 [INFO] taxid 3426552: capped at 400 IDs (909 available)
+2026-07-22 11:11:05,048 [INFO] taxid 3426550: capped at 400 IDs (6417 available)
+2026-07-22 11:11:10,067 [INFO] taxid 3426548: capped at 400 IDs (959 available)
+2026-07-22 11:11:22,354 [INFO] species 50/266 — accumulated IDs: 13839
+2026-07-22 11:12:07,819 [INFO] species 75/266 — accumulated IDs: 14614
+2026-07-22 11:12:10,540 [INFO] taxid 2200830: capped at 400 IDs (877 available)
+2026-07-22 11:12:20,312 [INFO] taxid 2083001: capped at 400 IDs (2117 available)
+2026-07-22 11:12:38,745 [INFO] taxid 1928336: capped at 400 IDs (548 available)
+2026-07-22 11:13:01,793 [INFO] species 100/266 — accumulated IDs: 16324
+2026-07-22 11:13:59,373 [INFO] species 125/266 — accumulated IDs: 16398
+2026-07-22 11:15:00,280 [INFO] species 150/266 — accumulated IDs: 16512
+2026-07-22 11:16:00,879 [INFO] species 175/266 — accumulated IDs: 16561
+2026-07-22 11:17:01,704 [INFO] species 200/266 — accumulated IDs: 16591
+2026-07-22 11:18:03,040 [INFO] species 225/266 — accumulated IDs: 16624
+2026-07-22 11:19:21,990 [INFO] species 250/266 — accumulated IDs: 16727
+2026-07-22 11:19:57,289 [INFO] taxid 10245: capped at 400 IDs (16778 available)
+2026-07-22 11:19:57,653 [INFO] -> 17614 unique protein IDs.
+2026-07-22 11:19:57,925 [INFO] Downloading NCBI sequences ...
+2026-07-22 11:19:58,899 [INFO] fetched 200/17614
+2026-07-22 11:20:07,307 [INFO] fetched 1200/17614
+2026-07-22 11:20:15,508 [INFO] fetched 2200/17614
+2026-07-22 11:20:23,443 [INFO] fetched 3200/17614
+2026-07-22 11:20:30,263 [INFO] fetched 4200/17614
+2026-07-22 11:20:36,830 [INFO] fetched 5200/17614
+2026-07-22 11:20:45,740 [INFO] fetched 6200/17614
+2026-07-22 11:20:53,156 [INFO] fetched 7200/17614
+2026-07-22 11:20:59,807 [INFO] fetched 8200/17614
+2026-07-22 11:21:06,991 [INFO] fetched 9200/17614
+2026-07-22 11:21:13,974 [INFO] fetched 10200/17614
+2026-07-22 11:21:22,286 [INFO] fetched 11200/17614
+2026-07-22 11:21:29,500 [INFO] fetched 12200/17614
+2026-07-22 11:21:36,821 [INFO] fetched 13200/17614
+2026-07-22 11:21:44,737 [INFO] fetched 14200/17614
+2026-07-22 11:21:52,864 [INFO] fetched 15200/17614
+2026-07-22 11:22:01,551 [INFO] fetched 16200/17614
+2026-07-22 11:22:09,927 [INFO] fetched 17200/17614
+2026-07-22 11:22:15,019 [INFO] DONE — output_phase1\genbank_perspecies.fasta
+2026-07-22 11:22:15,155 [INFO] Downloading UniProt sequences ...
+2026-07-22 11:22:17,158 [INFO] DONE — output_phase1\uniprot_chordo.fasta (6671 sequences)
+2026-07-22 11:22:17,249 [INFO] Parsing FASTA files ...
+2026-07-22 11:22:17,555 [INFO] Parsed NCBI: 17614, UniProt: 6671
+2026-07-22 11:22:17,635 [INFO] Hashing and deduplicating ...
+2026-07-22 11:22:18,861 [INFO] Unique sequences: 10017 (both: 4705, NCBI-only: 4346, UniProt-only: 966)
+2026-07-22 11:22:19,094 [INFO] DONE — output_phase1\search_db.fasta, output_phase1\accession_map.csv

@@ -1,0 +1,9 @@
+genus,n_sequences,delta_logL,p_AU,monophyletic,n_outliers,outlying_members
+Capripoxvirus,5,0.0,0.413,yes,0,
+Centapoxvirus,3,3.212,0.382,yes,0,
+Cervidpoxvirus,4,0.0,0.361,yes,0,
+Leporipoxvirus,4,2.698,0.383,yes,0,
+Orthopoxvirus,14,1.244,0.405,yes,0,
+Oryzopoxvirus,2,1.245,0.402,yes,0,
+Parapoxvirus,16,0.917,0.427,yes,0,
+Yatapoxvirus,2,2.697,0.39,yes,0,

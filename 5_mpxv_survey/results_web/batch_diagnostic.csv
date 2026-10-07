@@ -1,0 +1,4 @@
+haplotype,n,change,n_prefixes,top_prefix,top_prefix_frac,acc_span,years,verdict
+H3,104,A91V,24,XXI,0.221,97624.0,"[np.int64(2024), np.int64(2025), np.int64(2026)]",spread across deposits
+H4,19,S21F,6,XLU,0.263,91795.0,[np.int64(2024)],spread across deposits
+H5,9,R74H; H107R; P108L,1,XEX,1.0,32843.0,"[np.int64(2022), np.int64(2023)]",check manually

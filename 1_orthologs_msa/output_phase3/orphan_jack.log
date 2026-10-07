@@ -1,0 +1,290 @@
+
+# jackhmmer :: iteratively search a protein sequence against a protein database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             output_phase2/query.fasta
+# target sequence database:        output_phase3/orphan_proteins.fasta
+# output directed to file:         output_phase3/orphan_jack.log
+# per-seq hits tabular output:     output_phase3/orphan_jack.txt
+# sequence reporting threshold:    E-value <= 0.001
+# sequence inclusion threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Q77HM6_A29L_MPXV  [L=110]
+
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
++   9.1e-26   87.7   0.8    1.4e-25   87.1   0.8    1.2  1  QDJ95055.1  IMV membrane protein [Hypsugopox virus]
++   5.8e-13   46.6   0.3    8.4e-13   46.1   0.3    1.2  1  WGO62741.1  IMV surface protein [Wadden Sea poxvirus]
++   2.7e-07   28.4   4.0    1.3e-06   26.2   0.3    2.1  2  QHR82657.1  fusion protein [Brazilian porcupinepox virus 1]
+
+
+Domain annotation for each sequence (and alignments):
+>> QDJ95055.1  IMV membrane protein [Hypsugopox virus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.1   0.8   1.1e-28   1.4e-25       5     107 ..       9     111 ..       6     113 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 87.1 bits;  conditional E-value: 1.1e-28
+  Q77HM6_A29L_MPXV   5 lfpgdddlaipateffstkaaknpetkreaivkaygddne....etlkqrltnlekkitnittkfeqiekcckhndevlfrlenhaetlraam 93 
+                       +fpgdd+      + +  + a     +r    ka gd +e    e+ k+rlt le ++t++   f ++ekcckhn+evl rle haetlr am
+        QDJ95055.1   9 MFPGDDEEE----DQLLAEVADYVNAERLISKKAVGDKDEkptdESNKKRLTKLENRVTDLINNFSEMEKCCKHNNEVLTRLEEHAETLRKAM 97 
+                       799999754....33344556666667777778888865523337889********************************************* PP
+
+  Q77HM6_A29L_MPXV  94 islakkidvqtgrr 107
+                       ++la kid+qtgrr
+        QDJ95055.1  98 LALAIKIDLQTGRR 111
+                       *************9 PP
+
+>> WGO62741.1  IMV surface protein [Wadden Sea poxvirus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.1   0.3   6.9e-16   8.4e-13       5     105 ..       3      92 ..       1      95 [. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 46.1 bits;  conditional E-value: 6.9e-16
+  Q77HM6_A29L_MPXV   5 lfpgdddlaipateffstkaaknpetkreaivkaygddneetlkqrltnlekkitnittkfeqiekcckhndevlfrlenhaetlraamisla 97 
+                       +fpgd+d  i          ++ p        k  +d+n + +k ++  lekk          ++  ck+n   + rl+ h etlr  +isla
+        WGO62741.1   3 IFPGDEDEIIQTPS---QTPSQTPSQT-PQPDKVNNDENYQYIKDKILELEKKY-------NTLDNICKQNINNIKRLDTHTETLRKTVISLA 84 
+                       79***998876543...2233344322.23457889*********999999975.......567899************************** PP
+
+  Q77HM6_A29L_MPXV  98 kkidvqtg 105
+                       kkid+qt 
+        WGO62741.1  85 KKIDIQTK 92 
+                       ******95 PP
+
+>> QHR82657.1  fusion protein [Brazilian porcupinepox virus 1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.0   0.4    0.0089        11       4      67 ..       5      70 ..       1      84 [. 0.64
+   2 !   26.2   0.3   1.1e-09   1.3e-06      67     106 ..     104     142 ..      76     143 .] 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 4.0 bits;  conditional E-value: 0.0089
+  Q77HM6_A29L_MPXV  4 tlfpgdddlaip.ateffstkaaknpetkreaivkaygddneetlkqrltn.lekkitnittkfeq 67
+                      t++pgdd+  +   t    t   k  e      +     ++ et+k+ +   ++ k  ++t     
+        QHR82657.1  5 TVYPGDDEDEVDmETRGPLTDTGKTNEITPSPPLPVLPIEDNETIKKDIMKiMKSKYPSLTLTDND 70
+                      789**9977665156777777787777665555555555555566666555145577777765555 PP
+
+  == domain 2  score: 26.2 bits;  conditional E-value: 1.1e-09
+  Q77HM6_A29L_MPXV  67 qiekcckhndevlfrlenhaetlraamislakkidvqtgr 106
+                        + kc    ++ + r+enh et+r  m+ lakkid qt+r
+        QHR82657.1 104 SVYKCIS-LEKTIKRIENHTETIRKNMLLLAKKIDFQTNR 142
+                       3445554.466788************************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (110 nodes)
+Target sequences:                       3665  (607317 residues searched)
+Passed MSV filter:                       233  (0.0635744); expected 73.3 (0.02)
+Passed bias filter:                      142  (0.0387449); expected 73.3 (0.02)
+Passed Vit filter:                        17  (0.00463847); expected 3.7 (0.001)
+Passed Fwd filter:                         4  (0.00109141); expected 0.0 (1e-05)
+Initial search space (Z):               3665  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.03u 0.03s 00:00:00.06 Elapsed: 00:00:00.16
+# Mc/sec: 405.17
+
+@@ New targets included:   3
+@@ New alignment includes: 4 subseqs (was 1), including original query
+@@ Continuing to next round.
+
+@@
+@@ Round:                  2
+@@ Included in MSA:        4 subsequences (query + 3 subseqs from 3 targets)
+@@ Model size:             110 positions
+@@
+
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    2.5e-48  160.5   1.9    3.3e-48  160.2   1.9    1.0  1  QDJ95055.1  IMV membrane protein [Hypsugopox virus]
+    1.4e-39  132.4   3.2    1.5e-39  132.3   3.2    1.0  1  WGO62741.1  IMV surface protein [Wadden Sea poxvirus]
+    2.6e-20   70.4   7.0    6.9e-17   59.3   3.4    2.1  2  QHR82657.1  fusion protein [Brazilian porcupinepox virus 1]
+
+
+Domain annotation for each sequence (and alignments):
+>> QDJ95055.1  IMV membrane protein [Hypsugopox virus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.2   1.9   2.7e-51   3.3e-48       4     107 ..       8     111 ..       6     113 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 160.2 bits;  conditional E-value: 2.7e-51
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i1   4 tlfPGdddeaiqatefllakaaktpeakreaskkavgdene....eslkkrltelekkvtdlitkfeelekcckhneevlkRlenHaetl 89 
+                          ++fPGdd+e+    ++lla++a++++a+r++skkavgd++e    es+kkrlt+le++vtdli++f+e+ekcckhn+evl+Rle+Haetl
+           QDJ95055.1   8 AMFPGDDEEE----DQLLAEVADYVNAERLISKKAVGDKDEkptdESNKKRLTKLENRVTDLINNFSEMEKCCKHNNEVLTRLEEHAETL 93 
+                          69********....9**************************9999********************************************* PP
+
+                          xxxxxxxxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i1  90 RkamlsLAkkiDlqtgrr 107
+                          Rkaml+LA+kiDlqtgrr
+           QDJ95055.1  94 RKAMLALAIKIDLQTGRR 111
+                          *****************9 PP
+
+>> WGO62741.1  IMV surface protein [Wadden Sea poxvirus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  132.3   3.2   1.2e-42   1.5e-39       5     106 ..       3      93 ..       1      96 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 132.3 bits;  conditional E-value: 1.2e-42
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i1   5 lfPGdddeaiqatefllakaaktpeakreaskkavgdeneeslkkrltelekkvtdlitkfeelekcckhneevlkRlenHaetlRkaml 94 
+                          +fPGd+de+iq+++   +++++tp+++ ++++k+++den++++k++++elekk+       ++l+++ck+n++++kRl++H+etlRk+++
+           WGO62741.1   3 IFPGDEDEIIQTPS---QTPSQTPSQT-PQPDKVNNDENYQYIKDKILELEKKY-------NTLDNICKQNINNIKRLDTHTETLRKTVI 81 
+                          9************9...9*********.*************************9.......9**************************** PP
+
+                          xxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i1  95 sLAkkiDlqtgr 106
+                          sLAkkiD+qt++
+           WGO62741.1  82 SLAKKIDIQTKQ 93 
+                          **********95 PP
+
+>> QHR82657.1  fusion protein [Brazilian porcupinepox virus 1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.0   0.2   1.4e-05     0.017       4      73 ..       5      76 ..       1      88 [. 0.81
+   2 !   59.3   3.4   5.7e-20   6.9e-17      51     106 ..      94     142 ..      76     143 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 1.4e-05
+                         xxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i1  4 tlfPGdddeaiqa.tefllakaaktpeakreaskkavgdeneeslkkrltelek.kvtdlitkfeelekcck 73
+                         t++PGdd+++++  t   l+++ kt e +   +  +   e++e++kk ++++ k k+  l+   ++++ +++
+           QHR82657.1  5 TVYPGDDEDEVDMeTRGPLTDTGKTNEITPSPPLPVLPIEDNETIKKDIMKIMKsKYPSLTLTDNDIDSILN 76
+                         89*****99987624557889999999998999999999********9999755389999988888888765 PP
+
+  == domain 2  score: 59.3 bits;  conditional E-value: 5.7e-20
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i1  51 ltelekkvtdlitkfeelekcckhneevlkRlenHaetlRkamlsLAkkiDlqtgr 106
+                          l+ lek +       ++++kc++ +e+++kR+enH+et+Rk+ml+LAkkiD+qt+r
+           QHR82657.1  94 LMVLEKLF------TSSVYKCIS-LEKTIKRIENHTETIRKNMLLLAKKIDFQTNR 142
+                          44445444......379******.*******************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (110 nodes)
+Target sequences:                       3665  (607317 residues searched)
+Passed MSV filter:                       484  (0.13206); expected 73.3 (0.02)
+Passed bias filter:                      330  (0.0900409); expected 73.3 (0.02)
+Passed Vit filter:                        30  (0.00818554); expected 3.7 (0.001)
+Passed Fwd filter:                         9  (0.00245566); expected 0.0 (1e-05)
+Initial search space (Z):               3665  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.13u 0.03s 00:00:00.16 Elapsed: 00:00:00.19
+# Mc/sec: 343.17
+
+@@ New targets included:   0
+@@ New alignment includes: 5 subseqs (was 4), including original query
+@@ Continuing to next round.
+
+@@
+@@ Round:                  3
+@@ Included in MSA:        5 subsequences (query + 4 subseqs from 3 targets)
+@@ Model size:             110 positions
+@@
+
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    7.4e-45  149.6   1.7    9.7e-45  149.2   1.7    1.0  1  QDJ95055.1  IMV membrane protein [Hypsugopox virus]
+    4.1e-43  144.0  10.8    7.8e-24   81.9   1.0    2.0  2  QHR82657.1  fusion protein [Brazilian porcupinepox virus 1]
+    9.8e-39  129.9   4.3    1.1e-38  129.8   4.3    1.0  1  WGO62741.1  IMV surface protein [Wadden Sea poxvirus]
+
+
+Domain annotation for each sequence (and alignments):
+>> QDJ95055.1  IMV membrane protein [Hypsugopox virus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  149.2   1.7     8e-48   9.7e-45       4     107 ..       8     111 ..       6     113 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 149.2 bits;  conditional E-value: 8e-48
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i2   4 tlfPGDddeeidateqllteaaktpeatreapkkvlgdede....etikkrllklekkvtdltlkfneiekilkhneevlkRlenHaetl 89 
+                          ++fPGDd+ee    +qll+e+a++++a+r ++kk++gd+de    e++kkrl+kle++vtdl+++f+e+ek++khn+evl+Rle+Haetl
+           QDJ95055.1   8 AMFPGDDEEE----DQLLAEVADYVNAERLISKKAVGDKDEkptdESNKKRLTKLENRVTDLINNFSEMEKCCKHNNEVLTRLEEHAETL 93 
+                          79********....99*************************9999********************************************* PP
+
+                          xxxxxxxxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i2  90 RkamlsLAkkiDlqtgrr 107
+                          Rkaml+LA+kiDlqtgrr
+           QDJ95055.1  94 RKAMLALAIKIDLQTGRR 111
+                          *****************9 PP
+
+>> QHR82657.1  fusion protein [Brazilian porcupinepox virus 1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.9   1.0   6.4e-27   7.8e-24       4      73 ..       5      76 ..       1      84 [. 0.95
+   2 !   66.5   4.4   3.9e-22   4.7e-19      42     106 ..      82     142 ..      76     143 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 81.9 bits;  conditional E-value: 6.4e-27
+                         xxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i2  4 tlfPGDddeeida.teqllteaaktpeatreapkkvlgdedeetikkrllklek.kvtdltlkfneiekilk 73
+                         t++PGDd++e+d+ t+++lt+++kt+e+t+++p +vl++ed+etikk+++k++k k+++ltl++n+i++il+
+           QHR82657.1  5 TVYPGDDEDEVDMeTRGPLTDTGKTNEITPSPPLPVLPIEDNETIKKDIMKIMKsKYPSLTLTDNDIDSILN 76
+                         8*********************************************************************99 PP
+
+  == domain 2  score: 66.5 bits;  conditional E-value: 3.9e-22
+                          xxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i2  42 edeetikk...rllklekkvtdltlkfneiekilkhneevlkRlenHaetlRkamlsLAkkiDlqtgr 106
+                          +d+  ik+   rl++lek +      +++++k+++ +e+++kR+enH+et+Rk+ml+LAkkiD+qt+r
+           QHR82657.1  82 KDNIDIKDfilRLMVLEKLF------TSSVYKCIS-LEKTIKRIENHTETIRKNMLLLAKKIDFQTNR 142
+                          56656666444788999999......99*******.*******************************9 PP
+
+>> WGO62741.1  IMV surface protein [Wadden Sea poxvirus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  129.8   4.3   8.6e-42   1.1e-38       5     106 ..       3      93 ..       1      96 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 129.8 bits;  conditional E-value: 8.6e-42
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i2   5 lfPGDddeeidateqllteaaktpeatreapkkvlgdedeetikkrllklekkvtdltlkfneiekilkhneevlkRlenHaetlRkaml 94 
+                          +fPGD+de+i++++   +++++tp++t ++p+kv++de++++ik+++l+lekk+       n++++i+k+n++++kRl++H+etlRk+++
+           WGO62741.1   3 IFPGDEDEIIQTPS---QTPSQTPSQT-PQPDKVNNDENYQYIKDKILELEKKY-------NTLDNICKQNINNIKRLDTHTETLRKTVI 81 
+                          8**********999...9*********.99************************.......***************************** PP
+
+                          xxxxxxxxxxxx RF
+  Q77HM6_A29L_MPXV-i2  95 sLAkkiDlqtgr 106
+                          sLAkkiD+qt++
+           WGO62741.1  82 SLAKKIDIQTKQ 93 
+                          **********98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (110 nodes)
+Target sequences:                       3665  (607317 residues searched)
+Passed MSV filter:                       501  (0.136698); expected 73.3 (0.02)
+Passed bias filter:                      315  (0.0859482); expected 73.3 (0.02)
+Passed Vit filter:                        23  (0.00627558); expected 3.7 (0.001)
+Passed Fwd filter:                         3  (0.000818554); expected 0.0 (1e-05)
+Initial search space (Z):               3665  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.10u 0.02s 00:00:00.12 Elapsed: 00:00:00.17
+# Mc/sec: 374.42
+
+@@ New targets included:   0
+@@ New alignment includes: 5 subseqs (was 5), including original query
+@@
+@@ CONVERGED (in 3 rounds). 
+@@
+
+//
+[ok]
